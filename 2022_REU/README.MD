@@ -3,6 +3,6 @@ List of potential species to test the effect of life history traits on demograph
 
 REUs will process 1 species through the [pire_ssl](https://github.com/philippinespire/pire_ssl_data_processing) pipeline and will be coupled with a grad student as follows:
 
-REU  | Institution  | Project | SSL species | Mentor
--- | -- | -- | -- | -- | --
- Abbigail Ethridge | ODU | Effect of habihat usage on demography inference | Stethojulis interrupta | Jem 
+|REU  | Institution  | Project | SSL species | Mentor |
+| -- | -- | -- | -- | -- | -- | 
+|Abbigail Ethridge | ODU | Effect of habihat usage on demography inference | Stethojulis interrupta | Jem |

@@ -1,1 +1,1 @@
-Prepare this read me.
+List of potential species and traits for REU projects can be found in the [Species properties for PSMC study](https://docs.google.com/spreadsheets/d/1tqMv7CpAdvsZi8Izi8mZp5efSnAsTzIuZDRS1KeV9Bk/edit#gid=0) sheet.

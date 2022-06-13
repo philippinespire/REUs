@@ -8,6 +8,7 @@ REUs will process 1 species through the [pire_ssl](https://github.com/philippine
 |Abbigail Ethridge | ODU | Effect of habitat usage on demography inference in Philippine fishes | Stethojulis interrupta | Jem |
 |Eryka Molino | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy |
 |Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John | 
-|Allison Fink | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan |$
+|Allison Fink | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan |
+|Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | none | Rene |$
   
 

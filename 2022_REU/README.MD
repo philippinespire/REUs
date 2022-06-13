@@ -6,3 +6,9 @@ REUs will process 1 species through the [pire_ssl](https://github.com/philippine
 |REU  | Institution  | Project | SSL species | Mentor |
 | -- | -- | -- | -- | -- | -- | 
 |Abbigail Ethridge | ODU | Effect of habihat usage on demography inference | Stethojulis interrupta | Jem |
+
+|REU | Institution | Project | SSL species | Mentor |
+| --- | --- | --- | --- | --- |
+|Abbigail Ethridge | ODU | Effect of habihat usage on demography inference | Stethojulis interrupta | Jem |
+|Periophthalmus_argentilineatus | On ODU HPC | 12 | Keenan/Chris | probe development pipeline in progress |
+

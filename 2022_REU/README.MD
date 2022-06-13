@@ -3,12 +3,11 @@ List of potential species to test the effect of life history traits on demograph
 
 REUs will process 1 species through the [pire_ssl](https://github.com/philippinespire/pire_ssl_data_processing) pipeline and will be coupled with a grad student as follows:
 
-|REU  | Institution  | Project | SSL species | Mentor |
-| -- | -- | -- | -- | -- | -- | 
-|Abbigail Ethridge | ODU | Effect of habihat usage on demography inference | Stethojulis interrupta | Jem |
-
 |REU | Institution | Project | SSL species | Mentor |
 | --- | --- | --- | --- | --- |
-|Abbigail Ethridge | ODU | Effect of habihat usage on demography inference | Stethojulis interrupta | Jem |
-|Periophthalmus_argentilineatus | On ODU HPC | 12 | Keenan/Chris | probe development pipeline in progress |
+|Abbigail Ethridge | ODU | Effect of habihat usage on demography inference in Philippine fishes | Stethojulis interrupta | Jem |
+|Eryka Molino | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy |
+|Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John | 
+|Allison Fink | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan |$
+  
 

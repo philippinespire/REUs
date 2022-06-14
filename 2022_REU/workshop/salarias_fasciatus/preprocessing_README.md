@@ -1,27 +1,15 @@
 # Pre-Processing PIRE Data
 
-List of steps to take in raw fq files from shotgun and capture-shotgun
+List of steps to take in raw fq files from shotgun
 
 ---
 
 ## Before You Start, Read This
 
-The purpose of this repo is to provide the steps for processing raw fq files for both [Shotgun Sequencing Libraries - SSL data](https://github.com/philippinespire/pire_ssl_data_processing) for probe development and the [Capture Shotgun Sequencing Libraries- CSSL data](https://github.com/philippinespire/pire_cssl_data_processing) 
+The purpose of this README is to provide the steps for processing raw fq files for [Shotgun Sequencing Libraries - SSL data](https://github.com/philippinespire/pire_ssl_data_processing) for probe development.
 
-Scripts with the `ssl` are designed for shotgun data
+To run scripts you can add the full path (to the directory which already includes all of them) before the script's name.
 
-Scripts with the `cssl` are designed for capture-shotgun data
-
-Scripts with no suffix in the name can be used for both types of data
-
-To run scripts, you can either 
-1. Clone this repo in your working dir AND use relative paths to the scripts
-```sh
-git clone https://github.com/philippinespire/pire_fq_gz_processing.git
-```
-OR
-
-2. Add the full path (to the directory which already includes all of them) before the script's name. **RECOMMENDED**
 ```sh
 #add this path when running scripts
 /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/<script's name>
@@ -35,7 +23,7 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh <script
 ## Overview
 
 ***Trim, deduplicate, decontaminate, and repair the raw `fq.gz` files***
-*(few hours for each of the 2 trims and deduplication, decontamination can take 1-2 days; reparing is done in 1-2 hrs)*
+*(few hours for each of the 2 trims and deduplication, decontamination can take 1-2 days; repairing is done in 1-2 hrs)*
 
 Scripts to run
 
@@ -50,10 +38,36 @@ Scripts to run
 	* open scripts for usage instructions
 	* review the outputs from `fastp` and `fastq_screen` with `multiqc` output, which is already set to run after these steps
 
-
 ---
 
-## **0. Rename the raw fq.gz files (<1 minute run time) and make a copy (several hours run time)**
+## **00. Set up directories and data**
+
+Check your raw files: given that we use paired-end sequencing, you should have one pair of files (1 forward and 1 reverse) per library. This means that you should hav the same number of forward (1.fq.gz or f.fq.gz) and reverse squence files (2.fq.gz or r.fq.gz). If you don't have equal numbers for forward and reverse files, check with whoever provided the data to make sure there were no issues while transferring.
+
+Create your `species dir` and subdirs `logs` and `shotgun_raw_fq`. Transfer your raw data into `shotgun_raw_fq` if necessary.
+
+```
+#Example
+cd pire_ssl_data_processing
+mkdir spratelloides_gracilis
+mkdir spratelloides_gracilis/logs
+mkdir spratelloides_gracilis/shotgun_raw_fq
+
+cp <source of files> spratelloides_gracilis/shotgun_raw_fq #scp | cp |mv
+```
+
+Now create a `README` in the `shotgun_raw_fq` dir with the full path to the original copies of the raw files and necessary decoding info to find out from which individual(s) these sequence files came from.
+
+This information is usually provided by Sharon Magnuson in the species slack channel.
+
+```
+#Example
+cd spratelloides_gracilis/shotgun_raw_fq
+nano README.md
+```
+
+## 0. **Rename the raw fq.gz files (<1 minute run time)**
+
 
 Make sure you check and edit the decode file as necessary so that the following naming format is followed:
 

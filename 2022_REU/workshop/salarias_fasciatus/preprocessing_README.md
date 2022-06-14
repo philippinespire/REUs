@@ -84,12 +84,16 @@ Examples of compatible names:
 Then, use the decode file to rename your raw `fq.gz` files. If you make a mistake here, it could be catastrophic for downstream analyses.  [`renameFQGZ.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/renameFQGZ.bash) allows you to view what the files will be named before renaming them and also stores the original and new file names in files that could be used to restore the original file names.
 
 ```bash
+cd YOURSPECIESDIR/shotgun_raw_fq
+
 bash renameFQGZ.bash NAMEOFDECODEFILE.tsv 
 ```
 
 After you are satisfied that the orginal and new file names are correct, then you can change the names.  This script will ask you twice whether you want to proceed with renaming.
 
 ```bash
+cd YOURSPECIESDIR/shotgun_raw_fq
+
 bash renameFQGZ.bash NAMEOFDECODEFILE.tsv rename
 ```
 
@@ -109,9 +113,8 @@ Fastqc and then Multiqc can be run using the [Multi_FASTQC.sh](https://github.co
 Execute `Multi_FASTQC.sh` while providing, in quotations and in this order, 
 (1) the FULL path to these files and (2) a suffix that will identify the files to be processed. 
 
-Example:
 ```sh
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/spratelloides_gracilis/fq_raw_shotgun" "fq.gz"   
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "PATHTOYOURSPECIESDIR/shotgun_raw_fq" "fq.gz"   
 ```
 
 If you get a message about not finding "crun" then load the containers in your current session and run `Multi_FASTQC.sh` again
@@ -121,30 +124,38 @@ enable_lmod
 module load parallel
 module load container_env multiqc
 module load container_env fastqc
-sbatch Multi_FASTQC.sh "fq.gz" "/home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/spratelloides_gracilis/fq_raw_shotgun"
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "PATHTOYOURSPECIESDIR/shotgun_raw_fq" "fq.gz"   
 ```
 
 ---
 
 ## **2. First trim. Execute [`runFASTP_1st_trim.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_1st_trim.sbatch) (0.5-3 hours run time)**
+
 ```bash
-# sbatch runFASTP_1st_trim.sbatch <INDIR/full path to files> <OUTDIR/full path to desired outdir>
-sbatch runFASTP_1st_trim.sbatch fq_raw_shotgun fq_fp1
+cd YOURSPECIESDIR
+
+#sbatch runFASTP_1st_trim.sbatch <INDIR/full path to files> <OUTDIR/full path to desired outdir>
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatch shotgun_raw_fq fq_fp1
 ```
 
 ---
 
 ## **3. Remove duplicates. Execute [`runCLUMPIFY_r1r2_array.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runCLUMPIFY_r1r2_array.bash) (0.5-3 hours run time)**
 
-The max # of nodes to use at once should not exceed the number of pairs of r1-r2 files to be processed. If you have many sets of files, you might also limit the nodes to the current number of idle nodes to avoid waiting on the queue (run `sinfo` to find out # of nodes idle in the main partition)
+The max # of nodes to use at once should **NOT** exceed the number of pairs of r1-r2 files to be processed. (Ex: If you have 3 pairs of r1-r2 files, you should only use 3 nodes at most.) If you have many sets of files, you might also limit the nodes to the current number of idle nodes to avoid waiting on the queue (run `sinfo` to find out # of nodes idle in the main partition)
+
 ```bash
+cd YOURSPECIESDIR
+
 #runCLUMPIFY_r1r2_array.bash <indir;fast1 files > <outdir> <tempdir> <max # of nodes to use at once>
 # do not use trailing / in paths. Example:
-bash runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/YOURUSERNAME 20
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/YOURUSERNAME 3
 ```
 
 After completion, run `checkClumpify.R` to see if any files failed
 ```bash
+cd YOURSPECIESDIR
+
 enable_lmod
 module load container_env mapdamage2
 crun R < checkClumpify_EG.R --no-save
@@ -169,25 +180,20 @@ If some failed, the script will also let you know. Try raising "-c 20" to "-c 40
 Also look for this error "OpenJDK 64-Bit Server VM warning:
 INFO: os::commit_memory(0x00007fc08c000000, 204010946560, 0) failed; error='Not enough space' (errno=12)"
 
-If the array set up doesn't work. Try running Clumpify on a turing himem node, see the [cssl repo](https://github.com/philippinespire/pire_cssl_data_processing/tree/main/scripts) for details
+If the array set up doesn't work. Try running Clumpify on a turing himem node, see the [cssl repo](https://github.com/philippinespire/pire_cssl_data_processing/tree/main/scripts) for details.
 
 ---
 
 ## **4. Second trim. Execute `runFASTP_2.sbatch` (0.5-3 hours run time)**
 
-If you are going to assemble a genome with this data, use  [runFASTP_2_ssl.sbatch](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_2_ssl.sbatch), otherwise, use [runFASTP_2_cssl.sbatch](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_2_cssl.sbatch).  Modify the script name in the code blocks below as necessary 
+If you are going to assemble a genome with this data, use  [runFASTP_2_ssl.sbatch](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_2_ssl.sbatch). Modify the script name in the code blocks below as necessary 
 
 ```bash
+cd YOURSPECIESDIR
+
 #sbatch runFASTP_2.sbatch <INDIR/full path to cumplified files> <OUTDIR/full path to desired outdir>
 # do not use trailing / in paths. Example:
-sbatch runFASTP_2.sbatch fq_fp1_clmp fq_fp1_clmp_fp2
-```
-
-We've noticed that the GC content can be problematic in the first n nucleotides of the reads (see the multiqc output from fp1 to determine how many nt to trim). You can optionally specify the number of nt to remove from the left sides of the reads prior to any sliding window trimming as follows:
-
-```bash
-# example where 15 nt are trimmed from the left (beginning) side of each read
-sbatch runFASTP_2.sbatch fq_fp1_clmp fq_fp1_clmp_fp2 15
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_2_ssl.sbatch fq_fp1_clmp fq_fp1_clmp_fp2
 ```
 
 ---
@@ -195,18 +201,24 @@ sbatch runFASTP_2.sbatch fq_fp1_clmp fq_fp1_clmp_fp2 15
 ## **5. Decontaminate files. Execute [`runFQSCRN_6.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFQSCRN_6.bash) (several hours run time)**
 
 Check the number of available nodes `sinfo` (i.e. nodes in idle in the main partition).
- Try running one node per fq.gz file if possilbe or how many nodes are available.
- Yet, the number of nodes running simultaneously should not exceed that number of fq.gz files.
+ Try running one node per fq.gz file if possilbe or how many nodes are available. Here, the number of nodes running simultaneously should **NOT** exceed the number of fq.gz files (ex: 3 r1-r2 fq.gz pairs = 6 nodes max).
 * ***NOTE: you are executing the bash not the sbatch script***
 * ***This can take up to several days depending on the size of your dataset. Plan accordingly***
+
 ```sh
+cd YOURSPECIESDIR
+
 #runFQSCRN_6.bash <indir> <outdir> <number of nodes running simultaneously>
 # do not use trailing / in paths. Example:
-bash runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 20
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 6
 ```
-Confirm that all files were successfully completed
+
+Confirm that all files were successfully completed.
+
 ```sh
-# Fastqc Screen generates 5 files (*tagged.fastq.gz, *tagged_filter.fastq.gz, *screen.txt, *screen.png, *screen.html) for each input fq.gz file
+cd YOURSPECIESDIR
+
+# fastqscreen generates 5 files (*tagged.fastq.gz, *tagged_filter.fastq.gz, *screen.txt, *screen.png, *screen.html) for each input fq.gz file
 #check that all 5 files were created for each file: 
 ls fq_fp1_clmp_fp2_fqscrn/*tagged.fastq.gz | wc -l
 ls fq_fp1_clmp_fp2_fqscrn/*tagged_filter.fastq.gz | wc -l 
@@ -214,7 +226,7 @@ ls fq_fp1_clmp_fp2_fqscrn/*screen.txt | wc -l
 ls fq_fp1_clmp_fp2_fqscrn/*screen.png | wc -l
 ls fq_fp1_clmp_fp2_fqscrn/*screen.html | wc -l
 
-# for each, you should have the same number as the number of input files
+# for each, you should have the same number as the number of input files (number of fq.gz files)
 
 #You should also check for errors in the *out files:
 # this will return any out files that had a problem
@@ -230,11 +242,12 @@ grep 'No reads in' slurm-fqscrn.JOBID*out
 If you see missing indiviudals or categories in the multiqc output, there was likely a ram error. I'm not sure if the "error" search term catches it.
 
 Run the files that failed again. This seems to work in most cases
+
 ```sh
+cd YOURSPECIESDIR
+
 #runFQSCRN_6.bash <indir> <outdir> <number of nodes to run simultaneously> <fq file pattern to process>
-bash runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 1 LlA01010*r1.fq.gz
-...
-bash runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 1 LlA01005*r2.fq.gz
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 1 LlA01010*r1.fq.gz
 ```
 
 ---
@@ -242,8 +255,10 @@ bash runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 1 LlA01005*r2.fq.gz
 ## **6. Execute [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch) (<1 hour run time)**
 
 ```
+cd YOURSPECISDIR
+
 #runREPAIR.sbatch <indir> <outdir> <threads>
-sbatch runREPAIR.sbatch fq_fp1_clmp_fp2_fqscrn fq_fp1_clmp_fp2_fqscrn_repaired 40
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runREPAIR.sbatch fq_fp1_clmp_fp2_fqscrn fq_fp1_clmp_fp2_fqscrn_repaired 40
 ```
 
 ---
@@ -252,11 +267,11 @@ sbatch runREPAIR.sbatch fq_fp1_clmp_fp2_fqscrn fq_fp1_clmp_fp2_fqscrn_repaired 4
 
 Execute [read_calculator_ssl.sh](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/read_calculator_ssl.sh)
 ```sh
+cd YOURSPECIESDIR
+
 #read_calculator_ssl.sh <Path to species home dir> 
 # do not use trailing / in paths. Example:
-sbatch read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/spratelloides_gracilis"
-# or 
-sbatch read_calculator_ssl.sh "."
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/spratelloides_gracilis"
 ```
 
 `read_calculator_ssl.sh` counts the number of reads before and after each step in the pre-process of ssl data and creates the dir `reprocess_read_change` with the following 2 tables:
@@ -268,8 +283,9 @@ Inspect these tables and revisit steps if too much data was lost
 ## **8. Clean Up
 
 Move the `.out` files into the `logs` dir after each step is completed:
+
 ```sh
-mv *out /home/youruserID/shotgun_PIRE/pire_ssl_data_processing/yourspecies/logs
+mv *out /home/youruserID/shotgun_PIRE/pire_ssl_data_processing/YOURSPECIESDIR/logs
 ```
 
 Be sure to update your readme file so that others know what happened in your directory. Ideally, somebody should be able to replicate what you did exactly.

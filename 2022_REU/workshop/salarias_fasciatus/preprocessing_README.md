@@ -86,7 +86,7 @@ Then, use the decode file to rename your raw `fq.gz` files. If you make a mistak
 ```bash
 cd YOURSPECIESDIR/shotgun_raw_fq
 
-bash renameFQGZ.bash NAMEOFDECODEFILE.tsv 
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash NAMEOFDECODEFILE.tsv 
 ```
 
 After you are satisfied that the orginal and new file names are correct, then you can change the names.  This script will ask you twice whether you want to proceed with renaming.
@@ -94,13 +94,8 @@ After you are satisfied that the orginal and new file names are correct, then yo
 ```bash
 cd YOURSPECIESDIR/shotgun_raw_fq
 
-bash renameFQGZ.bash NAMEOFDECODEFILE.tsv rename
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash NAMEOFDECODEFILE.tsv rename
 ```
-
-If you haven't done so, create a copy of your raw files unmodified in the longterm Carpenter RC dir
-`/RC/group/rc_carpenterlab_ngs/shotgun_PIRE/pire_<ssl|cssl>_data_processing/<species_name>/fq_raw_<ssl|cssl>`. Then, create your `species dir` and transfer your raw data. This will be your working copy. 
-*(can take several hours)*
-
 
 ---
 

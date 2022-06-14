@@ -122,7 +122,7 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "PATHTO
 ```
 
 *(can take several hours)*
-    * review results with `multiqc` output
+  * review results with `multiqc` output
 
 ---
 

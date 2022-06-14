@@ -35,9 +35,8 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/workshop/salarias_fasciatus
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "fq.gz" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/workshop/salarias_fasciatus/shotgun_raw_fq"
 ```
 
-Reports written out to `shotgun_raw_fq` directory.
-
-[Report](https://github.com/philippinespire/pire_ssl_data_processing/blob/main/spratelloides_gracilis/Multi_FASTQC/multiqc_report_fq.gz.html) (copy and paste into a text editor locally) Save and open in your browser to view
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/workshop/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory.
+  * To visualize, click "view raw" and then add "https://htmlpreview.github.io/?" to the beginning of the URL.
 
 Potential issues:  
 * % duplication - not bad

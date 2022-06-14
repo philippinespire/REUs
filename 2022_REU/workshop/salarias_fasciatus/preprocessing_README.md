@@ -100,10 +100,8 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash NAMEOFDEC
 ---
 
 ## **1. Check the quality of your data. Run `fastqc` (1-2 hours run time)**
-*(can take several hours)*
-    * review results with `multiqc` output
 
-Fastqc and then Multiqc can be run using the [Multi_FASTQC.sh](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh) script in this repo (last updated 2022-06-02)
+Fastqc and then Multiqc can be run using the [Multi_FASTQC.sh](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh) script.
 
 Execute `Multi_FASTQC.sh` while providing, in quotations and in this order, 
 (1) the FULL path to these files and (2) a suffix that will identify the files to be processed. 
@@ -119,8 +117,12 @@ enable_lmod
 module load parallel
 module load container_env multiqc
 module load container_env fastqc
+
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "PATHTOYOURSPECIESDIR/shotgun_raw_fq" "fq.gz"   
 ```
+
+*(can take several hours)*
+    * review results with `multiqc` output
 
 ---
 

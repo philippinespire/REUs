@@ -44,7 +44,7 @@ The List of potential species to test the effect of life history traits on demog
 |US         |na      |0   |Orientation Lectures                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |None                                                  |
 |US         |13-Jun        |1   |REUs will learn the basics of Unix, Regex, HPC, Slurm, Markdown and GitHub in the [PIRE Virtual Workshop](https://github.com/philippinespire/PIRE_Vitual_Workshop)                                                                                                                                                                                                                                                                                                                                             |None                                                  |
 |Philippines|20-Jun        |2   |Each student should prepare a 5 minute PowerPoint presentation that you will present to your cohort, mentors, and project PIs in a mini-Symposium on June 24th.                                                                                                                                                                                                                                                                                                                                                |Proposal Presentation                                 |
-|Philippines|27-Jun        |3   |Organize a literature cited page (at least 10 primary literature papers) into a properly formatted database (EndNote, Mendeley, etc).  Mentors can help you if you're not already familiar with reference databases. You will then use these references to write  a <250 word abstract and an introduction for your report (a minimum of 1 page but can be longer).  The introduction should lay out relevant literature and justification for your work and include a concise statement of the research goals |Citation Database,  Abstract and Introduction         |
+|Philippines|27-Jun        |3   |Organize a literature cited page (at least 10 primary literature papers including the 3 provided in this page) into a properly formatted database (EndNote, Mendeley, etc).  Mentors can help you if you're not already familiar with reference databases. You will then use these references to write  a <250 word abstract and an introduction for your report (a minimum of 1 page but can be longer).  The introduction should lay out relevant literature and justification for your work and include a concise statement of the research goals |Citation Database,  Abstract and Introduction         |
 |Philippines|4-Jul         |4   |REUs will learn the PIRE SSL pipeline, mapping, PSMC, and R coding in the [2022 PIRE Omic's Workshop](https://github.com/philippinespire/2022_PIRE_omics_workshop)                                                                                                                                                                                                                                                                                                                                             |Draft Introduction                                    |
 |Philippines|9-Jul         |4   |Trip to Apo Island                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |Fun and Pictures                                      |
 |Philippines|11-Jul        |5   |Start the data analysis of your species and complete the Materials and methods section for your work (3 paragraphs minimum). Materials and methods should be organized into sections detailing each of the major techniques used (e.g. specimen collection, DNA extraction, Library prep, Bioinformatic analyses, etc.) and should conform to the general style used in primary biology literature.  Generate necessary tables and/or figures for the Materials and methods section. Travel back to US for some|Draft Materials and Methods with tables and/or figures|
@@ -67,6 +67,8 @@ Your presentation should include:
 
 As the speaker, you should spend about the same time in each of the main sections but you do have some flexibility on this.
 
+You can watch the proposals of previous REUs [here](https://drive.google.com/drive/folders/1rbnC8cCDV4ETpU72PW26C-_5iTymWax4). This might take a while to load, be patient. Also please skip to the 55 min, the beginning of this recording is blank. We recommend watching this BEFORE you leave the US in case there are streaming problems in the Philippines.
+
 ---
 
 ## Outline for Final Presentation
@@ -81,3 +83,11 @@ Your presentation should include:
 * Conclusion (~ 1 min)
 
 ---
+
+## Resources
+
+[Fishbase](https://www.fishbase.se/search.php)
+[GBIF](https://www.gbif.org/)
+[Web of Science](https://www.webofscience.com/wos/woscc/basic-search)
+[Google Scholar](https://scholar.google.com/)
+[Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp)

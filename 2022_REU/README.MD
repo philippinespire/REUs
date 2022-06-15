@@ -32,7 +32,7 @@ Projects will vary from ecology, genetics, and bioinformatics (see bellow). Plea
 
 |REU | Institution | Project | SSL species | GSM | GSM contact |
 | --- | --- | --- | --- | --- | -- |
-|Abbigail Ethridge* | ODU | Effect of habitat usage on demography inference in Philippine fishes | Stethojulis interrupta | George | gbons002@odu.edu |
+|Abigail Ethridge* | ODU | Effect of habitat usage on demography inference in Philippine fishes | Stethojulis interrupta | George | gbons002@odu.edu |
 |Eryka Molino* | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy | rroberts3@islander.tamucc.edu |
 |Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John? | jwhal002@odu.edu |
 |Allison Fink* | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan | jrodriguez216@islander.tamucc.edu |
@@ -67,6 +67,15 @@ The List of potential species to test the effect of life history traits on demog
 ---
 
 ## REU Activities Schedule
+
+|Week | Date | Activity |
+| --- | --- | --- |
+|2 | 24-July | Project Proposal Presentation |
+|4 | 4-July | Workshop Welcome Dinner |
+|4 | 8-July | Workshop Closing Dinner |
+|4 | 9-July | Dive/Snorkeling Trip to Apo Island |
+
+---
 
 ---
 

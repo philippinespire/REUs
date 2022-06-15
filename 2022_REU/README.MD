@@ -36,7 +36,7 @@ Projects will vary from ecology, genetics, and bioinformatics (see bellow). Plea
 |Eryka Molino* | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy | rroberts3@islander.tamucc.edu |
 |Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John | jwhal002@odu.edu |
 |Allison Fink* | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan | jrodriguez216@islander.tamucc.edu |
-|Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | none | Rene | rdc129@scarletmail.rutgers.edu |
+|Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | None | Rene | rdc129@scarletmail.rutgers.edu |
 
 *REUs with bioinformatic projects will first process 1 species through the [PIRE SSL pipeline](https://github.com/philippinespire/pire_ssl_data_processing) pipeline.
 Then perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population historical trends.

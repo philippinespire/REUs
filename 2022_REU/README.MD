@@ -1,8 +1,8 @@
 # PIRE REU README
 
-***Congratulation for being accepted as a PIRE REU!!!***
+***Congratulations on being accepted as a PIRE REU!!!***
 
-This README will serve as guide for your entire REU experience. Please check this document continuously for updates. You can always contact your mentors for questions as well.
+This README will serve as a guide for your entire REU experience. Please check this document continuously for updates. You can always contact your mentors for questions as well.
 
 **Overview**
 
@@ -10,7 +10,7 @@ During the REU experience, you will be performing independent original research 
 
 1. Presenting a project proposal
 2. Writing a manuscript for your project
-3. Presenting your final findings.
+3. Presenting your final results
 
 Projects will vary from ecology, genetics, and bioinformatics (see below). Please pay attention to the Schedule below to guide your work and complete the required weekly items (deliverables). You will be assigned a graduate student mentor (GSM) to help you with all aspects of your project. Please, do not hesitate to ask questions!!
 
@@ -39,9 +39,9 @@ Projects will vary from ecology, genetics, and bioinformatics (see below). Pleas
 |Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | None | Rene | rdc129@scarletmail.rutgers.edu |
 
 *REUs with bioinformatic projects will first process 1 species through the [PIRE SSL pipeline](https://github.com/philippinespire/pire_ssl_data_processing) pipeline.
-Then perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population historical trends.
+Then they will perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population historical trends.
 
-The List of potential species to test the effect of life history traits on demographic inference 
+The list of potential species to test the effect of life history traits on demographic inference 
  can be found in the [Species properties for PSMC study](https://docs.google.com/spreadsheets/d/1tqMv7CpAdvsZi8Izi8mZp5efSnAsTzIuZDRS1KeV9Bk/edit#gid=0) sheet.
 
 ---

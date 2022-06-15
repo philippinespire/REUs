@@ -20,7 +20,7 @@ Projects will vary from ecology, genetics, and bioinformatics (see bellow). Plea
 
 |REU | Institution | Contact |
 | --- | --- | --- |
-|Abbigail Ethridge | ODU | aethr001@odu.edu |
+|Abigail Ethridge | ODU | aethr001@odu.edu |
 |Eryka Molino | ASU | emolino1230@gmail.com |
 |Rebecca Ruiz | TAMUCC | rruiz25@islander.tamucc.edu |
 |Allison Fink | Rutgers | agf63@scarletmail.rutgers.edu |
@@ -67,14 +67,6 @@ The List of potential species to test the effect of life history traits on demog
 ---
 
 ## REU Activities Schedule
-
-
-|Phase      |Week Beginning|Week|Date|Activity|                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-----------|--------------|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                            |
-|Philippines|20-Jun        |2   |24-June                                                                                                                                                                                                                                                                                                                                          |Proposal Presentation                                 |
-|Philippines|27-Jun        |4   |4-July|Workshop Welcome Dinner        |
-|Philippines|4-Jul         |4   |8-July|Workshop Closing Dinner                                 |
-|Philippines|11-Jul        |4   |9-July|Dive/Snorkeling Trip to Apo Island   |
 
 ---
 

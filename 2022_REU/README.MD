@@ -2,7 +2,7 @@
 
 ***Congratulation for being accepted as a PIRE REU!!!***
 
-This README will serve as guide for your entire REU experince. Please check this document continiously for updates. You can always contact your mentors for questions as well.
+This README will serve as guide for your entire REU experience. Please check this document continuously for updates. You can always contact your mentors for questions as well.
 
 ---
 
@@ -29,7 +29,7 @@ This README will serve as guide for your entire REU experince. Please check this
 |Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | none | Rene |
 
 *REUs with bioinformatic projects will first process 1 species through the [PIRE SSL pipeline](https://github.com/philippinespire/pire_ssl_data_processing) pipeline.
-Then perform PSMC demographic analyses oof their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population histories.
+Then perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population histories.
 
 The List of potential species to test the effect of life history traits on demographic inference 
  can be found in the [Species properties for PSMC study](https://docs.google.com/spreadsheets/d/1tqMv7CpAdvsZi8Izi8mZp5efSnAsTzIuZDRS1KeV9Bk/edit#gid=0) sheet.
@@ -41,10 +41,10 @@ The List of potential species to test the effect of life history traits on demog
 
 |Phase      |Week Beginning|Week|Description of Tasks and Activities                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |Deliverable                                           |
 |-----------|--------------|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-|US         |mulpiple      |0   |Orientation Lectures                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |None                                                  |
+|US         |na      |0   |Orientation Lectures                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |None                                                  |
 |US         |13-Jun        |1   |REUs will learn the basics of Unix, Regex, HPC, Slurm, Markdown and GitHub in the [PIRE Virtual Workshop](https://github.com/philippinespire/PIRE_Vitual_Workshop)                                                                                                                                                                                                                                                                                                                                             |None                                                  |
 |Philippines|20-Jun        |2   |Each student should prepare a 5 minute PowerPoint presentation that you will present to your cohort, mentors, and project PIs in a mini-Symposium on June 24th.                                                                                                                                                                                                                                                                                                                                                |Proposal Presentation                                 |
-|Philippines|27-Jun        |3   |Orginzed a literature cited page (at least 10 primary literature papers) into a properly formatted database (EndNote, Mendeley, etc).  Mentors can help you if you're not already familiar with reference databases. You will then use these references to write  a <250 word abstract and an introduction for your report (a minimum of 1 page but can be longer).  The introduction should lay out relevant literature and justification for your work and include a concise statement of the research goals |Citation Database,  Abstract and Introduction         |
+|Philippines|27-Jun        |3   |Organize a literature cited page (at least 10 primary literature papers) into a properly formatted database (EndNote, Mendeley, etc).  Mentors can help you if you're not already familiar with reference databases. You will then use these references to write  a <250 word abstract and an introduction for your report (a minimum of 1 page but can be longer).  The introduction should lay out relevant literature and justification for your work and include a concise statement of the research goals |Citation Database,  Abstract and Introduction         |
 |Philippines|4-Jul         |4   |REUs will learn the PIRE SSL pipeline, mapping, PSMC, and R coding in the [2022 PIRE Omic's Workshop](https://github.com/philippinespire/2022_PIRE_omics_workshop)                                                                                                                                                                                                                                                                                                                                             |Draft Introduction                                    |
 |Philippines|9-Jul         |4   |Trip to Apo Island                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |Fun and Pictures                                      |
 |Philippines|11-Jul        |5   |Start the data analysis of your species and complete the Materials and methods section for your work (3 paragraphs minimum). Materials and methods should be organized into sections detailing each of the major techniques used (e.g. specimen collection, DNA extraction, Library prep, Bioinformatic analyses, etc.) and should conform to the general style used in primary biology literature.  Generate necessary tables and/or figures for the Materials and methods section. Travel back to US for some|Draft Materials and Methods with tables and/or figures|
@@ -65,7 +65,7 @@ Your presentation should include:
 * Methods (1-2 min)
 * Hypotheses (1-2 min)
 
-As the speaker, you should spend abot the same time in each of the main sections but you do have some flexibility on this.
+As the speaker, you should spend about the same time in each of the main sections but you do have some flexibility on this.
 
 ---
 
@@ -78,6 +78,6 @@ Your presentation should include:
 * Methods (2-3 min)
 * Results (2-3 min)
 * Discussion (2-3 min)
-* Conclussion (~ 1 min)
+* Conclusion (~ 1 min)
 
 ---

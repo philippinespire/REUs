@@ -4,6 +4,16 @@
 
 This README will serve as guide for your entire REU experience. Please check this document continuously for updates. You can always contact your mentors for questions as well.
 
+**Overview**
+
+During the REU experience, you will be performing independent original research and will be responsible for:
+
+1. Presenting a project proposal
+2. Write a manuscript for your project
+3. Present your final findings. 
+
+Projects will vary from ecology, genetics, and bioinformatics (see bellow). Plese pay attention to the Schedule below to guide your work and complete the require weekly items (deliverables). You will be assigned a graduate student mentor (GSM) to help you with all aspects of your project. Please, do not hesitate to ask questions.
+
 ---
 
 ## REUs
@@ -20,13 +30,13 @@ This README will serve as guide for your entire REU experience. Please check thi
 
 ## Projects and Graduate Student Mentors (GSM)
 
-|REU | Institution | Project | SSL species | GSM |
-| --- | --- | --- | --- | --- |
-|Abbigail Ethridge* | ODU | Effect of habitat usage on demography inference in Philippine fishes | Stethojulis interrupta | George |
-|Eryka Molino* | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy |
-|Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John? | 
-|Allison Fink* | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan |
-|Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | none | Rene |
+|REU | Institution | Project | SSL species | GSM | GSM contact |
+| --- | --- | --- | --- | --- | -- |
+|Abbigail Ethridge* | ODU | Effect of habitat usage on demography inference in Philippine fishes | Stethojulis interrupta | George | gbons002@odu.edu |
+|Eryka Molino* | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy | rroberts3@islander.tamucc.edu |
+|Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John? | jwhal002@odu.edu |
+|Allison Fink* | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan | jrodriguez216@islander.tamucc.edu |
+|Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | none | Rene | rdc129@scarletmail.rutgers.edu |
 
 *REUs with bioinformatic projects will first process 1 species through the [PIRE SSL pipeline](https://github.com/philippinespire/pire_ssl_data_processing) pipeline.
 Then perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population historical trends.

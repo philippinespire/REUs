@@ -9,10 +9,10 @@ This README will serve as guide for your entire REU experience. Please check thi
 During the REU experience, you will be performing independent original research and will be responsible for:
 
 1. Presenting a project proposal
-2. Write a manuscript for your project
-3. Present your final findings. 
+2. Writing a manuscript for your project
+3. Presenting your final findings. 
 
-Projects will vary from ecology, genetics, and bioinformatics (see bellow). Plese pay attention to the Schedule below to guide your work and complete the require weekly items (deliverables). You will be assigned a graduate student mentor (GSM) to help you with all aspects of your project. Please, do not hesitate to ask questions.
+Projects will vary from ecology, genetics, and bioinformatics (see bellow). Please pay attention to the Schedule below to guide your work and complete the require weekly items (deliverables). You will be assigned a graduate student mentor (GSM) to help you with all aspects of your project. Please, do not hesitate to ask questions.
 
 ---
 

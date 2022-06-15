@@ -29,7 +29,7 @@ This README will serve as guide for your entire REU experience. Please check thi
 |Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | none | Rene |
 
 *REUs with bioinformatic projects will first process 1 species through the [PIRE SSL pipeline](https://github.com/philippinespire/pire_ssl_data_processing) pipeline.
-Then perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population histories.
+Then perform PSMC demographic analyses of their species, along with other species that have already been processed through the SSL pipeline, to assess whether life history traits can be associated with population historical trends.
 
 The List of potential species to test the effect of life history traits on demographic inference 
  can be found in the [Species properties for PSMC study](https://docs.google.com/spreadsheets/d/1tqMv7CpAdvsZi8Izi8mZp5efSnAsTzIuZDRS1KeV9Bk/edit#gid=0) sheet.
@@ -67,7 +67,7 @@ Your presentation should include:
 
 As the speaker, you should spend about the same time in each of the main sections but you do have some flexibility on this.
 
-You can watch the proposals of previous REUs [here](https://drive.google.com/drive/folders/1rbnC8cCDV4ETpU72PW26C-_5iTymWax4). This might take a while to load, be patient. Also please skip to the 55 min, the beginning of this recording is blank. We recommend watching this BEFORE you leave the US in case there are streaming problems in the Philippines.
+You can watch the proposals of previous REUs [here](https://drive.google.com/drive/folders/1ZqfAgUd0hkidPRuZ5oPVx5CtDV6xi3Vv). This might take a while to load, be patient. Also please skip to the 55 min, the beginning of this recording is blank. We recommend watching this BEFORE you leave the US in case there are streaming problems in the Philippines.
 
 ---
 

@@ -105,8 +105,9 @@ Your presentation should include:
 
 ## Resources
 
-[Fishbase](https://www.fishbase.se/search.php) --> contains useful life history, habitat, etc. information for your fish species
-[GBIF](https://www.gbif.org/) --> contains occurrence/range data for your fish species, as well as links to other databases with species data
-[AquaMaps](https://www.aquamaps.org/) --> contains range data and creates species distribution maps for your fish species
-[Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp) --> contains useful taxonomic information for your fish species
-[Web of Science](https://www.webofscience.com/wos/woscc/basic-search)  --> useful website to search for relevant literature
+  * [Fishbase](https://www.fishbase.se/search.php) --> contains useful life history, habitat, etc. information for your fish species
+  * [GBIF](https://www.gbif.org/) --> contains occurrence/range data for your fish species, as well as links to other databases with species data
+  * [AquaMaps](https://www.aquamaps.org/) --> contains range data and creates species distribution maps for your fish species
+  * [Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp) --> contains useful taxonomic information for your fish species
+  * [Web of Science](https://www.webofscience.com/wos/woscc/basic-search)  --> useful website to search for relevant literature
+  * [Google Scholar](https://scholar.google.com/) --> another useful website to search for relevant literature

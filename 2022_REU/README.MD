@@ -67,8 +67,10 @@ The list of potential species that can be used to test the effect of life histor
 ## REU Activities Schedule
 
 |Week | Date | Activity |
-| --- | --- | --- |
-|2 | 24-July | Project Proposal Presentation |
+| --- | --- | --- | 
+|2 | 24-July | Project Proposal Symposium |
+|2 | 24-July | Symposium Dinner |
+|2 | 25-July | Mt. Talinis hike (2-days) OR Apo Island Dive Trip |
 |4 | 4-July | Workshop Welcome Dinner |
 |4 | 8-July | Workshop Closing Dinner |
 |4 | 9-July | Dive/Snorkeling Trip to Apo Island |

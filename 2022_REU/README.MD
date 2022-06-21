@@ -33,9 +33,9 @@ Please pay attention to the schedule below to guide your work and complete the r
 |REU | Institution | Project | SSL species | GSM | GSM contact |
 | --- | --- | --- | --- | --- | -- |
 |Abigail Ethridge* | ODU | Effect of habitat usage on demography inference in Philippine fishes | Stethojulis interrupta | George | gbons002@odu.edu |
-|Eryka Molino* | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Roy | rroberts3@islander.tamucc.edu |
+|Eryka Molino* | ASU | Effect of species distribution on demography inference in Philippine fishes | Ostorhinchus chrysopomus | Nichole | npete006@odu.edu |
 |Rebecca Ruiz | TAMUCC | Decadal changes in reef-fish species composition | None | John | jwhal002@odu.edu |
-|Allison Fink* | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Jordan | jrodriguez216@islander.tamucc.edu |
+|Allison Fink* | Rutgers | Effect of reproductive strategy on demography inference  in Philippine fishes | Corythoichthys haematopterus | Kyra | ksf63@dls.rutgers.edu |
 |Marial Malabag | Rutgers | Effect of life history traits on marine genetic diversity | None | Rene | rdc129@scarletmail.rutgers.edu |
 
 *REUs with bioinformatic projects will first process 1 species through the [PIRE SSL pipeline](https://github.com/philippinespire/pire_ssl_data_processing) pipeline.
@@ -113,3 +113,53 @@ Your presentation should include:
   * [Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp) --> contains useful taxonomic information for your fish species
   * [Web of Science](https://www.webofscience.com/wos/woscc/basic-search)  --> useful website to search for relevant literature
   * [Google Scholar](https://scholar.google.com/) --> another useful website to search for relevant literature
+
+---
+
+## Bioinformatic projects
+
+The first main goal is to have each student process 1 species through the SSL pipeline and generate a genome assembly for that species. 
+ The second main goal of all 3 projects is to determine if a relationship between demographic history and life history traits exit. 
+ Abigail, Eryka and Allison will be investigating, preferred habitat, distribution, and egg type, respectively, as their specific life history trait.  
+
+Using the [Species properties for PSMC study](https://docs.google.com/spreadsheets/d/1tqMv7CpAdvsZi8Izi8mZp5efSnAsTzIuZDRS1KeV9Bk/edit#gid=0) sheet students should begin their projects by  assigning species into different groups within their life history trait of interest so that they can later test for differences between these groups.
+
+That is, each student should be filling out the following their respective table below in preparation for their proposal: 
+
+**Abigail**
+|Habitat | Species | 
+| --- |  --- |
+| Reef | at least 4 species here |
+| Coastal/semi-pelagics | at least 4 species here |
+| Estuary/brackish water | at least 4 species here |
+
+**Eryka**
+|Distribution | Species |  
+| --- |  --- |
+| West Pacific | at least 4 species here |
+| Indo-West Pacific (Africa to West Pacific) | at least 4 species here |
+| Indo-West Pacific (India to West Pacific) | how many species? |
+
+**Here, Eryka can decide whether or not to include the third group depending if she can classify species there 
+
+**Allison**
+|Egg type | Species |  
+| --- |  --- |
+| Demersal eggs | at least 4 species here |
+| Mouth/tail brooders | at least 4 species here |
+
+Each student should review the biology of all the species (by reading the literature and using the links provided in the "Resource" section above) to confirm their group assignations. If a species cannot be confidently assigned into a group, then that species can be dismissed from a specific study. At the very least each student should have 2 groups with 4 or more species but more species will bring more confidence when answering the questions. 
+
+After confirming their groups, students can use PSMC to estimate the population history of their species and test whether variables from the PSMC output such as the maximum, minimum or average Ne (Ne=effective population size), differ between the groups of species.
+
+In their proposals,
+* Introduction (1-2 min)
+Students can identify the lack of knowledge (might be: there are no studies associating demographic history and life history trait in Philippine fishes) of and why this topic is important (by reading about the importance of Ne for example, or how understanding population past in the light of biological traits can help predict changes in the future, etc))
+and introduce your groups of species
+
+* Methods (1-2 min)
+Short mention of SSL (i.e. generating genome assemblies for species) and PSMC (generating the population history of a species) methodology. More specifically, each student  will generate the genome assembly for one species but use PSMC in all of the species in my groups to answer their specific questions/hypotheses
+ (the SSL will be done for the rest of the species) (the second workshop will teach students the SSL and PMSC pipelines).
+
+* Hypotheses (1-2 min)
+Students should identify question(s)/hypotheses (for example, null hypothesis= no difference between groups, alternate hypothesis= there will be a difference)

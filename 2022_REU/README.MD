@@ -120,11 +120,11 @@ Your presentation should include:
 
 The first main goal is to have each student process 1 species through the SSL pipeline and generate a genome assembly for that species. 
  The second main goal of all 3 projects is to determine if a relationship between demographic history and life history traits exit. 
- Abigail, Eryka and Allison will be investigating, preferred habitat, distribution, and egg type, respectively, as their specific life history trait.  
+ Abigail, Eryka and Allison will be investigating, preferred habitat, distribution, and egg type, respectively, as their specific life history traits.  
 
 Using the [Species properties for PSMC study](https://docs.google.com/spreadsheets/d/1tqMv7CpAdvsZi8Izi8mZp5efSnAsTzIuZDRS1KeV9Bk/edit#gid=0) sheet students should begin their projects by  assigning species into different groups within their life history trait of interest so that they can later test for differences between these groups.
 
-That is, each student should be filling out the following their respective table below in preparation for their proposal: 
+That is, each student should be populating the following tables below in preparation for their proposal: 
 
 **Abigail**
 |Habitat | Species | 
@@ -148,18 +148,20 @@ That is, each student should be filling out the following their respective table
 | Demersal eggs | at least 4 species here |
 | Mouth/tail brooders | at least 4 species here |
 
-Each student should review the biology of all the species (by reading the literature and using the links provided in the "Resource" section above) to confirm their group assignations. If a species cannot be confidently assigned into a group, then that species can be dismissed from a specific study. At the very least each student should have 2 groups with 4 or more species but more species will bring more confidence when answering the questions. 
+Each student should review the biology of all the species (by reading the literature and using the links provided in the "Resource" section above) to confirm their group assignations. If a species cannot be confidently assigned into a group, then that species can be dismissed from a specific study. At the very least each student should have 2 groups with 4 species, but more species will bring more confidence when answering the questions. 
 
-After confirming their groups, students can use PSMC to estimate the population history of their species and test whether variables from the PSMC output such as the maximum, minimum or average Ne (Ne=effective population size), differ between the groups of species.
+After confirming their groups, students can use PSMC to estimate the population history of their species and test whether variables from the PSMC output such as the maximum, minimum or average Ne (Ne=effective population size), differ between the groups of species. While, this is happening only after the second workshop, students can present their plans in their proposal
 
-In their proposals,
+In their proposals:
 * Introduction (1-2 min)
-Students can identify the lack of knowledge (might be: there are no studies associating demographic history and life history trait in Philippine fishes) of and why this topic is important (by reading about the importance of Ne for example, or how understanding population past in the light of biological traits can help predict changes in the future, etc))
+
+Students can identify a lack of knowledge (might be that there are no studies associating demographic history and life history trait in Philippine fishes) and why this topic is important (by reading about the importance of Ne for example, or how understanding population past in the light of biological traits can help predict changes in the future, etc)
 and introduce your groups of species
 
 * Methods (1-2 min)
-Short mention of SSL (i.e. generating genome assemblies for species) and PSMC (generating the population history of a species) methodology. More specifically, each student  will generate the genome assembly for one species but use PSMC in all of the species in my groups to answer their specific questions/hypotheses
+
+Give a short mention of the SSL (i.e. generating genome assemblies for species) and PSMC (generating the population history of a species) methodology. More specifically, each student  will generate the genome assembly for one species but use PSMC in all of the species in their groups to answer their specific questions/hypotheses
  (the SSL will be done for the rest of the species) (the second workshop will teach students the SSL and PMSC pipelines).
 
 * Hypotheses (1-2 min)
-Students should identify question(s)/hypotheses (for example, null hypothesis= no difference between groups, alternate hypothesis= there will be a difference)
+Students should identify question(s)/hypotheses (for example, null hypothesis= no difference between groups, alternate hypothesis= there will be a difference) and provide predictions if any

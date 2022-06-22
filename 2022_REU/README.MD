@@ -151,7 +151,7 @@ That is, each student should be populating the following tables below in prepara
 
 Each student should review the biology of all the species (by reading the literature and using the links provided in the "Resource" section above) to confirm their group assignations. If a species cannot be confidently assigned into a group, then that species can be dismissed from a specific study. At the very least each student should have 2 groups with 4 species, but more species will bring more confidence when answering the questions. 
 
-After confirming their groups, students can use PSMC to estimate the population history of their species and test whether variables from the PSMC output such as the maximum, minimum or average Ne (Ne=effective population size), differ between the groups of species. While, this is happening only after the second workshop, students can present their plans in their proposal
+After confirming their groups, students can use PSMC to estimate the population history of their species and test whether variables from the PSMC output differ between the groups of species.  Possible outputs from PSMC related to effective population size (N<sub>E<sub>) that could be used as response variables in this analysis would be N0 ("average" N<sub>E<sub> over time), maximum N<sub>E<sub>, minimum N<sub>E<sub>, or N<sub>E<sub> at a particular ecologically significant time point such as the Last Glacial Maximum (ca. 20,000 years ago). While students will learn PSMC after the second workshop, students can present their plans in their proposal.
 
 In their proposals:
 * Introduction (1-2 min)

@@ -140,7 +140,8 @@ That is, each student should be populating the following tables below in prepara
 | Indo-West Pacific (Africa to West Pacific) | at least 4 species here |
 | Indo-West Pacific (India to West Pacific) | how many species? |
 
-**Here, Eryka can decide whether or not to include the third group depending if she can classify species there 
+**Here, Eryka can decide whether or not to include the third group depending if she can classify species there.
+Another option would be to use other characteristics of distribution (mean latitude/longitude, range of latitude/longitude, total area occupied) as predictor variables.
 
 **Allison**
 |Egg type | Species |  

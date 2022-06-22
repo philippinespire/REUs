@@ -147,6 +147,7 @@ That is, each student should be populating the following tables below in prepara
 | --- |  --- |
 | Demersal eggs | at least 4 species here |
 | Mouth/tail brooders | at least 4 species here |
+| Other? | see if you can create another group |
 
 Each student should review the biology of all the species (by reading the literature and using the links provided in the "Resource" section above) to confirm their group assignations. If a species cannot be confidently assigned into a group, then that species can be dismissed from a specific study. At the very least each student should have 2 groups with 4 species, but more species will bring more confidence when answering the questions. 
 
@@ -164,4 +165,5 @@ Give a short mention of the SSL (i.e. generating genome assemblies for species) 
  (the SSL will be done for the rest of the species) (the second workshop will teach students the SSL and PMSC pipelines).
 
 * Hypotheses (1-2 min)
+
 Students should identify question(s)/hypotheses (for example, null hypothesis= no difference between groups, alternate hypothesis= there will be a difference) and provide predictions if any

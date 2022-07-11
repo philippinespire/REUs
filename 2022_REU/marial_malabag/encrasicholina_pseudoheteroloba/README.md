@@ -10,10 +10,9 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_Probe
 bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_ProbeDevelopmentLibraries_SequenceNameDecode.tsv rename ``` ---
 ## Step 1. Check quality of data with fastqc
 Ran [`Multi_FASTQC.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh). Specify out directory to write the 
-output to. ``` cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq
+output to. ``` cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba/shotgun_raw_fq
 #Multi_FastQC.sh "<indir>" "file extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq" 
-"fq.gz" ``` [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) 
+sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba/shotgun_raw_fq [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) 
 written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add 
 "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* Potential issues:
   * % duplication -

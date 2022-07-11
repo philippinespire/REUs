@@ -27,7 +27,7 @@ written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and t
     * XXM ---
 ## Step 2.  First trim with fastp
 Ran [`runFASTP_1st_trim.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_1st_trim.sbatch). ``` cd 
-/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+/home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 #sbatch runFASTP_1st_trim.sbatch <INDIR/full path to files> <OUTDIR/full path to desired outdir>
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatch shotgun_raw_fq fq_fp1 ``` 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to 

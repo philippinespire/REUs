@@ -68,9 +68,9 @@ The list of potential species that can be used to test the effect of life histor
 
 |Week | Date | Activity |
 | --- | --- | --- | 
-|2 | 24-July | Project Proposal Symposium |
-|2 | 24-July | Symposium Dinner |
-|2 | 25-July | Mt. Talinis hike (2-days) OR Apo Island Dive/Snorkeling Trip |
+|2 | 24-June | Project Proposal Symposium |
+|2 | 24-June | Symposium Dinner |
+|2 | 25-June | Mt. Talinis hike (2-days) OR Apo Island Dive/Snorkeling Trip |
 |4 | 4-July | Workshop Welcome Dinner |
 |4 | 8-July | Workshop Closing Dinner |
 |4 | 9-July | Apo Island Dive/Snorkeling Trip |
@@ -173,3 +173,66 @@ Give a short mention of the SSL (i.e. generating genome assemblies for species) 
 * Hypotheses (1-2 min)
 
 Students should identify question(s)/hypotheses (for example, null hypothesis= no difference between groups, alternate hypothesis= there will be a difference) and provide predictions if any
+
+
+---
+
+
+## Personal README
+
+Please create a README.md file inside your personal directory  `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/your_name/README.md`
+Record your progress in this document either by date or by topic (Intro, Methods, Running PSMC, etc). Think of your REAMD me as your virtual lab notebook. It is up to you how elaborate you want your README to be.
+
+READMEs are written in markdown language. Here are some useful information To help you get stated:
+
+### Markdown
+
+There is a lot online info about the markdown format (like how to include [emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#smileys--emotion) :wink: ) but everything you need to know to get started is already summirized by GitHub.
+
+The basics
+
+```git
+Text:
+**bold** , wrap word with two stars
+*italic* , wrap word with one star
+* Bullet point , a single star at the begging of line
+   * sub-bullet point , indent once a single start
+
+Headers
+# First level header - 1 hashtag
+## Second level header - 2 hashtag
+###### 6th level header
+
+Level 1-3 headers will appear as links on the left of the Leap Day layout
+```
+Read the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) for **MANY** more details and tips
+
+
+
+
+### Images 
+
+There are different ways to insert pictures into a GitHub markdown file. It appears that there have been some recent changes in GitHub as the instructions from some online articles do not work anymore. The following should work for you:
+
+Inserting images is a two-step process.
+
+1. Uploading your image into GitHub to generate a source link
+   * Start a new issue in your repository page (click `issues` and then click `New issue`)
+   * Copy and paste or drag pictures from your local computer into the `Write` window. This will generate the code you will enter in the markdown file.
+   * Copy the generated source link and cancel the issue by exiting the current page (for instance, clicking back to the repository page) 
+   
+2. Inserting link using HTML
+Place this code where you want to insert your image
+   ```git
+   <img src="paste_your_source_link_here">
+   ```
+   
+   Change the image size
+
+   The above code will insert your image with the original size. You can control the size of your image by specifying the dimentions:
+   ```git
+   <img src="past_your_source_link_here" height="200" width="250">
+   ``` 
+   *200X250* is the current size of the speaker's image. 
+
+   Few articles about inserting and controlling the size of images [inserting](https://ardalis.com/add-images-easily-to-github/) [size1](https://github.com/jgm/pandoc/issues/2554) [size2](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown) [size3](https://gist.github.com/uupaa/f77d2bcf4dc7a294d109)

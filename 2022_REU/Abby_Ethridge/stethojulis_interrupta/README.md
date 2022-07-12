@@ -240,7 +240,7 @@ Potential issues:
 Ran [`read_calculator_ssl.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/read_calculator_ssl.sh).
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #sbatch read_calculator_ssl.sh <species home dir> 
 #do not use trailing / in paths

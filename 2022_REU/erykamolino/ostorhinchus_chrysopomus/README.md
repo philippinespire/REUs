@@ -46,15 +46,17 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/
 
 Potential issues:  
   * % duplication - low
-    * 20-26%
+    * 20.9%-30%
+	* 24.9% average
   * gc content - reasonable
-    * 45-47%
+    * 41%
+	* 41% average
   * quality - good
     * sequence quality and per sequence qual both good
   * % adapter - good and low
-    * ~4%
+    * ~exponentially increases as bp positions increase 
   * number of reads - good
-    * ~216M
+    * ~133 M unique, 47 M duplicates
 
 ---
 
@@ -71,6 +73,7 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatc
 ```
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+file:///Users/Eryka/Desktop/fastqc_report.html 
 
 Potential issues:  
   * % duplication - low 
@@ -78,6 +81,7 @@ Potential issues:
   * gc content - reasonable
     * ~45%
       * more variable at pos 1-70 than in 70-150 
+	*O. chrysopomus: 41%
   * passing filter - good
     * ~95-96%
   * % adapter - not too bad 

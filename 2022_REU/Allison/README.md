@@ -39,3 +39,5 @@ rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allis
 	/home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq" "fq.gz"
 	
 	Ran Fastqp
+
+        Multi_FastQC.sh successfuly run, html file copied to personal computer 

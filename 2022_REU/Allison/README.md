@@ -1,8 +1,18 @@
 <b>Allison's Readme</b>
 ---
+
+Notes:
+
+/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison
+
+rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
+---
+
 07/08/2022
 
-07/11/2022 16:03
+	First introduction draft completed
+
+07/11/2022
 
 	Readme created
 
@@ -19,3 +29,13 @@
 	Git push permission error
 
 	attempted to run Multi_FastQC.sh, permission error
+
+07/12/2022
+
+	Still have permission error for pushing
+
+	Got MultiQC to run
+
+	/home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq" "fq.gz"
+	
+	Ran Fastqp

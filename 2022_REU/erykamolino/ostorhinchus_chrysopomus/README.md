@@ -8,6 +8,9 @@ Following the [pire_fq_gz_processing](https://github.com/philippinespire/pire_fq
 
 ## **A. Pre-Processing Section**
 
+Pathway to copy scripts from: 
+ls /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/
+
 ## Step 0. Rename the raw fq.gz files
 
 Used decode file from Sharon Magnuson.
@@ -31,13 +34,11 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Och_CTum_
 ## Step 1. Check quality of data with fastqc
 
 Ran [`Multi_FASTQC.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh).
-* **NOTE:** for the 2022 PIRE Omics workshop, run [`Multi_FASTQC_wkshp.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC_wkshp.sh) instead. Specify out directory to write the output to.
 
 ```
 cd /home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/shotgun_raw_fq
 
 #Multi_FastQC.sh "<indir>" "file extension"
-#For workshop: Multi_FASTQC_wkshp.sh "<indir>" "<outdir>" "file extension"
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/shotgun_raw_fq/" "fq.gz"
 ```
 
@@ -62,9 +63,10 @@ Potential issues:
 Ran [`runFASTP_1st_trim.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_1st_trim.sbatch).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus
 
 #sbatch runFASTP_1st_trim.sbatch <INDIR/full path to files> <OUTDIR/full path to desired outdir>
+sbatch runFASTP_1st_trim.sbatch fq_raw_shotgun fq_fp1
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatch shotgun_raw_fq fq_fp1
 ```
 

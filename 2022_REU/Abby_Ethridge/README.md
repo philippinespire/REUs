@@ -9,3 +9,4 @@ Step 0. Rename the raw fq.gz files
 
 Step 1. Check quality of data with fastqc
 
+Step 2. First trim with fastp

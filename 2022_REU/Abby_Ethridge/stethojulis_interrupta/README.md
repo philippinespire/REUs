@@ -16,14 +16,14 @@ Used decode file from Sharon Magnuson.
 salloc
 bash
 
-cd /home/e1garcia/shotgun_PIRE/REUS/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #run renameFQGZ.bash first to make sure new names make sense
-bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_ProbeDevelopmentLibraries_SequenceNameDecode.tsv
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sin_ProbeDevelopmentLibraries_SequenceNameDecode.tsv
 
 #run renameFQGZ.bash again to actually rename files
 #need to say "yes" 2x
-bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_ProbeDevelopmentLibraries_SequenceNameDecode.tsv rename
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sin_ProbeDevelopmentLibraries_SequenceNameDecode.tsv rename
 ```
 
 ---

@@ -87,15 +87,15 @@ Potential issues:
 Ran [`runCLUMPIFY_r1r2_array.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runCLUMPIFY_r1r2_array.bash) in a 3 node array on Wahab.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
-bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/your_wahab_user_name 3
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/aethr001 3
 ```
 
 Checked the output with [`checkClumpify_EG.R`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/checkClumpify_EG.R).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 salloc
 enable_lmod
@@ -109,7 +109,7 @@ Clumpify worked succesfully!
 Moved all `*out` files to the `logs` directory.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 mv *out logs
 ```
@@ -121,7 +121,7 @@ mv *out logs
 Ran [`runFASTP_2_ssl.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_2_ssl.sbatch).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #runFASTP_2_ssl.sbatch <indir> <outdir> 
 #do not use trailing / in paths
@@ -149,7 +149,7 @@ Potential issues:
 Ran [`runFQSCRN_6.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFQSCRN_6.bash).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #runFQSCRN_6.bash <indir> <outdir> <number of nodes to run simultaneously>
 #do not use trailing / in paths
@@ -159,7 +159,7 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFQSCRN_6.bash fq_fp1_c
 Checked output for errors.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 ls fq_fp1_clmp_fp2_fqscrn/*tagged.fastq.gz | wc -l
 ls fq_fp1_clmp_fp2_fqscrn/*tagged_filter.fastq.gz | wc -l 
@@ -177,7 +177,7 @@ grep 'No reads in' slurm-fqscrn.*out
 Have to run Multiqc separately.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #runMULTIQC.sbatch <indir> <report name>
 #do not use trailing / in paths
@@ -193,7 +193,7 @@ Potential issues:
 Cleaned-up logs again.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 mv *out logs/
 ```
@@ -205,7 +205,7 @@ mv *out logs/
 Ran [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch).
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #runREPAIR.sbatch <indir> <outdir> <threads>
 #do not use trailing / in paths
@@ -217,7 +217,7 @@ This went smoothly.
 Have to run Fastqc-Multiqc separately.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #Multi_FastQC.sh "<indir>" "file_extension"
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 

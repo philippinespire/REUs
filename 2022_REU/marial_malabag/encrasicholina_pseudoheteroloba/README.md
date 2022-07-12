@@ -69,15 +69,15 @@ Potential issues:
 Ran [`runCLUMPIFY_r1r2_array.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runCLUMPIFY_r1r2_array.bash) in a 3 node array on Wahab. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir 
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba 
 
-bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/your_wahab_user_name 3 
+bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/r3clark 3 
 ``` 
 
 Checked the output with [`checkClumpify_EG.R`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/checkClumpify_EG.R). 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir 
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba 
 
 salloc 
 enable_lmod 
@@ -89,7 +89,7 @@ crun R < /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/checkClumpify_EG.R --
 Clumpify worked succesfully! Moved all `*out` files to the `logs` directory. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir 
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 mv *out logs 
 ``` 
@@ -101,7 +101,7 @@ mv *out logs
 Ran [`runFASTP_2_ssl.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_2_ssl.sbatch). 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runFASTP_2_ssl.sbatch <indir> <outdir> do not use trailing / in paths
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_2_ssl.sbatch fq_fp1_clmp fq_fp1_clmp_fp2 
@@ -129,7 +129,7 @@ Potential issues:
 Ran [`runFQSCRN_6.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFQSCRN_6.bash). 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runFQSCRN_6.bash <indir> <outdir> <number of nodes to run simultaneously> do not use trailing / in paths
 bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFQSCRN_6.bash fq_fp1_clmp_fp2 fq_fp1_clmp_fp2_fqscrn 6 
@@ -138,7 +138,7 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFQSCRN_6.bash fq_fp1_c
 Checked output for errors. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir 
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 ls fq_fp1_clmp_fp2_fqscrn/*tagged.fastq.gz | wc -l 
 ls fq_fp1_clmp_fp2_fqscrn/*tagged_filter.fastq.gz | wc -l 
@@ -154,7 +154,7 @@ grep 'error' slurm-fqscrn.*out grep 'No reads in' slurm-fqscrn.*out
 Have to run Multiqc separately. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runMULTIQC.sbatch <indir> <report name> do not use trailing / in paths
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runMULTIQC.sbatch fq_fp1_clmp_fp2_fqscrn fastqc_screen_report 
@@ -169,7 +169,7 @@ Potential issues:
 Cleaned-up logs again. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir 
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 mv *out logs/ 
 ``` 
@@ -181,7 +181,7 @@ mv *out logs/
 Ran [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch). 
 
 ```sh 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runREPAIR.sbatch <indir> <outdir> <threads> do not use trailing / in paths
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runREPAIR.sbatch fq_fp1_clmp_fp2_fqscrn fq_fp1_clmp_fp2_fqscrn_repaired 40 
@@ -190,10 +190,10 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runREPAIR.sbatch fq_fp1
 This went smoothly. Have to run Fastqc-Multiqc separately. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #Multi_FastQC.sh "<indir>" "file_extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
 ``` 
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
@@ -213,10 +213,10 @@ Potential issues:
 Ran [`read_calculator_ssl.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/read_calculator_ssl.sh). 
 
 ```sh 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #sbatch read_calculator_ssl.sh <species home dir> do not use trailing / in paths
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir" 
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba" 
 ``` 
 
 Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readsRemaining_table.tsv) tables. 
@@ -240,7 +240,7 @@ We will still estimate the genome size of *Species name* using Jellyfish to rema
 Executed `runJellyfish.sbatch` using the decontaminated files. 
 
 ```sh 
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runJellyfish.sbatch <Species 3-letter ID> <indir>
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runJellyfish.sbatch "Sfa" "fq_fp1_clmp_fp2_fqscrn_repaired"
@@ -271,7 +271,7 @@ Executed [runSPADEShimem_R1R2_noisolate.sbatch](https://github.com/philippinespi
 ```sh
 #new window
 ssh username@turing.hpc.odu.edu
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runSPADEShimem_R1R2_noisolate.sbatch <your user ID> <3-letter species ID> <contam | decontam> <genome size in bp> <species dir>
 #do not use trailing / in paths
@@ -315,7 +315,7 @@ This SPAdes scripts automatically runs `QUAST` but have to run `BUSCO` separatel
 Executed [runBUCSO.sh](https://github.com/philippinespire/pire_ssl_data_processing/blob/main/scripts/runBUSCO.sh) on both the `contigs` and `scaffolds` files.
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runBUSCO.sh <species dir> <SPAdes dir> <contigs | scaffolds>
 #do not use trailing / in paths
@@ -369,7 +369,7 @@ Note additional remarks if necessary
 ## Step 6. Assemble Contaminated Data From the Best Library
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runSPADEShimem_R1R2_noisolate.sbatch <your user ID> <3-letter species ID> <library: all_2libs | all_3libs | 1 | 2 | 3> <contam | decontam> <genome size in bp> <species dir>
 #do not use trailing / in paths
@@ -383,7 +383,7 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShim
 From the species directory: made probe directory, renamed assembly, and copied scripts.
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 mkdir probe_design
 cp /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/WGprobe_annotation.sb probe_design

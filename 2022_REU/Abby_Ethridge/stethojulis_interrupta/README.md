@@ -69,16 +69,16 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatc
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
-  * % duplication -  
-    * XX%
-  * gc content - 
-    * XX%
-  * passing filter - 
-    * XX%
-  * % adapter -  
-    * XX%
-  * number of reads - 
-    * XXM
+  * % duplication -  medium to high
+    * 39.3-47.8%
+  * gc content - good
+    * 41.5-41.7%
+  * passing filter - good
+    * 98.4-98.5%
+  * % adapter -  good
+    * 4.7-8.4%
+  * number of reads - good amount
+    * 324-362M
 
 ---
 

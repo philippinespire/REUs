@@ -131,16 +131,16 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_2_ssl.sbatch f
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2/2nd_fastp_report.html) written out to `fq_fp1_clmp_fp2` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
-  * % duplication - 
-    * XX%
-  * gc content - 
-    * XX%
-  * passing filter - 
-    * XX%
-  * % adapter - 
-    * XX%
-  * number of reads
-    * XXM
+  * % duplication - low
+    * 8.4-12.4%
+  * gc content - good
+    * 41.3-41.5%
+  * passing filter - good
+    * 85.5-87.6%
+  * % adapter - good
+    * 0.3%
+  * number of reads - good amount 
+    * 177-203M
 
 ---
 

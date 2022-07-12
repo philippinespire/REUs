@@ -110,15 +110,15 @@ out to `fq_fp1_clmp_fp2` directory. *To visualize, click "view raw" and then add
 
 Potential issues:
   * % duplication -
-    * XX%
+    * 3.8%
   * gc content -
-    * XX%
+    * 44.4%
   * passing filter -
-    * XX%
+    * 65.7%
   * % adapter -
-    * XX%
+    * 0.4%
   * number of reads
-    * XXM 
+    * 380M 
  
 ---
 

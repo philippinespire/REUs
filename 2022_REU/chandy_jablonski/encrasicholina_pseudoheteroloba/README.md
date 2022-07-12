@@ -24,19 +24,17 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/
 "fq.gz" 
 ``` 
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
+[Report]([https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html](https://github.com/philippinespire/REUs/blob/master/2022_REU/chandy_jablonski/encrasicholina_pseudoheteroloba/shotgun_raw_fq/fastqc_report.html)) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
 
 Potential issues:
   * % duplication -
-    * XX%
+    * 22.5%
   * gc content -
-    * XX%
+    * 46%
   * quality -
-    * XX%
-  * % adapter -
-    * XX%
+    * 36
   * number of reads -
-    * XXM 
+    * 240M 
     
 ---
 
@@ -51,19 +49,19 @@ cd /home/e1garcia/shotgun_PIRE/REUs/chandy_jablonski/encrasicholina_pseudohetero
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatch shotgun_raw_fq fq_fp1 
 ``` 
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/chandy_jablonski/encrasicholina_pseudoheteroloba/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
 
 Potential issues:
   * % duplication -
-    * XX%
+    * 17%
   * gc content -
-    * XX%
+    * 45%
   * passing filter -
-    * XX%
+    * 95.2%
   * % adapter -
-    * XX%
+    * 26%
   * number of reads -
-    * XXM ---
+    * 450M ---
 
 ## Step 3. Clumpify
 

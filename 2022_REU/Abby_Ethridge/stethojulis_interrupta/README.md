@@ -36,7 +36,7 @@ Ran [`Multi_FASTQC.sh`](https://github.com/philippinespire/pire_fq_gz_processing
 cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/shotgun_raw_fq
 
 #Multi_FastQC.sh "<indir>" "file extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq" "fq.gz"
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/shotgun_raw_fq" "fq.gz"
 ```
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*

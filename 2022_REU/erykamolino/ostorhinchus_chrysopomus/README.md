@@ -43,10 +43,11 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/
 ```
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+file:///Users/Eryka/Desktop/fastqc_report.html
 
 Potential issues:  
   * % duplication - low
-    * 20.9%-30%
+    * 20.9% - 30%
 	* 24.9% average
   * gc content - reasonable
     * 41%
@@ -73,21 +74,22 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatc
 ```
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
-file:///Users/Eryka/Desktop/fastqc_report.html 
+file:///Users/Eryka/Desktop/1st_fastp_report.html 
 
 Potential issues:  
   * % duplication - low 
-    * 17-23%
+    * 18.4% - 24.4% 
+	* 20.97%
   * gc content - reasonable
-    * ~45%
-      * more variable at pos 1-70 than in 70-150 
-	*O. chrysopomus: 41%
+    * 40.8% - 41.2%
+      * 40.9 average
   * passing filter - good
-    * ~95-96%
+    * 97.7% - 97.9%
+	* 97.8 average 
   * % adapter - not too bad 
-    * 6-8.5%
+    * 8.8% - 13.5%
   * number of reads - good
-    * ~324-504M (per pair of r1-r2 files)
+    * 353 M passed filter
 
 ---
 

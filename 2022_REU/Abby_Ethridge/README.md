@@ -14,3 +14,5 @@ Step 2. First trim with fastp
 Step 3. Clumpify
 
 Step 4. Run fastp2
+
+Started Step 5. Run fastq_screen

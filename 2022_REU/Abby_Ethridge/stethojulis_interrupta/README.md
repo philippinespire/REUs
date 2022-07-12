@@ -42,16 +42,16 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
-  * % duplication - 
-    * XX%
-  * gc content - 
-    * XX%
-  * quality - 
-    * XX%
-  * % adapter - 
-    * XX%
-  * number of reads - 
-    * XXM
+  * % duplication - Medium to High
+    * 41.7-52%
+  * gc content - good
+    * 41-42%
+  * quality - good
+    * Phred score around 35
+  * % adapter - nice and low
+    * up to 5-6%
+  * number of reads - good amount
+    * 164-184 M
 
 ---
 

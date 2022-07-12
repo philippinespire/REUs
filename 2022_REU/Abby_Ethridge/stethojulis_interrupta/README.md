@@ -33,7 +33,7 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sin_Probe
 Ran [`Multi_FASTQC.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh). Specify out directory to write the output to.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/shotgun_raw_fq
 
 #Multi_FastQC.sh "<indir>" "file extension"
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq" "fq.gz"

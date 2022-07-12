@@ -1,0 +1,4 @@
+Sample	fastp_mqc-generalstats-fastp-pct_duplication	fastp_mqc-generalstats-fastp-after_filtering_q30_rate	fastp_mqc-generalstats-fastp-after_filtering_q30_bases	fastp_mqc-generalstats-fastp-after_filtering_gc_content	fastp_mqc-generalstats-fastp-pct_surviving	fastp_mqc-generalstats-fastp-pct_adapter
+Eps-CBai_043_Ex1-1B_L4_clmp.r1r2_fastp	3.7252199999999998	0.94498	32027343171.0	0.445128	64.87402705766998	0.41809564941487737
+Eps-CBai_043_Ex1-2A_L4_clmp.r1r2_fastp	4.1569	0.942475	38064635023.0	0.443674	70.38229703970516	0.34229078465891716
+Eps-CBai_043_Ex1-2H_L4_clmp.r1r2_fastp	3.4215000000000004	0.944413	38978025286.0	0.443162	61.811462142919304	0.4769866855085977

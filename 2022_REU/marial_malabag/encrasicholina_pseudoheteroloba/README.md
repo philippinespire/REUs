@@ -23,19 +23,17 @@ cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheterolo
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FastQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba/shotgun_raw_fq" "fq.gz"
 ```
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
 
 Potential issues:
   * % duplication -
-    * XX%
+    * 22.9%
   * gc content -
-    * XX%
+    * 46.2%
   * quality -
-    * XX%
-  * % adapter -
-    * XX%
+    * 36
   * number of reads -
-    * XXM
+    * 245.7M
 
 ---
 
@@ -50,19 +48,19 @@ cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheterolo
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatch shotgun_raw_fq fq_fp1 
 ``` 
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
 
 Potential issues:
   * % duplication -
-    * XX%
+    * 16.4%
   * gc content -
-    * XX%
+    * 45.1%
   * passing filter -
-    * XX%
+    * 95.4%
   * % adapter -
-    * XX%
+    * 27.2%
   * number of reads -
-    * XXM ---
+    * 450M ---
 
 ## Step 3. Clumpify
 

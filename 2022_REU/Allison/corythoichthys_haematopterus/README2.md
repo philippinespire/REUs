@@ -51,7 +51,7 @@ Potential issues:
   * % adapter -
     * Exponential: reaches (138,2)
   * number of reads - total of all six fastQC
-    * 175,634,191 unique, 547,135,225 duplicate
+    * 175,634,191 unique | 547,135,225 duplicate
 
 ---
 
@@ -132,15 +132,15 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_2_ssl.sbatch f
 
 Potential issues:  
   * % duplication - 
-    * XX%
+    * 29.57% Average
   * gc content - 
-    * XX%
+    * 42.83% Average
   * passing filter - 
-    * XX%
+    * 78.97% Average
   * % adapter - 
-    * XX%
+    * 00.60% Average
   * number of reads
-    * XXM
+    * 201,878,690 total passed filter | 53,816,562 too short | 0 low quality | 0 too many N
 
 ---
 

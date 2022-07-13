@@ -16,3 +16,18 @@ Step 3. Clumpify
 Step 4. Run fastp2
 
 Started Step 5. Run fastq_screen
+
+---
+
+## July 13, 2022
+### Pre-Processing Section
+
+Finished Step 5. Run fastq_screen
+
+Step 6. Repair fastq_screen paired end files
+
+Step 7. Calculate the percent of reads lost in each step
+
+### Genome Assembly Section
+
+Step 1. Genome Properties

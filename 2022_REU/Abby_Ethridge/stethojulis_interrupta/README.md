@@ -226,12 +226,12 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
-  * % duplication - 
-    * XX%
-  * gc content - 
-    * XX%
+  * % duplication - low
+    * 9-12.9%
+  * gc content - good
+    * 40-41%
   * number of reads
-    * XX%
+    * 71-85M
 
 ---
 

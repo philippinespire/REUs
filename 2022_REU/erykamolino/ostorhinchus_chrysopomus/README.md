@@ -274,7 +274,7 @@ Reads lost:
 
 Reads remaining:
   * Total reads remaining: 
-  * 55% 
+  * 62.4% - 64.5%
 ---
 
 ## **B. Genome Assembly Section**

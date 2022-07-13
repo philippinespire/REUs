@@ -220,7 +220,7 @@ Have to run Fastqc-Multiqc separately.
 cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/
 
 #Multi_FastQC.sh "<indir>" "file_extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
 ```
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*

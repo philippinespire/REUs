@@ -287,7 +287,7 @@ Executed `runJellyfish.sbatch` using the decontaminated files.
 cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus
 
 #runJellyfish.sbatch <Species 3-letter ID> <indir>
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runJellyfish.sbatch "Och" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runJellyfish.sbatch "Och" "fq_fp1_clmp_fp2_fqscrn_repaired"
 ```
 
 The Jellyfish kmer-frequency [histogram file](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/Sfa_all_reads.histo) 

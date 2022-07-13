@@ -244,11 +244,12 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/
 
 Potential issues:  
   * % duplication - fine
-    * 8-11%
+    * 6.8% - 12.1%
+    * 9.11% average
   * gc content - reasonable
-    * 44% 
+    * 40% 
   * number of reads
-    * 112-165.8M
+    * 81.4M - 156.8M
 
 ---
 

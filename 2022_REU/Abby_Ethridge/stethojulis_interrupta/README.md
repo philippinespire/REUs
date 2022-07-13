@@ -187,8 +187,8 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runMULTIQC.sbatch fq_fp
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn/fastqc_screen_report.html) written out to `fq_fp1_clmp_fp2_fqscrn` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:
-  * one hit, one genome, no ID ~XX% - 
-  * no one hit, one genome to any potential contaminators (bacteria, virus, human, etc)  ~XX%
+  * one hit, one genome, no ID 95.19-95.6% - good
+  * no one hit, one genome to any potential contaminators (bacteria, virus, human, etc)  ~2%
 
 Cleaned-up logs again.
 

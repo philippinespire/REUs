@@ -249,7 +249,7 @@ Potential issues:
   * gc content - reasonable
     * 40% 
   * number of reads
-    * 81.4M - 156.8M
+    * 81.4 M - 156.8 M
 
 ---
 
@@ -268,13 +268,13 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh 
 Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readsRemaining_table.tsv) tables.
 
 Reads lost:
-  * fastp1 dropped 3-6% of the reads
-  * 14-20% of reads were duplicates and were dropped by clumpify
-  * fastp2 dropped 11-13% of the reads after deduplication
+  * fastp1 dropped 15.15% - 18.43% of the reads
+  * 4% - 4.46% of reads were duplicates and were dropped by clumpify
+  * fastp2 dropped 2.63% - 2.77% of the reads after deduplication
 
 Reads remaining:
-  * Total reads remaining: 63-66% (>100M reads - fine)
-
+  * Total reads remaining: 
+  * 55% 
 ---
 
 ## **B. Genome Assembly Section**

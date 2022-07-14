@@ -1,0 +1,7 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+Eps-CBai_043_Ex1-1B_L4_clmp.fp2_repr.R1	6.634764837446369	43.0	149.70086889345268	0.0	88304728.0
+Eps-CBai_043_Ex1-1B_L4_clmp.fp2_repr.R2	9.18696604427474	43.0	149.69748762489817	0.0	88304728.0
+Eps-CBai_043_Ex1-2A_L4_clmp.fp2_repr.R1	7.541485683841373	43.0	149.76207690881003	0.0	109344040.0
+Eps-CBai_043_Ex1-2A_L4_clmp.fp2_repr.R2	10.410041219897337	43.0	149.7518565620952	0.0	109344040.0
+Eps-CBai_043_Ex1-2H_L4_clmp.fp2_repr.R1	6.871509302494431	43.0	149.64995108033435	0.0	108186553.0
+Eps-CBai_043_Ex1-2H_L4_clmp.fp2_repr.R2	9.617118617136256	43.0	149.648249713622	0.0	108186553.0

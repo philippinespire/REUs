@@ -321,27 +321,27 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomu
 #do not use trailing / in paths
 
 #1st library
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "erykamolino" "Och" "1" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "emoli004" "Och" "1" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
 
 #2nd library
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "erykamolino" "Och" "2" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "emoli004" "Och" "2" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
 
 #3rd library
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "erykamolino" "Och" "3" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "emoli004" "Och" "3" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
 
 #all libraries combined
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "erykamolino" "Och" "all_3libs" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "emoli004" "Och" "all_3libs" "decontam" "896000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus" "fq_fp1_clmp_fp2_fqscrn_repaired"
 ```
  
 JOB IDs:
 
 ```
-[e1garcia@turing1 salarias_fasciatus]$ sq
+[emoli004@turing1 ostorhinchus_chrysopomus]$ sq
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-           9767803     himem     Sp8s e1garcia  R       0:01      1 coreV4-21-himem-003
-           9767802     himem     Sp8s e1garcia  R       0:16      1 coreV4-21-himem-002
-           9767801     himem     Sp8s e1garcia  R       0:27      1 coreV2-23-himem-004
-           9767800     himem     Sp8s e1garcia  R       1:11      1 coreV2-23-himem-003
+           9767803     himem     Sp8s emoli004  R       0:01      1 coreV4-21-himem-003
+           9767802     himem     Sp8s emoli004  R       0:16      1 coreV4-21-himem-002
+           9767801     himem     Sp8s emoli004  R       0:27      1 coreV2-23-himem-004
+           9784068     himem     Sp8s emoli004  R       1:11      1 coreV2-23-himem-003
 ```
 
 Libraries for each assembly:

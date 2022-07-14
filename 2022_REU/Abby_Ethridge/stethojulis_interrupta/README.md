@@ -282,9 +282,9 @@ was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [Genom
 Genome stats for Sfa from Jellyfish/GenomeScope v1.0 & v2.0
 stat    |min    |max    
 ------  |------ |------
-Heterozygosity v1.0|XX%       |XX%       
+Heterozygosity v1.0|2.19%       |2.21%       
 Heterozygosity v2.0|XX%       |XX%       
-Genome Haploid Length v1.0|XX bp    |XX bp 
+Genome Haploid Length v1.0|637,291,583 bp    |639,392,195 bp 
 Genome Haploid Length v2.0|XX bp    |XX bp 
 Model Fit   v1.0|XX%       |XX%       |XX%
 Model Fit   v2.0|XX%       |XX%       |XX%

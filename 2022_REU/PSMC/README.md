@@ -223,23 +223,26 @@ This step uses scripts modified from [Harvard FAS Informatics tutorial](https://
 
 Make a folder called `joblog` inside `<speciescode>_denovoSSL_20k_PSMC`. This will hold your output logs.
 
-The script `Sfa_denovoSSL_100k_mpileup.sbatch` uses a pipeline from samtools to bcftools to vcfutils.pl to create a consensus sequence. Copy this script to the `shotgun_100k` folder.
+The script `mpileup.sbatch` uses a pipeline from samtools to bcftools to vcfutils.pl to create a consensus sequence. Copy this script from the scripts directory to the `<speciescode>_denovoSSL_20k_PSMC` folder.
 
-Examine the script - it is configured to work with our Sfa_denovoSSL_100k bamfile. You may have to edit a few things in the sbatch for it to run properly.
+Examine the script. This has been modified from the workshop version - you do not need to edit it, but you will need to give it some arguments to tell it how to run correctly.
 
-1) Make sure all of the paths are correct, especially the DATAPATH (= the path to the folder containing the bamfile and reference assembly) and YOURPATH (path to your PSMC folder).
+The arguments are:
+1) Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
+2) Full species name, lowercase with underscores (`<speciesname>`)
+3) Species code (`<speciescode>`)
+4) The lower coverage cutoff determined from running samtools in the previous step (`<lowercutoff>`).
+5) The upper coverage cutoff determined from running samtools in the previous step (`<uppercutoff>`).
+6) A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
+7) The number of scaffolds in each batch (`<arrayend>`).
 
-2) Check the `-d` and `-D` arguments after `crun vcfutils.pl vcf2fq`. These should reflect the minimum and maximum depth cutoffs you calculated in the previous step.
+`--array=1-<arrayend>` runs the job in array mode, which can do up to 1000 sequential jobs. Since for a given species we may have >1000 scaffolds, you may have to run this script multiple times. Say you have 5,236 scaffolds - you would run the script 6 times, first with `<arraystart>` set to 0, then 1000, then 2000, then 3000, then 4000, then 5000. For the first five jobs you would set `<arrayend>` to 1000, but for the last  the last job you would set it to 236. You run the script multiple times to put the jobs on the queue and then just wait for them to finish.
 
-Execute the script using
+Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC`  using sbatch. 
 
 ```
-sbatch Sfa_denovoSSL_100k_mpileup.sbatch
+sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart> <arrayend>
 ```
-
-The maximum number of tasks the array can handle using this script is 1000. If you need to run more than that you can make multiple sbatch scripts that will run a large number of tasks in batches of ≤1000 (see `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_20k` for an example).
-
-Check some of the output files and IGV - do we have heterozygous sites?
 
 ## Step 5. Converting files to PSMC format.
 
@@ -251,7 +254,7 @@ Check again to make sure that all of the file paths are correct, then run the sc
 sbatch Sfa_denovoSSL_100k_psmcfa.sbatch
 ```
 
-If you need to convert >1000 files we again have a modified version of the script, `psmcfa2.sbatch'.
+If you need to convert >1000 files we again have a modified version of the script (see `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_20k` again for an example).
 
 ## Step 6. Running PSMC.
 

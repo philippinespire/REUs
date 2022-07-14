@@ -30,4 +30,13 @@ Step 7. Calculate the percent of reads lost in each step
 
 ### Genome Assembly Section
 
-Step 1. Genome Properties
+Started Step 1. Genome Properties
+
+---
+
+## July 14, 2022
+### Genome Assembly Section
+
+Finished Step 1. Genome Properties
+
+Started Step 2. Assemble the Genome Using SPAdes

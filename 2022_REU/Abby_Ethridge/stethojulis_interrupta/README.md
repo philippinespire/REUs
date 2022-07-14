@@ -289,7 +289,7 @@ Genome Haploid Length v2.0|672,451,551 bp    |674,735,358 bp
 Model Fit   v1.0|95.98%       |97.3287%       |XX%
 Model Fit   v2.0|83.09%       |98.08%       |XX%
 
-*Mention any red flags here, otherwise state "No red flags".* We will use the max value from V2 rounded up to ***674,735,358*** bp.
+*Mention any red flags here, otherwise state "No red flags".* We will use the max value from V2 rounded up to ***675,000,000*** bp.
 
 ---
 

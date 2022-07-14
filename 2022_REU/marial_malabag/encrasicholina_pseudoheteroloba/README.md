@@ -244,7 +244,7 @@ cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheterolo
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runJellyfish.sbatch "Sfa" "fq_fp1_clmp_fp2_fqscrn_repaired"
 ``` 
 
-The Jellyfish kmer-frequency [histogram file](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/Sfa_all_reads.histo) was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [GenomeScope v2.0](http://qb.cshl.edu/genomescope/genomescope2.0/) to generate the [v1.report](http://genomescope.org/analysis.php?code=LxPaCiK7cELrIKJd3QOC) and [v2.report](http://genomescope.org/genomescope2.0/analysis.php?code=EakXqJkKDl3tTJEYsQtS). 
+The Jellyfish kmer-frequency [histogram file](https://github.com/philippinespire/REUs/blob/master/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba/fq_fp1_clmp_fp2_fqscrn_repaired/Eps_all_reads.histo) was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [GenomeScope v2.0](http://qb.cshl.edu/genomescope/genomescope2.0/) to generate the [v1.report](http://genomescope.org/analysis.php?code=LxPaCiK7cELrIKJd3QOC) and [v2.report](http://genomescope.org/genomescope2.0/analysis.php?code=EakXqJkKDl3tTJEYsQtS). 
 
 Genome stats for Sfa from Jellyfish/GenomeScope v1.0 & v2.0
 stat    |min    |max    

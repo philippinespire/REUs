@@ -179,7 +179,7 @@ mv *out logs/
 Ran [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch). 
 
 ```sh 
-cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba
 
 #runREPAIR.sbatch <indir> <outdir> <threads> do not use trailing / in paths
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runREPAIR.sbatch fq_fp1_clmp_fp2_fqscrn fq_fp1_clmp_fp2_fqscrn_repaired 40 
@@ -191,7 +191,7 @@ This went smoothly. Have to run Fastqc-Multiqc separately.
 cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
 
 #Multi_FastQC.sh "<indir>" "file_extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
 ``` 
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 
@@ -211,10 +211,10 @@ Potential issues:
 Ran [`read_calculator_ssl.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/read_calculator_ssl.sh). 
 
 ```sh 
-cd /home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba
 
 #sbatch read_calculator_ssl.sh <species home dir> do not use trailing / in paths
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/REUs/marial_malabag/encrasicholina_pseudoheteroloba" 
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/marial_malabag/encrasicholina_pseudoheteroloba" 
 ``` 
 
 Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readsRemaining_table.tsv) tables. 

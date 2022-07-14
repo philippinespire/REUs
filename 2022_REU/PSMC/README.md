@@ -22,7 +22,7 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
 mkdir data
 ```
 
-Start a README file in this directory too.
+Start a README.md file in this directory too.
 
 Now we're ready to start!
 

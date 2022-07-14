@@ -220,10 +220,10 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh 
 Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readsRemaining_table.tsv) tables. 
 
 Reads lost:
-  * fastp1 dropped XX% of the reads
-  * XX% of reads were duplicates and were dropped by clumpify
-  * fastp2 dropped XX% of the reads after deduplication Reads remaining:
-  * Total reads remaining: XX% 
+  * fastp1 dropped 4.7% of the reads
+  * 17.2% of reads were duplicates and were dropped by clumpify
+  * fastp2 dropped 12% of the reads after deduplication Reads remaining:
+  * Total reads remaining: 35.7% 
 
 ---
 

@@ -222,8 +222,8 @@ Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_o
 Reads lost:
   * fastp1 dropped 4.7% of the reads
   * 17.2% of reads were duplicates and were dropped by clumpify
-  * fastp2 dropped 12% of the reads after deduplication Reads remaining:
-  * Total reads remaining: 35.7% 
+  * fastp2 dropped 12% of the reads after deduplication Reads remaining: 88%
+  * Total reads remaining: 64.3% 
 
 ---
 

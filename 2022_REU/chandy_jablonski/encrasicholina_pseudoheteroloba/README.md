@@ -153,7 +153,7 @@ grep 'error' slurm-fqscrn.*out grep 'No reads in' slurm-fqscrn.*out
 Have to run Multiqc separately. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/chandy_jablonski/encrasicholina_pseudoheteroloba
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/chandy_jablonski/encrasicholina_pseudoheteroloba
 
 #runMULTIQC.sbatch <indir> <report name> do not use trailing / in paths
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runMULTIQC.sbatch fq_fp1_clmp_fp2_fqscrn fastqc_screen_report 
@@ -180,7 +180,7 @@ mv *out logs/
 Ran [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch). 
 
 ```sh 
-cd /home/e1garcia/shotgun_PIRE/REUs/chandy_jablonski/encrasicholina_pseudoheteroloba
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/chandy_jablonski/encrasicholina_pseudoheteroloba
 
 #runREPAIR.sbatch <indir> <outdir> <threads> do not use trailing / in paths
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runREPAIR.sbatch fq_fp1_clmp_fp2_fqscrn fq_fp1_clmp_fp2_fqscrn_repaired 40 
@@ -189,10 +189,10 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runREPAIR.sbatch fq_fp1
 This went smoothly. Have to run Fastqc-Multiqc separately. 
 
 ``` 
-cd /home/e1garcia/shotgun_PIRE/REUs/chandy_jablonski/encrasicholina_pseudoheteroloba
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/chandy_jablonski/encrasicholina_pseudoheteroloba
 
 #Multi_FastQC.sh "<indir>" "file_extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/chandy_jablonski/encrasicholina_pseudoheteroloba/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/chandy_jablonski/encrasicholina_pseudoheteroloba/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
 ``` 
 
 [Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.* 

@@ -193,12 +193,12 @@ crun bash dDocentHPC.bash fltrBAM config.5.cssl
 
 Once you have edited your sbatch file you can run the filtering step using the same `sbatch dDocentHPC_ODU.sbatch` command that you used before.
 
-If we have multiple sorted .bam files from the same individual, we can merge those .bam files into a single .bam file using thecommand  `samtools merge`. To call genotypes we also need to index this merged file first. The sbatch script `mergebams.sbatch` can be used to do both of these things. Copy it to your folder, make sure you are specifying the proper input files to merge, and execute.
+If we have multiple sorted .bam files from the same individual, we can merge those .bam files into a single .bam file using thecommand  `samtools merge`. To call genotypes we also need to index this merged file first. The sbatch script `mergebams.sbatch` can be used to do both of these things. This version is different from the workshop version - you should not need to edit it, but you do need to supply the appropriate `<speciescode>`. Copy it to your folder and execute.
 
 ```
 cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
-sbatch mergebams.sbatch
+sbatch mergebams.sbatch <speciescode>
 ```
 
 ## Step 3. Assessing depth of coverage.

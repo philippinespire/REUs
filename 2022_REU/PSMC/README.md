@@ -80,24 +80,24 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
 git clone https://github.com/cbirdlab/dDocentHPC.git
 ```
 
-Make a folder called `mkBAM` and a folder called `mkBAM/<speciescode>_denovoSSL_100k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
+Make a folder called `mkBAM` and a folder called `mkBAM/<speciescode>_denovoSSL_20k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/<shotgundata>/*.fq.gz /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/<shotgundata>/*.fq.gz /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 ```
 
 Now we need to copy some scripts and configuration files to our folders. Note that we need to use a modified version of the sbatch file that works with the ODU HPCC.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/dDocentHPC.bash /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/configs/config.5.cssl /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/dDocentHPC_ODU.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/dDocentHPC.bash /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/configs/config.5.cssl /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/dDocentHPC_ODU.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 ```
 
 Let's try mapping to the filtered version of our shotgun genome with scaffolds >100kb. Copy this reference genome files (`denovoSSL.<speciescode>20k`) to the appropriate folder.
 
 ```
-cp home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/reference.denovoSSL.<speciescode>20k.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cp home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/reference.denovoSSL.<speciescode>20k.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 ```
 
 In your test_mapping folder you should now have all of the files required to perform mapping: * reads to map (.R1.fq.gz/.R2.fq.gz) * reference genome (renamed scaffolds, with dDocent prefix reference.cutoff1.cutoff2.fasta) * dDocentHPC.bash * config file (currently config.5.cssl) * dDocentHPC_ODU.sbatch
@@ -157,7 +157,7 @@ export SINGULARITY_BIND=/home/e1garcia
 crun bash dDocentHPC.bash mkBAM config.5.cssl
 ```
 
-If all of that is set you should be able to run dDocentHPC and map your reads by executing the sbatch file in each directory. Navigate to the `<speciescode>_denovoSSL_100k_PSMC` directory and run the following.
+If all of that is set you should be able to run dDocentHPC and map your reads by executing the sbatch file in each directory. Navigate to the `<speciescode>_denovoSSL_20k_PSMC` directory and run the following.
 
 ```
 sbatch dDocentHPC_ODU.sbatch
@@ -196,8 +196,8 @@ Once you have edited your sbatch file you can run the filtering step using the s
 If we have multiple sorted .bam files from the same individual, we can merge those .bam files into a single .bam file using thecommand  `samtools merge`. To call genotypes we also need to index this merged file first. The sbatch script `mergebams.sbatch` can be used to do both of these things. Copy it to your folder, make sure you are specifying the proper input files to merge, and execute.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
-cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 sbatch mergebams.sbatch
 ```
 

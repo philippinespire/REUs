@@ -7,10 +7,10 @@
 ** MultiFastQC job was completed, but the Fastp first trim job had failed. Started rerunning that script. Could not yet fill out the README to update with percent duplication, numnber of reads/scaffoled/short reads, etc because git push and pull has not yet been figured out. Waiting for fastp job to finish. WAiting for git push and pull so I can review my MultiFastQC report. Finished editing my introduction after a passthrough with Eric and John. Plan to finish Pre-processing today and start genome assembly. 
 
 *July 13, 2022:
-**
+** Finished all of the required pre-processing steps for my species. Started running Jellyfish, waiting for that to finish. No problems with git pull and push, moved to using bash runGIT.bash instead. 
 
 July 14, 2022: 
-**
+** Updated species README to include jellyfish information. Started genome assembly on turing. Ran all3_libs first, then pending the first 3 libraries afterwards to clear nodes for others. 
 
 July 15, 2022:
 **

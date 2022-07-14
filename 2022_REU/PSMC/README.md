@@ -30,7 +30,7 @@ Now we're ready to start!
 
 The reference genomes we will be using are located in the species folder. The file `scaffolds.fasta` is the best shotgun assembly we created.
 
-We will use a species code (called <speciescode> in this README - you will have to replace this with your code when running scripts) for keeping track of files - it's the first letter of genus name plus first two letters of species name. For example, the code for Salarias fasciatus was "Sfa". 
+We will use a species code (called `<speciescode>` in this README - you will have to replace this with your code when running scripts) for keeping track of files - it's the first letter of genus name plus first two letters of species name. For example, the code for Salarias fasciatus was "Sfa". 
 
 Rename the shotgun genome `<speciescode>_shotgun_assembly.fa`.
 

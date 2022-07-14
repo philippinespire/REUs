@@ -2,11 +2,11 @@
 
 ## Step 0. Setup
 
-In your folder within /home/e1garcia/shotgun_PIRE/REUs/2022_REU, you have a folder for each species labeled `<speciesname>_PSMC`.
+In your folder within `/home/e1garcia/shotgun_PIRE/REUs/2022_REU`, you have a folder for each species labeled `<speciesname>_PSMC`.
 
 Your shotgun data are already copied in this folder - they are in a folder called something like "fq_fp1_clmp_fp2_fqscrn_repaired" (it will vary a bit between folders). I am going to call this folder `<shotgundata>` later on.
 
-The reference genome `scaffolds.fasta` may have been copied to the species folder already. If it is not you will have to find the best reference genome - you can find this in most cases by consulting the README.md for the species in the [ssl repo] (https://github.com/philippinespire/pire_ssl_data_processing/).
+The reference genome `scaffolds.fasta` may have been copied to the species folder already. If it is not you will have to find the best reference genome - you can find this in most cases by consulting the README.md for the species in the [ssl repo](https://github.com/philippinespire/pire_ssl_data_processing/).
 
 Scripts that you will be using are located in `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts`.
 Copy this whole directory to your folder.

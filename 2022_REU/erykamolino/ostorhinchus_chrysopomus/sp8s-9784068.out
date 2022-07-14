@@ -108,3 +108,20 @@ Reads length: 150
   0:09:24.611    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 60840164 reads
   0:10:37.204    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 68640475 reads
   0:11:48.578    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 76331284 reads
+  0:12:58.760    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 84140017 reads
+  0:14:07.844    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 91685100 reads
+  0:15:02.882    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R2.fq.gz
+  0:22:17.246    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 136223705 reads
+  0:33:35.274    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R1.fq.gz
+  0:45:32.522    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 272162481 reads
+  0:46:19.809    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R2.fq.gz
+  1:02:00.027    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R1.fq.gz
+  1:23:45.958    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R2.fq.gz
+  1:27:41.965    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 538162787 reads
+  1:50:56.666    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 112)   Total 672143238 reads processed
+  1:50:56.698     1M / 31G   INFO    General                 (kmer_index_builder.hpp    : 249)   Starting k-mer counting.
+  3:00:56.584     1M / 295G  INFO    General                 (kmer_index_builder.hpp    : 260)   K-mer counting done. There are 6556637098 kmers in total.
+  3:00:56.599     1M / 295G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  3:07:40.716  4565M / 295G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 6556637098 kmers, 4735636448 bytes occupied (5.77813 bits per kmer).
+  3:07:40.722  4565M / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 354)   Arranging kmers in hash map order
+  3:13:13.109   103G / 295G  INFO    General                 (main.cpp                  : 148)   Clustering Hamming graph.

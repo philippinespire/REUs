@@ -1,79 +1,70 @@
 # PSMC analysis pipeline
-## Background and motivation
-Genomic data contain a wealth of information regarding the demographic history of populations. One of the most interesting insights to emerge from the genomic revolution is that genomic data from just a few individuals or even a single individual can be used to estimate demographic trends for entire species or populations. A number of methods, summarized in [Mather et al.](https://doi.org/10.1002/ece3.5888), have been developed to take advantage of this information. We are going to use the method developed in 2011 by [Li and Durbin](https://doi.org/10.1038/nature10231) for this workshop.
-
-Using the curated read data and the shotgun reference genome we have developed for *Salarias fasciatus*, as well as a published reference genome for the species, we will map reads to the genome, call genotypes and consensus sequences, and run the PSMC program to estimate a demographic trajectory for this species.
 
 ## Step 0. Setup
 
-You will be using data and scripts that are located in `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC` but working in your own workshop directory.
+In your folder within /home/e1garcia/shotgun_PIRE/REUs/2022_REU, you have a folder for each species labeled `<speciesname>_PSMC`.
 
-In your personal workshop directory, create a new diectory called `PSMC`.
+Your shotgun data are already copied in this folder - they are in a folder called something like "fq_fp1_clmp_fp2_fqscrn_repaired" (it will vary a bit between folders). I am going to call this folder `<shotgundata>` later on.
 
-Scripts that we will be using today can be found in `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/scripts`. Copy this whole directory to your folder.
+The reference genome `scaffolds.fasta` may have been copied to the species folder already. If it is not you will have to find the best reference genome - you can find this in most cases by consulting the README.md for the species in the [ssl repo] (https://github.com/philippinespire/pire_ssl_data_processing/).
 
-Create a folder called `data`.
+Scripts that you will be using are located in `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts`.
+Copy this whole directory to your folder.
+
+```
+cp -r /home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
+```
+
+Move to your folder and create a folder called `data`.
+
+```
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
+mkdir data
+```
+
+Start a README file in this directory too.
 
 Now we're ready to start!
 
 ## Step 1. Preparing reference genomes.
 
-The reference genomes we will be using are located in the `data` folder. The file `scaffolds.fasta` is the best shotgun assembly we created, while `GCF_902148845.1_fSalaFa1.1_genomic.fna.gz` is a more complete reference genome that was downloaded from [Genbank](https://www.ncbi.nlm.nih.gov/genome/7248?genome_assembly_id=609472).
+The reference genomes we will be using are located in the species folder. The file `scaffolds.fasta` is the best shotgun assembly we created.
 
-Copy these two reference genome sequence files to your `data` folder.
+We will use a species code (called <speciescode> in this README - you will have to replace this with your code when running scripts) for keeping track of files - it's the first letter of genus name plus first two letters of species name. For example, the code for Salarias fasciatus was "Sfa". 
 
-Move to your `data` folder and rename our shotgun genome `Sfa_shotgun_assembly.fa`.
-
-```
-mv scaffolds.fasta Sfa_shotgun_assembly.fa
-```
-
-Then, unzip the file downloaded from Genbank and rename it `Sfa_genbank_assembly.fa`.
+Rename the shotgun genome `<speciescode>_shotgun_assembly.fa`.
 
 ```
-gunzip -c GCF_902148845.1_fSalaFa1.1_genomic.fna.gz > Sfa_genbank_assembly.fa 
+mv scaffolds.fasta <speciescode>_shotgun_assembly.fa
 ```
 
 PSMC needs to have long chunks of contiguous sequence to make inferences, so want to use the larger scaffolds and filter out the small ones. We have a handy PERL-language script called `removesmalls` in the `scripts` folder that can do this. Run this on our two alternate reference genomes, keeping only scaffolds longer than 100kb (kilobases) or 20kb in length. We are going to name the output files in a specific way so they will be easy to work with later.
 
 ```
-perl ../scripts/removesmalls.pl 100000 Sfa_shotgun_assembly.fa > reference.denovoSSL.Sfa100k.fasta
-perl ../scripts/removesmalls.pl 100000 Sfa_genbank_assembly.fa > reference.genbank.Sfa100k.fasta
-perl ../scripts/removesmalls.pl 20000 Sfa_shotgun_assembly.fa > reference.denovoSSL.Sfa20k.fa
-perl ../scripts/removesmalls.pl 20000 Sfa_genbank_assembly.fa > reference.genbank.Sfa20k.fa
+perl ../scripts/removesmalls.pl 20000 <speciescode>_shotgun_assembly.fa > reference.denovoSSL.<speciescode>20k.fa
 ```
 
-Now let's check the length of the filtered assemblies. This is a one-line script that will tell you the number of scaffolds left after filtering.
+Now let's check the length of the filtered assembly. This is a one-line script that will tell you the number of scaffolds left after filtering.
 
 ```
-cat reference.denovoSSL.Sfa100k.fasta | grep "^>" | wc -l
-cat reference.genbank.Sfa100k.fasta | grep "^>" | wc -l
-cat reference.denovoSSL.Sfa20k.fasta | grep "^>" | wc -l
-cat reference.genbank.Sfa20k.fasta | grep "^>" | wc -l
+cat reference.denovoSSL.<speciescode>20k.fasta | grep "^>" | wc -l
 ```
 
-How many scaffolds did we keep for each genome?
+How many scaffolds did we keep for the assembly? Note this in your README.
 
-And here are scripts to calculate the total length of the filtered assemblies.
+And here is the script to calculate the total length of the filtered assemblies.
 
 ```
-cat reference.denovoSSL.Sfa100k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
-cat reference.genbank.Sfa100k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
-cat reference.denovoSSL.Sfa20k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
-cat reference.genbank.Sfa20k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
+cat reference.denovoSSL.<speciescode>20k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
 ```
 
-How long is each assembly?
+How long is the assembly?
 
-Our shotgun assembly has shorter scaffolds in general than the Genbank assembly. If we use only scaffolds >100k we are using a fraction of the genome, however this may still be enough to make robust inferences about demographic history at some time points. We will assess this in the next steps.
 
 Before we move forward, we need to change the names of the scaffolds to numerals (1,2,3...x). We can do that with another simple line of code.
 
 ```
-awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.denovoSSL.Sfa100k.fasta
-awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.genbank.Sfa100k.fasta
-awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.denovoSSL.Sfa20k.fasta
-awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.genbank.Sfa100k.fasta
+awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.denovoSSL.<speciescode>20k.fasta
 ```
 
 Now we're ready to map to the reference!
@@ -85,31 +76,30 @@ We next need to map our shotgun reads to our reference genomes. This is a key st
 We first need to navigate back to our PSMC directory and clone the dDocent repo.
 
 ```
-cd <yourdirectory>/PSMC
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
 git clone https://github.com/cbirdlab/dDocentHPC.git
 ```
 
 Mapping can take a long time, especially when we have a lot of reads (our shotgun libraries for Sfa have >100 million read pairs each!). For the sake of expediency, we have created a smaller test dataset (only 5 million read pairs), which can be found in the folder `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/test_mapping`. This folder also contains a README.md file - you should use this to keep track of the inputs to this analysis.
 
-Make a folder called `mkBAM/test_mapping` in your PSMC folder. Copy the reduced shotgun library files and the README.md file to this folder.
+Make a folder called `mkBAM` and a folder called `mkBAM/<speciescode>_denovoSSL_100k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/test_mapping/*.fq.gz <yourdirectory>/PSMC/data/mkBAM/test_mapping
-cp /home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/test_mapping/README.md <yourdirectory>/PSMC/data/mkBAM/test_mapping
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/<shotgundata>/*.fq.gz /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
 ```
 
 Now we need to copy some scripts and configuration files to our folders. Note that we need to use a modified version of the sbatch file that works with the ODU HPCC.
 
 ```
-cp dDocentHPC/dDocentHPC.bash data/mkBAM/test_mapping
-cp dDocentHPC/configs/config.5.cssl data/mkBAM/test_mapping
-cp scripts/dDocentHPC_ODU.sbatch data/mkBAM/test_mapping
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/dDocentHPC.bash /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/configs/config.5.cssl /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/dDocentHPC_ODU.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
 ```
 
-Let's try mapping to the filtered version of our shotgun genome with scaffolds >100kb. Copy this reference genome files (`denovoSSL.Sfa100k`) to the appropriate folder.
+Let's try mapping to the filtered version of our shotgun genome with scaffolds >100kb. Copy this reference genome files (`denovoSSL.<speciescode>20k`) to the appropriate folder.
 
 ```
-cp data/reference.denovoSSL.Sfa100k.fasta data/mkBAM/test_mapping
+cp home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/reference.denovoSSL.<speciescode>20k.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
 ```
 
 In your test_mapping folder you should now have all of the files required to perform mapping: * reads to map (.R1.fq.gz/.R2.fq.gz) * reference genome (renamed scaffolds, with dDocent prefix reference.cutoff1.cutoff2.fasta) * dDocentHPC.bash * config file (currently config.5.cssl) * dDocentHPC_ODU.sbatch
@@ -125,7 +115,7 @@ Here is an example:
 PE              Type of reads for assembly (PE, SE, OL, RPE)                                    PE=ddRAD & ezRAD pairedend, non-overlapping reads; SE=singleend reads; OL=ddRAD & ezRAD overlapping reads, miseq; RPE=oregonRAD, restriction site + random shear
 0.9             cdhit Clustering_Similarity_Pct (0-1)                                                   Use cdhit to cluster and collapse uniq reads by similarity threshold
 denovoSSL               Cutoff1 (integer)     ### <--- change this value to either denovoSSL or genbank to match the reference ###
-               Cutoff2 (integer)    ### <--- change to either Sfa100k or Sfa20k to match your reference
+               Cutoff2 (integer)    ### <--- change to <speciescode>20k to match your reference
 0.05    rainbow merge -r <percentile> (decimal 0-1)                                             Percentile-based minimum number of seqs to assemble in a precluster
 0.95    rainbow merge -R <percentile> (decimal 0-1)                                             Percentile-based maximum number of seqs to assemble in a precluster
 ------------------------------------------------------------------------------------------------------------------
@@ -150,8 +140,8 @@ Your header, and the lines you are running, should read something like this:
 ```
 #!/bin/bash -l
 
-#SBATCH --job-name=mkBAM_denovoSSL_Sfa100k
-#SBATCH -o mkBAM_denovoSLL_Sfa100k-%j.out
+#SBATCH --job-name=mkBAM_denovoSSL_<speciescode>20k
+#SBATCH -o mkBAM_denovoSLL_<speciescode>20k-%j.out
 #SBATCH -p main
 #SBATCH -c 4                                    # either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 
 ##SBATCH --ntasks=1
@@ -169,13 +159,13 @@ export SINGULARITY_BIND=/home/e1garcia
 crun bash dDocentHPC.bash mkBAM config.5.cssl
 ```
 
-If all of that is set you should be able to run dDocentHPC and map your reads by executing the sbatch file in each directory. Navigate to the `test_mapping` directory and run the following.
+If all of that is set you should be able to run dDocentHPC and map your reads by executing the sbatch file in each directory. Navigate to the `<speciescode>_denovoSSL_100k_PSMC` directory and run the following.
 
 ```
 sbatch dDocentHPC_ODU.sbatch
 ```
 
-Even though we are working with a reduced dataset this mapping step can take a while (~20-25 minutes), so this is a good time to take a break!
+This mapping step can take a while (overnight or a day or two!) depending on shotgun library sizes. 
 
 After we have generated the .bam files we need to filter them. This can be done just by editing the sbatch file to un-comment the appopriate line in your sbatch file and rerunning. 
 
@@ -184,8 +174,8 @@ Add a hashtag at the beginning on the mkBAM line (so you don't run that step aga
 ```
 #!/bin/bash -l
 
-#SBATCH --job-name=fltrBAM_denovoSSL_Sfa100k
-#SBATCH -o fltrBAM_denovoSSL_Sfa100k-%j.out
+#SBATCH --job-name=fltrBAM_denovoSSL_<speciescode>20k
+#SBATCH -o fltrBAM_denovoSSL_<speciescode>20k-%j.out
 #SBATCH -p main
 #SBATCH -c 4					# either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 
 ##SBATCH --ntasks=1
@@ -208,7 +198,8 @@ Once you have edited your sbatch file you can run the filtering step using the s
 If we have multiple sorted .bam files from the same individual, we can merge those .bam files into a single .bam file using thecommand  `samtools merge`. To call genotypes we also need to index this merged file first. The sbatch script `mergebams.sbatch` can be used to do both of these things. Copy it to your folder, make sure you are specifying the proper input files to merge, and execute.
 
 ```
-cp <yourdirectory>/PSMC/scripts/mergebams.sbatch ./
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_100k_PSMC
 sbatch mergebams.sbatch
 ```
 
@@ -221,28 +212,18 @@ We can calculate the mean depth using samtools. Let's use an interactive node to
 ```
 salloc
 module load samtools
-samtools depth Sfa_reduced_denovoSSL_100k.bam | awk '{sum+=$3} END { print "Average (covered sites) = ",sum/NR}'
+samtools depth <speciescode>_reduced_denovoSSL_20k.bam | awk '{sum+=$3} END { print "Average (covered sites) = ",sum/NR}'
 ```
 
 What was the average depth of coverage? What range of coverage would we use?
 
 Update the README.md file with this statistic.
 
-With this level of coverage we would be fairly confident in calling heterozygous sites, but we might have some false negatives.
-
-Now, let's switch over to the full dataset from which the reduced dataset we've been working on was generated. This dataset can be found in `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_100k` and has been processed through step 2 already. Calculate average depth of coverage for this dataset.
-
-We can also examine the mapping visually using a program called IGV (<ins>I</ins>ntegrative <ins>G</ins>enomics <ins>V</ins>iewer). We will take a closer look at our mapping results using this program while we are running some of the next steps.
-
 ## Step 4. Calling genotypes and consensus sequences.
 
 This step uses scripts modified from [Harvard FAS Informatics tutorial](https://informatics.fas.harvard.edu/psmc-journal-club-walkthrough.html), [Applying PSMC to Neandertal data](http://willyrv.github.io/tutorials/bioinformatics/AltaiNea-psmc.html), & the [PSMC documentation](https://github.com/lh3/psmc) to call a "consensus sequence" from our .bam file. We use SLURM's array mode to parallelize the consensus calling, meaning that for each of the scaffolds in our reference genome we create a new processthat calls the sequence for that scaffold.
 
-Make a folder in your existing mkBAM folder to do the PSMC analysis. Call this folder `shotgun_100k`.
-
-Make a folder called `Sfa_denovoSSL_100k_PSMC` inside `shotgun_100k`.
-
-Make a folder called `joblog` inside `Sfa_denovoSSL_100k_PSMC`. This will hold your output logs.
+Make a folder called `joblog` inside `<speciescode>_denovoSSL_20k_PSMC`. This will hold your output logs.
 
 The script `Sfa_denovoSSL_100k_mpileup.sbatch` uses a pipeline from samtools to bcftools to vcfutils.pl to create a consensus sequence. Copy this script to the `shotgun_100k` folder.
 

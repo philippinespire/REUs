@@ -101,3 +101,46 @@ Reads length: 150
   0:01:15.773    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 7685483 reads
   0:02:27.705    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 15184154 reads
   0:03:39.566    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 22601316 reads
+  0:04:52.579    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 30385502 reads
+  0:06:07.816    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 38146543 reads
+  0:07:15.900    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 45634622 reads
+  0:08:24.838    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 52918181 reads
+  0:09:35.208    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 60404356 reads
+  0:10:43.973    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 67692768 reads
+  0:11:56.899    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 75306337 reads
+  0:12:58.425    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 81597051 reads
+  0:12:58.438    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired/Sin-CPnd_001_Ex1-1G_L4_clmp.fp2_repr.R2.fq.gz
+  0:14:27.942    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 89033369 reads
+  0:23:20.097    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 134317979 reads
+  0:29:01.178    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired/Sin-CPnd_001_Ex1-2F_L4_clmp.fp2_repr.R1.fq.gz
+  0:42:26.227    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired/Sin-CPnd_001_Ex1-2F_L4_clmp.fp2_repr.R2.fq.gz
+  0:47:08.444    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 270260657 reads
+  0:59:12.645    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired/Sin-CPnd_001_Ex1-3E_L4_clmp.fp2_repr.R1.fq.gz
+  1:13:55.878    19G / 31G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/fq_fp1_clmp_fp2_fqscrn_repaired/Sin-CPnd_001_Ex1-3E_L4_clmp.fp2_repr.R2.fq.gz
+  1:19:53.088    19G / 31G   ERROR   General                 (kmer_splitter.hpp         : 150)   I/O error! Incomplete write! Reason: No space left on device. Error code: 28
+
+
+== Error ==  system call for: "['/opt/conda/bin/spades-hammer', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/configs/config.info']" finished abnormally, OS return value: 28
+
+In case you have troubles running SPAdes, you can write to spades.support@cab.spbu.ru
+or report an issue on our GitHub repository github.com/ablab/spades
+Please provide us with params.txt and spades.log files from the output directory.
+
+SPAdes log can be found here: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/spades.log
+
+Thank you for using SPAdes!
+
+Running QUAST Now
+
+ERROR! File not found (contigs): /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/contigs.fasta
+
+In case you have troubles running QUAST, you can write to quast.support@cab.spbu.ru
+or report an issue on our GitHub repository https://github.com/ablab/quast/issues
+Please provide us with quast.log file from the output directory.
+ERROR! File not found (contigs): /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/scaffolds.fasta
+
+In case you have troubles running QUAST, you can write to quast.support@cab.spbu.ru
+or report an issue on our GitHub repository https://github.com/ablab/quast/issues
+Please provide us with quast.log file from the output directory.
+cp: cannot stat `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/quast_contigs_report/transposed_report.tsv': No such file or directory
+cp: cannot stat `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/quast_scaffolds_report/transposed_report.tsv': No such file or directory

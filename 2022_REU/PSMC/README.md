@@ -94,13 +94,13 @@ cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDoce
 cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/dDocentHPC_ODU.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 ```
 
-Let's try mapping to the filtered version of our shotgun genome with scaffolds >100kb. Copy this reference genome files (`denovoSSL.<speciescode>20k`) to the appropriate folder.
+Let's try mapping to the filtered version of our shotgun genome with scaffolds >20kb. Copy this reference genome files (`denovoSSL.<speciescode>20k`) to the appropriate folder.
 
 ```
 cp home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/reference.denovoSSL.<speciescode>20k.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 ```
 
-In your test_mapping folder you should now have all of the files required to perform mapping: * reads to map (.R1.fq.gz/.R2.fq.gz) * reference genome (renamed scaffolds, with dDocent prefix reference.cutoff1.cutoff2.fasta) * dDocentHPC.bash * config file (currently config.5.cssl) * dDocentHPC_ODU.sbatch
+In your `<speciescode>_denovoSSL_20k_PSMC` folder you should now have all of the files required to perform mapping: * reads to map (.R1.fq.gz/.R2.fq.gz) * reference genome (renamed scaffolds, with dDocent prefix reference.cutoff1.cutoff2.fasta) * dDocentHPC.bash * config file (currently config.5.cssl) * dDocentHPC_ODU.sbatch
 
 Examine the `config.5.cssl` file - this file contains all of the setting that will be used to run dDocent. Most of these you can keep as they are. Recall that we used a specific convention to name our reference genome files - specifically the format is `reference.<cutoff1>.<cutoff2>.fasta`, where cutoff1 and cutoff2 refer to descriptive variables used by dDocent. We need to edit the config file `config.5.cssl` in each directory to so that dDocent can find the reference.  
 
@@ -131,7 +131,7 @@ Make sure the cutoffs above match the reference*fasta!
 
 Go through the config file and make these changes using a text editor.
 
-Now you may need to edit each sbatch file in each directory. Notice that this file has a lot of lines commented out with hashtags - these will run different steps in the process when un-commented. Find the line starting with `crun bash dDocentHPC.bash mkBAM config`... and un-comment this line by removing the hashtag. The config file is the last argument in this line - make sure it is the correct file (config.5.ssl). Make sure all of the other lines starting with `crun` are still commented. You can also change the job-name and output SBATCH settings in the header to identify this job (something appropriate to each reference genome, like mkBAM_denovoSSL_Sfa100k), and change the email address so it emails you when finished. 
+Now you may need to edit each sbatch file in each directory. Notice that this file has a lot of lines commented out with hashtags - these will run different steps in the process when un-commented. Find the line starting with `crun bash dDocentHPC.bash mkBAM config`... and un-comment this line by removing the hashtag. The config file is the last argument in this line - make sure it is the correct file (config.5.ssl). Make sure all of the other lines starting with `crun` are still commented. You can also change the job-name and output SBATCH settings in the header to identify this job (something appropriate to each reference genome, like mkBAM_denovoSSL_Sf20k), and change the email address so it emails you when finished. 
 
 Your header, and the lines you are running, should read something like this:
 

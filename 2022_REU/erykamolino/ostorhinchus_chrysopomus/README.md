@@ -291,17 +291,17 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runJellyfish
 ```
 
 The Jellyfish kmer-frequency [histogram file](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/Sfa_all_reads.histo) 
-was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [GenomeScope v2.0](http://qb.cshl.edu/genomescope/genomescope2.0/) to generate the [v1.report](http://qb.cshl.edu/genomescope/analysis.php?code=6BDQgRgA6gs0mfUBFxGd) and [v2.report](http://qb.cshl.edu/genomescope/genomescope2.0/analysis.php?code=tPlAOkAOnVClGCk51sOi). 
+was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [GenomeScope v2.0](http://qb.cshl.edu/genomescope/genomescope2.0/) to generate the [v1.report](http://genomescope.org/analysis.php?code=0nqHEIiWdjCKP6MJQHHn) and [v2.report](http://qb.cshl.edu/genomescope/genomescope2.0/analysis.php?code=tPlAOkAOnVClGCk51sOi). 
 
 Genome stats for Sfa from Jellyfish/GenomeScope v1.0 and v2.0, k=21 for both versions:
 
 version    |stat    |min    |max
 ------  |------ |------ |------
-1  |Heterozygosity  |1.0538%       |1.08547%
+1  |Heterozygosity  |0.736891%       |0.740914%
 2  |Heterozygosity  |1.08073%       |1.10271%
-1  |Genome Haploid Length   |577,739,654 bp |579,839,747 bp
+1  |Genome Haploid Length   |795,543,026 bp |796,105,407 bp
 2  |Genome Haploid Length   |633,665,608 bp |634,636,698 bp
-1  |Model Fit       |90.9798%       |92.2947%
+1  |Model Fit       |97.2945%       |99.2807%
 2  |Model Fit       |80.1725%       |93.4093%
 
 No red flags. We will use the max value from V2 rounded up to 635000000 bp.

@@ -80,8 +80,6 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
 git clone https://github.com/cbirdlab/dDocentHPC.git
 ```
 
-Mapping can take a long time, especially when we have a lot of reads (our shotgun libraries for Sfa have >100 million read pairs each!). For the sake of expediency, we have created a smaller test dataset (only 5 million read pairs), which can be found in the folder `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/test_mapping`. This folder also contains a README.md file - you should use this to keep track of the inputs to this analysis.
-
 Make a folder called `mkBAM` and a folder called `mkBAM/<speciescode>_denovoSSL_100k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
 
 ```

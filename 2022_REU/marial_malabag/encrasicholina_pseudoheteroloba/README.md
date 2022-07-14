@@ -260,6 +260,15 @@ Model Fit   v2.0|60.9765%       |95.3059%
 
 We will use the max value from V2 rounded up to ***insert value here*** bp. 
 
+GenomeScopev1 for 1B: http://genomescope.org/analysis.php?code=ad25IBQHV8mLBRnZp9TJ
+GenomeScopev2 for 1B: http://genomescope.org/genomescope2.0/analysis.php?code=LkdH8CJlQldxq3fYSxQh
+
+GenomeScopev1 for 2A: http://qb.cshl.edu/genomescope/analysis.php?code=5aTtkXKH28qOd1EuqVJJ
+GenomeScopev2 for 2A: http://genomescope.org/genomescope2.0/analysis.php?code=Ci4J9W5NFL8Yaqn0mDBT
+
+GenomeScopev1 for 2H: http://qb.cshl.edu/genomescope/analysis.php?code=DRkcEA4LfN0P1DQAsWNU
+GenomeScopev2 for 2H: http://genomescope.org/genomescope2.0/analysis.php?code=sI5d1rtIPm6nNPWbjUMY
+
 ---
 
 ## Step 2. Assemble the Genome Using [SPAdes](https://github.com/ablab/spades#sec3.2)

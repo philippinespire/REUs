@@ -1,9 +1,8 @@
-#!/bin/bash -l 
+#!/bin/bash -l
 
-#SBATCH --job-name=Sfa_denovoSSL_100k_mpileup
-#SBATCH -o Sfa_denovoSSL_100k_mpileup-%j.out 
+#SBATCH --job-name=denovoSSL_20k_mpileup
+#SBATCH -o denovoSSL_20k_mpileup-%j.out 
 #SBATCH --mem 2000 #most runs should be under 1 GB but we'll add a buffer
-#SBATCH --array=1-130 # set upper bound to the number of scaffolds that wil be processed 
 #SBATCH -p main 
 #SBATCH -n 1 #each chromosome will be processed on a single core (-n 1)  
 #SBATCH -N 1 #on one machine (-N 1)  
@@ -18,11 +17,13 @@ module load container_env ddocent
 
 export SINGULARITY_BIND=/home/e1garcia
 
-CHR="${SLURM_ARRAY_TASK_ID}"
-DATAPATH="/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_100k"
-mkdir -p $DATAPATH/Sfa_denovoSSL_100k_PSMC/
-mkdir -p $DATAPATH/Sfa_denovoSSL_100k_PSMC/joblog
+CHR=`expr ${SLURM_ARRAY_TASK_ID} + ${6}`
+DATAPATH="/home/e1garcia/shotgun_PIRE//2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
+mkdir -p $DATAPATH/denovoSSL_20k_PSMC/
+mkdir -p $DATAPATH/denovoSSL_20k_PSMC/joblog
 
-crun samtools mpileup -C50 -r $CHR -uf $DATAPATH/reference.denovoSSL.Sfa100k.fasta $DATAPATH/Sfa_denovoSSL_100k.bam | crun bcftools call -c - | crun vcfutils.pl vcf2fq -d 46 -D 276 > $DATAPATH/Sfa_denovoSSL_100k_PSMC/Sfa_denovoSSL_100k.$CHR.fq
+cd ${DATAPATH}
 
-mv *mpileup*out $DATAPATH/Sfa_denovoSSL_100k_PSMC/joblog
+crun samtools mpileup -C50 -r $CHR -uf $DATAPATH/reference.denovoSSL.${3}20k.fasta $DATAPATH/${3}_denovoSSL_20k.bam | crun bcftools call -c - | crun vcfutils.pl vcf2fq -d ${4} -D ${5} $DATAPATH/${3}_denovoSSL_20k_PSMC/${3}_denovoSSL_20k.$CHR.fq
+
+mv *mpileup*out $DATAPATH/${3}_denovoSSL_20k_PSMC/joblog

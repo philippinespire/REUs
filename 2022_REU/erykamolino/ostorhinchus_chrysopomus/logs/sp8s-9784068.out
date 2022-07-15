@@ -129,3 +129,807 @@ Reads length: 150
   4:55:41.676   103G / 295G  INFO    General                 (concurrent_dsu.cpp        :  18)   Connecting to root
   4:55:57.813   103G / 295G  INFO    General                 (concurrent_dsu.cpp        :  34)   Calculating counts
   5:18:14.193   171G / 295G  INFO    General                 (concurrent_dsu.cpp        :  63)   Writing down entries
+  6:13:40.696   103G / 295G  INFO    General                 (main.cpp                  : 167)   Clustering done. Total clusters: 2397687244
+  6:13:40.943    54G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 371)   Collecting K-mer information, this takes a while.
+  6:15:01.109   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R1.fq.gz
+  6:26:19.853   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R2.fq.gz
+  6:38:01.676   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R1.fq.gz
+  6:47:29.443   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R2.fq.gz
+  6:57:18.963   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R1.fq.gz
+  7:15:55.492   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R2.fq.gz
+  7:34:33.797   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 384)   Collection done, postprocessing.
+  7:35:29.524   200G / 295G  INFO   K-mer Counting           (kmer_data.cpp             : 397)   There are 6556637098 kmers in total. Among them 4080747798 (62.2384%) are singletons.
+  7:35:29.528   200G / 295G  INFO    General                 (main.cpp                  : 173)   Subclustering Hamming graph
+ 13:58:57.103   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 650)   Subclustering done. Total 2036850 non-read kmers were generated.
+ 13:58:57.112   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 651)   Subclustering statistics:
+ 13:58:57.119   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 652)     Total singleton hamming clusters: 1614734050. Among them 842767850 (52.1924%) are good
+ 13:58:57.127   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 653)     Total singleton subclusters: 94222382. Among them 93180021 (98.8937%) are good
+ 13:58:57.129   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 654)     Total non-singleton subcluster centers: 1011886589. Among them 777886187 (76.8748%) are good
+ 13:58:57.136   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 655)     Average size of non-trivial subcluster: 4.88756 kmers
+ 13:58:57.140   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 656)     Average number of sub-clusters per non-singleton cluster: 1.41274
+ 13:58:57.142   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 657)     Total solid k-mers: 1713834058
+ 13:58:57.146   200G / 295G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 658)     Substitution probabilities: [4,4]((0.889025,0.0378044,0.0291364,0.0440342),(0.0561073,0.883967,0.0219878,0.0379381),(0.0364538,0.0214897,0.884518,0.0575381),(0.0433545,0.0288253,0.0376593,0.890161))
+ 13:59:03.981   200G / 295G  INFO    General                 (main.cpp                  : 178)   Finished clustering.
+ 13:59:03.990   200G / 295G  INFO    General                 (main.cpp                  : 197)   Starting solid k-mers expansion in 32 threads.
+ 14:49:28.249   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 0 produced 867517756 new k-mers.
+ 15:39:03.426   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 1 produced 42974214 new k-mers.
+ 16:29:04.154   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 2 produced 2867095 new k-mers.
+ 17:18:48.188   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 3 produced 314352 new k-mers.
+ 18:08:32.783   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 4 produced 42733 new k-mers.
+ 18:58:11.973   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 5 produced 8289 new k-mers.
+ 19:48:21.434   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 6 produced 1446 new k-mers.
+ 20:38:23.039   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 7 produced 150 new k-mers.
+ 21:27:58.757   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 8 produced 13 new k-mers.
+ 22:17:40.002   200G / 295G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 9 produced 0 new k-mers.
+ 22:17:40.008   200G / 295G  INFO    General                 (main.cpp                  : 222)   Solid k-mers finalized
+ 22:17:40.013   200G / 295G  INFO    General                 (hammer_tools.cpp          : 222)   Starting read correction in 32 threads.
+ 22:17:40.017   200G / 295G  INFO    General                 (hammer_tools.cpp          : 235)   Correcting pair of reads: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R1.fq.gz and /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R2.fq.gz
+ 22:18:01.346   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 0 of 3200000 reads.
+ 22:18:20.747   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 0
+ 22:18:52.999   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 0
+ 22:19:13.672   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 1 of 3200000 reads.
+ 22:19:33.340   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 1
+ 22:19:46.308   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 1
+ 22:20:07.189   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 2 of 3200000 reads.
+ 22:20:27.022   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 2
+ 22:20:49.897   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 2
+ 22:21:10.216   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 3 of 3200000 reads.
+ 22:21:29.655   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 3
+ 22:21:55.645   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 3
+ 22:22:15.190   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 4 of 3200000 reads.
+ 22:22:34.513   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 4
+ 22:22:43.342   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 4
+ 22:23:02.793   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 5 of 3200000 reads.
+ 22:23:22.724   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 5
+ 22:23:32.032   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 5
+ 22:23:51.452   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 6 of 3200000 reads.
+ 22:24:10.810   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 6
+ 22:24:33.363   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 6
+ 22:24:53.955   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 7 of 3200000 reads.
+ 22:25:13.361   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 7
+ 22:25:33.751   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 7
+ 22:25:54.429   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 8 of 3200000 reads.
+ 22:26:14.396   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 8
+ 22:26:24.509   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 8
+ 22:26:44.498   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 9 of 3200000 reads.
+ 22:27:03.784   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 9
+ 22:27:18.926   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 9
+ 22:27:38.444   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 10 of 3200000 reads.
+ 22:27:57.452   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 10
+ 22:28:06.937   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 10
+ 22:28:26.928   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 11 of 3200000 reads.
+ 22:28:46.453   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 11
+ 22:29:07.625   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 11
+ 22:29:28.450   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 12 of 3200000 reads.
+ 22:29:47.278   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 12
+ 22:30:08.969   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 12
+ 22:30:28.401   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 13 of 3200000 reads.
+ 22:30:47.447   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 13
+ 22:30:56.276   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 13
+ 22:31:16.973   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 14 of 3200000 reads.
+ 22:31:35.954   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 14
+ 22:31:54.670   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 14
+ 22:32:14.205   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 15 of 3200000 reads.
+ 22:32:33.095   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 15
+ 22:32:56.508   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 15
+ 22:33:16.039   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 16 of 3200000 reads.
+ 22:33:34.846   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 16
+ 22:33:57.376   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 16
+ 22:34:16.871   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 17 of 3200000 reads.
+ 22:34:35.747   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 17
+ 22:34:58.171   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 17
+ 22:35:17.689   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 18 of 3200000 reads.
+ 22:35:36.439   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 18
+ 22:35:59.145   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 18
+ 22:36:19.458   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 19 of 3200000 reads.
+ 22:36:38.209   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 19
+ 22:36:59.728   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 19
+ 22:37:19.292   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 20 of 3200000 reads.
+ 22:37:38.109   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 20
+ 22:38:00.746   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 20
+ 22:38:20.988   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 21 of 3200000 reads.
+ 22:38:39.957   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 21
+ 22:39:01.305   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 21
+ 22:39:21.469   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 22 of 3200000 reads.
+ 22:39:40.402   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 22
+ 22:40:02.318   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 22
+ 22:40:21.890   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 23 of 3200000 reads.
+ 22:40:40.832   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 23
+ 22:41:03.213   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 23
+ 22:41:23.296   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 24 of 3200000 reads.
+ 22:41:42.316   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 24
+ 22:42:03.786   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 24
+ 22:42:23.383   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 25 of 3200000 reads.
+ 22:42:42.644   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 25
+ 22:43:04.887   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 25
+ 22:43:25.719   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 26 of 3200000 reads.
+ 22:43:44.681   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 26
+ 22:44:05.345   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 26
+ 22:44:24.942   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 27 of 3200000 reads.
+ 22:44:44.146   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 27
+ 22:45:06.306   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 27
+ 22:45:25.871   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 28 of 3200000 reads.
+ 22:45:44.563   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 28
+ 22:45:54.964   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 28
+ 22:46:14.809   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 29 of 3200000 reads.
+ 22:46:34.374   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 29
+ 22:46:51.950   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 29
+ 22:47:03.098   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 30 of 1813115 reads.
+ 22:47:14.200   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 30
+ 22:47:22.274   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 30
+ 22:47:40.684   200G / 295G  INFO    General                 (hammer_tools.cpp          : 235)   Correcting pair of reads: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R1.fq.gz and /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R2.fq.gz
+ 22:48:09.054   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 0 of 3200000 reads.
+ 22:48:28.084   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 0
+ 22:48:52.856   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 0
+ 22:49:13.451   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 1 of 3200000 reads.
+ 22:49:32.646   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 1
+ 22:49:51.717   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 1
+ 22:50:13.266   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 2 of 3200000 reads.
+ 22:50:32.305   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 2
+ 22:50:47.175   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 2
+ 22:51:07.270   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 3 of 3200000 reads.
+ 22:51:26.348   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 3
+ 22:52:01.331   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 3
+ 22:52:21.320   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 4 of 3200000 reads.
+ 22:52:40.182   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 4
+ 22:52:50.652   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 4
+ 22:53:10.875   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 5 of 3200000 reads.
+ 22:53:30.940   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 5
+ 22:53:41.621   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 5
+ 22:54:01.588   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 6 of 3200000 reads.
+ 22:54:20.489   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 6
+ 22:54:35.792   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 6
+ 22:54:57.095   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 7 of 3200000 reads.
+ 22:55:16.083   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 7
+ 22:55:26.869   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 7
+ 22:55:47.278   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 8 of 3200000 reads.
+ 22:56:06.306   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 8
+ 22:56:17.766   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 8
+ 22:56:37.779   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 9 of 3200000 reads.
+ 22:56:57.031   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 9
+ 22:57:07.530   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 9
+ 22:57:27.756   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 10 of 3200000 reads.
+ 22:57:47.552   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 10
+ 22:57:57.786   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 10
+ 22:58:17.606   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 11 of 3200000 reads.
+ 22:58:36.438   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 11
+ 22:58:46.842   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 11
+ 22:59:08.103   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 12 of 3200000 reads.
+ 22:59:27.423   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 12
+ 22:59:40.830   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 12
+ 23:00:01.008   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 13 of 3200000 reads.
+ 23:00:20.381   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 13
+ 23:00:43.941   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 13
+ 23:01:04.102   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 14 of 3200000 reads.
+ 23:01:23.156   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 14
+ 23:01:34.049   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 14
+ 23:01:54.419   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 15 of 3200000 reads.
+ 23:02:13.873   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 15
+ 23:02:24.721   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 15
+ 23:02:44.640   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 16 of 3200000 reads.
+ 23:03:03.479   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 16
+ 23:03:14.585   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 16
+ 23:03:35.612   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 17 of 3200000 reads.
+ 23:03:55.192   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 17
+ 23:04:06.789   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 17
+ 23:04:27.572   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 18 of 3200000 reads.
+ 23:04:46.677   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 18
+ 23:05:03.207   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 18
+ 23:05:23.202   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 19 of 3200000 reads.
+ 23:05:42.172   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 19
+ 23:05:53.815   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 19
+ 23:06:14.069   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 20 of 3200000 reads.
+ 23:06:33.731   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 20
+ 23:06:44.797   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 20
+ 23:07:04.885   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 21 of 3200000 reads.
+ 23:07:23.926   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 21
+ 23:07:35.327   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 21
+ 23:07:56.458   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 22 of 3200000 reads.
+ 23:08:15.671   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 22
+ 23:08:37.937   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 22
+ 23:08:58.063   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 23 of 3200000 reads.
+ 23:09:16.863   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 23
+ 23:09:39.223   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 23
+ 23:09:59.202   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 24 of 3200000 reads.
+ 23:10:17.811   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 24
+ 23:10:40.236   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 24
+ 23:10:49.223   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 25 of 1419340 reads.
+ 23:10:58.070   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 25
+ 23:11:04.897   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 25
+ 23:11:22.194   200G / 295G  INFO    General                 (hammer_tools.cpp          : 235)   Correcting pair of reads: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R1.fq.gz and /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/fq_fp1_clmp_fp2_fqscrn_repaired/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R2.fq.gz
+ 23:12:08.023   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 0 of 3200000 reads.
+ 23:12:25.566   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 0
+ 23:12:35.997   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 0
+ 23:12:56.910   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 1 of 3200000 reads.
+ 23:13:50.472   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 1
+ 23:14:24.096   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 1
+ 23:14:43.834   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 2 of 3200000 reads.
+ 23:15:00.178   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 2
+ 23:15:34.943   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 2
+ 23:15:57.705   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 3 of 3200000 reads.
+ 23:16:14.617   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 3
+ 23:16:39.252   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 3
+ 23:16:59.415   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 4 of 3200000 reads.
+ 23:17:16.330   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 4
+ 23:17:39.293   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 4
+ 23:17:58.347   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 5 of 3200000 reads.
+ 23:18:15.515   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 5
+ 23:18:25.282   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 5
+ 23:18:45.826   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 6 of 3200000 reads.
+ 23:19:02.486   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 6
+ 23:19:13.029   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 6
+ 23:19:32.017   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 7 of 3200000 reads.
+ 23:19:49.024   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 7
+ 23:20:17.055   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 7
+ 23:20:36.098   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 8 of 3200000 reads.
+ 23:20:53.134   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 8
+ 23:21:05.285   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 8
+ 23:21:24.503   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 9 of 3200000 reads.
+ 23:21:41.406   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 9
+ 23:21:50.396   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 9
+ 23:22:10.316   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 10 of 3200000 reads.
+ 23:22:28.030   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 10
+ 23:22:37.370   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 10
+ 23:22:57.050   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 11 of 3200000 reads.
+ 23:23:14.022   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 11
+ 23:23:22.955   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 11
+ 23:23:43.994   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 12 of 3200000 reads.
+ 23:24:00.930   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 12
+ 23:24:09.825   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 12
+ 23:24:29.335   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 13 of 3200000 reads.
+ 23:24:46.241   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 13
+ 23:24:56.877   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 13
+ 23:25:16.573   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 14 of 3200000 reads.
+ 23:25:33.440   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 14
+ 23:25:42.135   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 14
+ 23:26:01.224   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 15 of 3200000 reads.
+ 23:26:18.460   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 15
+ 23:26:28.138   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 15
+ 23:26:47.005   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 16 of 3200000 reads.
+ 23:27:04.100   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 16
+ 23:27:12.835   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 16
+ 23:27:32.524   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 17 of 3200000 reads.
+ 23:27:50.524   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 17
+ 23:27:59.507   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 17
+ 23:28:18.599   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 18 of 3200000 reads.
+ 23:28:36.782   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 18
+ 23:28:45.430   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 18
+ 23:29:04.675   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 19 of 3200000 reads.
+ 23:29:22.291   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 19
+ 23:29:31.066   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 19
+ 23:29:50.151   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 20 of 3200000 reads.
+ 23:30:07.090   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 20
+ 23:30:15.873   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 20
+ 23:30:35.999   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 21 of 3200000 reads.
+ 23:30:53.445   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 21
+ 23:31:02.354   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 21
+ 23:31:21.492   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 22 of 3200000 reads.
+ 23:31:38.269   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 22
+ 23:31:47.349   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 22
+ 23:32:08.367   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 23 of 3200000 reads.
+ 23:32:25.198   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 23
+ 23:32:33.934   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 23
+ 23:32:53.115   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 24 of 3200000 reads.
+ 23:33:10.011   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 24
+ 23:33:20.698   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 24
+ 23:33:40.559   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 25 of 3200000 reads.
+ 23:33:57.334   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 25
+ 23:34:05.939   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 25
+ 23:34:25.815   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 26 of 3200000 reads.
+ 23:34:42.983   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 26
+ 23:34:52.549   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 26
+ 23:35:11.550   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 27 of 3200000 reads.
+ 23:35:28.071   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 27
+ 23:35:38.134   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 27
+ 23:35:57.658   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 28 of 3200000 reads.
+ 23:36:14.987   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 28
+ 23:36:24.787   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 28
+ 23:36:44.767   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 29 of 3200000 reads.
+ 23:37:01.895   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 29
+ 23:37:11.645   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 29
+ 23:37:31.192   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 30 of 3200000 reads.
+ 23:37:48.781   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 30
+ 23:37:58.761   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 30
+ 23:38:17.897   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 31 of 3200000 reads.
+ 23:38:35.197   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 31
+ 23:38:45.384   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 31
+ 23:39:05.650   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 32 of 3200000 reads.
+ 23:39:22.501   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 32
+ 23:39:32.562   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 32
+ 23:39:51.813   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 33 of 3200000 reads.
+ 23:40:08.620   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 33
+ 23:40:19.689   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 33
+ 23:40:39.284   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 34 of 3200000 reads.
+ 23:40:56.120   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 34
+ 23:41:19.151   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 34
+ 23:41:38.293   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 35 of 3200000 reads.
+ 23:41:54.929   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 35
+ 23:42:05.557   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 35
+ 23:42:24.736   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 36 of 3200000 reads.
+ 23:42:41.828   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 36
+ 23:42:51.969   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 36
+ 23:43:11.036   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 37 of 3200000 reads.
+ 23:43:28.339   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 37
+ 23:43:38.577   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 37
+ 23:43:59.008   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 38 of 3200000 reads.
+ 23:44:15.895   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 38
+ 23:44:37.702   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 38
+ 23:44:58.128   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 39 of 3200000 reads.
+ 23:45:15.246   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 39
+ 23:45:25.226   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 39
+ 23:45:44.491   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 40 of 3200000 reads.
+ 23:46:01.287   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 40
+ 23:46:11.065   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 40
+ 23:46:31.685   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 41 of 3200000 reads.
+ 23:46:48.703   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 41
+ 23:47:10.259   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 41
+ 23:47:29.846   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 42 of 3200000 reads.
+ 23:47:46.390   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 42
+ 23:47:57.670   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 42
+ 23:48:17.147   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 43 of 3200000 reads.
+ 23:48:34.064   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 43
+ 23:48:44.118   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 43
+ 23:49:03.304   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 44 of 3200000 reads.
+ 23:49:20.351   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 44
+ 23:49:43.270   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 44
+ 23:50:03.157   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 45 of 3200000 reads.
+ 23:50:20.071   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 45
+ 23:50:30.024   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 45
+ 23:50:49.538   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 46 of 3200000 reads.
+ 23:51:07.172   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 46
+ 23:51:17.197   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 46
+ 23:51:36.402   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 47 of 3200000 reads.
+ 23:51:53.290   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 47
+ 23:52:16.300   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 47
+ 23:52:36.458   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 48 of 3200000 reads.
+ 23:52:53.331   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 48
+ 23:53:03.321   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 48
+ 23:53:03.554   204G / 295G  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 49 of 39164 reads.
+ 23:53:03.865   204G / 295G  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 49
+ 23:53:03.989   204G / 295G  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 49
+ 23:53:31.256   200G / 295G  INFO    General                 (hammer_tools.cpp          : 276)   Correction done. Changed 90473310 bases in 52967183 reads.
+ 23:53:31.410   200G / 295G  INFO    General                 (hammer_tools.cpp          : 277)   Failed to correct 186370 bases out of 100714121096.
+ 23:53:32.458     1M / 295G  INFO    General                 (main.cpp                  : 255)   Saving corrected dataset description to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/corrected.yaml
+ 23:53:32.489     1M / 295G  INFO    General                 (main.cpp                  : 262)   All done. Exiting.
+
+===== Read error correction finished. 
+
+
+===== corrected reads compression started. 
+
+
+== Running: /opt/conda/bin/python /opt/conda/share/spades/spades_pipeline/scripts/compress_all.py --input_file /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/corrected.yaml --ext_python_modules_home /opt/conda/share/spades --max_threads 32 --output_dir /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected --gzip_output
+
+== Compressing corrected reads (with pigz)
+== Files to compress: ['/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R1.fq.00.0_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R2.fq.00.0_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-1D_L4_clmp.fp2_repr.R_unpaired.00.0_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R1.fq.00.1_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R2.fq.00.1_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-2C_L4_clmp.fp2_repr.R_unpaired.00.1_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R1.fq.00.2_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R2.fq.00.2_0.cor.fastq', '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/corrected/Och_CTum_001_Ex1-3B_L4_clmp.fp2_repr.R_unpaired.00.2_0.cor.fastq']
+== Files compression is finished
+== Dataset yaml file is updated
+
+===== corrected reads compression finished. 
+
+
+===== Read error correction finished. 
+
+
+===== Assembling started. 
+
+
+===== K21 started. 
+
+
+== Running: /opt/conda/bin/spades-core /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/K21/configs/config.info
+
+  0:00:00.000     1M / 12M   INFO    General                 (main.cpp                  :  99)   Loaded config from /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/K21/configs/config.info
+  0:00:00.030     1M / 12M   INFO    General                 (memory_limit.cpp          :  48)   Memory limit set to 750 Gb
+  0:00:00.034     1M / 12M   INFO    General                 (main.cpp                  : 107)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.037     1M / 12M   INFO    General                 (main.cpp                  : 108)   Maximum k-mer length: 128
+  0:00:00.045     1M / 12M   INFO    General                 (main.cpp                  : 109)   Assembling dataset (/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/dataset.info) with K=21
+  0:00:00.047     1M / 12M   INFO    General                 (main.cpp                  : 110)   Maximum # of threads to use (adjusted due to OMP capabilities): 32
+  0:00:00.058     1M / 12M   INFO    General                 (pipeline.cpp              : 212)   SPAdes started
+  0:00:00.060     1M / 12M   INFO    General                 (pipeline.cpp              : 225)   Starting from stage: read_conversion
+  0:00:00.064     1M / 12M   INFO    General                 (pipeline.cpp              : 231)   Two-step repeat resolution disabled
+  0:00:00.071     1M / 12M   INFO   GraphCore                (graph_core.hpp            : 672)   Graph created, vertex min_id: 3, edge min_id: 3
+  0:00:00.073     1M / 12M   INFO   GraphCore                (graph_core.hpp            : 673)   Vertex size: 48, edge size: 40
+  0:00:00.080     1M / 12M   INFO    General                 (edge_index.hpp            : 113)   Size of edge index entries: 12/8
+  0:00:00.093     1M / 12M   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Binary Read Conversion (id: read_conversion)
+  0:00:00.105     1M / 13M   INFO    General                 (read_converter.cpp        :  72)   Converting reads to binary format for library #0 (takes a while)
+  0:00:00.117     1M / 13M   INFO    General                 (read_converter.cpp        :  73)   Converting paired reads
+  0:00:02.093    68M / 107M  INFO    General                 (binary_converter.cpp      :  96)   16384 reads processed
+  0:00:02.112    73M / 115M  INFO    General                 (binary_converter.cpp      :  96)   32768 reads processed
+  0:00:02.154    83M / 135M  INFO    General                 (binary_converter.cpp      :  96)   65536 reads processed
+  0:00:02.453    72M / 189M  INFO    General                 (binary_converter.cpp      :  96)   131072 reads processed
+  0:00:02.934    82M / 237M  INFO    General                 (binary_converter.cpp      :  96)   262144 reads processed
+  0:00:03.888    70M / 281M  INFO    General                 (binary_converter.cpp      :  96)   524288 reads processed
+  0:00:05.790    78M / 365M  INFO    General                 (binary_converter.cpp      :  96)   1048576 reads processed
+  0:00:09.582    92M / 491M  INFO    General                 (binary_converter.cpp      :  96)   2097152 reads processed
+  0:00:17.190    92M / 618M  INFO    General                 (binary_converter.cpp      :  96)   4194304 reads processed
+  0:00:37.481    90M / 737M  INFO    General                 (binary_converter.cpp      :  96)   8388608 reads processed
+  0:01:14.293    86M / 837M  INFO    General                 (binary_converter.cpp      :  96)   16777216 reads processed
+  0:02:23.820    80M / 928M  INFO    General                 (binary_converter.cpp      :  96)   33554432 reads processed
+  0:04:59.942    66M / 934M  INFO    General                 (binary_converter.cpp      :  96)   67108864 reads processed
+  0:07:24.055    63M / 1023M INFO    General                 (binary_converter.cpp      : 111)   97803221 reads written
+  0:07:24.058    41M / 1023M INFO    General                 (read_converter.cpp        :  81)   Converting single reads
+  0:07:24.124    71M / 1023M INFO    General                 (binary_converter.cpp      : 111)   9575 reads written
+  0:07:24.127    61M / 1023M INFO    General                 (read_converter.cpp        :  87)   Converting merged reads
+  0:07:24.134    71M / 1023M INFO    General                 (binary_converter.cpp      : 111)   0 reads written
+  0:07:28.088     1M / 1023M INFO    General                 (read_converter.cpp        :  72)   Converting reads to binary format for library #1 (takes a while)
+  0:07:28.090     1M / 1023M INFO    General                 (read_converter.cpp        :  73)   Converting paired reads
+  0:07:29.889    68M / 1023M INFO    General                 (binary_converter.cpp      :  96)   16384 reads processed
+  0:07:29.912    73M / 1025M INFO    General                 (binary_converter.cpp      :  96)   32768 reads processed
+  0:07:29.958    83M / 1036M INFO    General                 (binary_converter.cpp      :  96)   65536 reads processed
+  0:07:30.268    73M / 1054M INFO    General                 (binary_converter.cpp      :  96)   131072 reads processed
+  0:07:30.742    82M / 1074M INFO    General                 (binary_converter.cpp      :  96)   262144 reads processed
+  0:07:31.856    70M / 1078M INFO    General                 (binary_converter.cpp      :  96)   524288 reads processed
+  0:07:33.656    78M / 1078M INFO    General                 (binary_converter.cpp      :  96)   1048576 reads processed
+  0:07:37.529    93M / 1078M INFO    General                 (binary_converter.cpp      :  96)   2097152 reads processed
+  0:07:45.343    92M / 1078M INFO    General                 (binary_converter.cpp      :  96)   4194304 reads processed
+  0:08:00.484    90M / 1078M INFO    General                 (binary_converter.cpp      :  96)   8388608 reads processed
+  0:08:44.804    87M / 1078M INFO    General                 (binary_converter.cpp      :  96)   16777216 reads processed
+  0:09:59.975    80M / 1078M INFO    General                 (binary_converter.cpp      :  96)   33554432 reads processed
+  0:12:26.006    66M / 1078M INFO    General                 (binary_converter.cpp      :  96)   67108864 reads processed
+  0:13:31.949    63M / 1078M INFO    General                 (binary_converter.cpp      : 111)   81413348 reads written
+  0:13:31.953    41M / 1078M INFO    General                 (read_converter.cpp        :  81)   Converting single reads
+  0:13:32.021    71M / 1078M INFO    General                 (binary_converter.cpp      : 111)   5784 reads written
+  0:13:32.026    61M / 1078M INFO    General                 (read_converter.cpp        :  87)   Converting merged reads
+  0:13:32.031    71M / 1078M INFO    General                 (binary_converter.cpp      : 111)   0 reads written
+  0:13:37.191     1M / 1078M INFO    General                 (read_converter.cpp        :  72)   Converting reads to binary format for library #2 (takes a while)
+  0:13:37.195     1M / 1078M INFO    General                 (read_converter.cpp        :  73)   Converting paired reads
+  0:13:40.027    68M / 1078M INFO    General                 (binary_converter.cpp      :  96)   16384 reads processed
+  0:13:40.047    73M / 1078M INFO    General                 (binary_converter.cpp      :  96)   32768 reads processed
+  0:13:40.083    83M / 1078M INFO    General                 (binary_converter.cpp      :  96)   65536 reads processed
+  0:13:40.393    73M / 1078M INFO    General                 (binary_converter.cpp      :  96)   131072 reads processed
+  0:13:40.878    82M / 1078M INFO    General                 (binary_converter.cpp      :  96)   262144 reads processed
+  0:13:41.812    71M / 1078M INFO    General                 (binary_converter.cpp      :  96)   524288 reads processed
+  0:13:43.621    78M / 1078M INFO    General                 (binary_converter.cpp      :  96)   1048576 reads processed
+  0:13:47.469    93M / 1078M INFO    General                 (binary_converter.cpp      :  96)   2097152 reads processed
+  0:13:54.926    92M / 1078M INFO    General                 (binary_converter.cpp      :  96)   4194304 reads processed
+  0:14:10.389    90M / 1078M INFO    General                 (binary_converter.cpp      :  96)   8388608 reads processed
+  0:14:55.190    87M / 1078M INFO    General                 (binary_converter.cpp      :  96)   16777216 reads processed
+  0:16:08.103    80M / 1078M INFO    General                 (binary_converter.cpp      :  96)   33554432 reads processed
+  0:18:40.469    66M / 1078M INFO    General                 (binary_converter.cpp      :  96)   67108864 reads processed
+  0:23:41.876    69M / 1078M INFO    General                 (binary_converter.cpp      :  96)   134217728 reads processed
+  0:25:17.253    64M / 1078M INFO    General                 (binary_converter.cpp      : 111)   156830700 reads written
+  0:25:17.256    42M / 1078M INFO    General                 (read_converter.cpp        :  81)   Converting single reads
+  0:25:17.321    72M / 1078M INFO    General                 (binary_converter.cpp      : 111)   8179 reads written
+  0:25:17.323    62M / 1078M INFO    General                 (read_converter.cpp        :  87)   Converting merged reads
+  0:25:17.332    72M / 1078M INFO    General                 (binary_converter.cpp      : 111)   0 reads written
+  0:25:23.035     1M / 1078M INFO   StageManager             (stage.cpp                 : 185)   STAGE == de Bruijn graph construction (id: construction)
+  0:25:27.678     3M / 1078M INFO    General                 (construction.cpp          : 153)   Max read length 150
+  0:25:27.683     3M / 1078M INFO    General                 (construction.cpp          : 159)   Average read length 149.84
+  0:25:27.685     3M / 1078M INFO    General                 (stage.cpp                 : 117)   PROCEDURE == k+1-mer counting (id: construction:kpomer_counting)
+  0:25:27.689     3M / 1078M INFO    General                 (kmer_index_builder.hpp    : 243)   Splitting kmer instances into 320 files using 32 threads. This might take a while.
+  0:25:27.701     3M / 1078M INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 50000
+  0:25:27.708     3M / 1078M INFO    General                 (kmer_splitter.hpp         :  93)   Memory available for splitting buffers: 7.81247 Gb
+  0:25:27.712     3M / 1078M INFO    General                 (kmer_splitter.hpp         : 101)   Using cell size of 209715
+  0:26:10.595    21G / 23G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 30405170 reads
+  0:26:44.587    21G / 23G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 61104737 reads
+  0:27:18.655    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 91908776 reads
+  0:27:52.858    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 122862986 reads
+  0:28:26.796    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 153899661 reads
+  0:29:00.862    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 184781590 reads
+  0:29:35.303    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 215712729 reads
+  0:30:09.387    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 246793011 reads
+  0:30:43.969    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 277993816 reads
+  0:31:17.487    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 308391631 reads
+  0:31:50.002    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 338599544 reads
+  0:32:23.754    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 369615510 reads
+  0:32:58.409    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 400822592 reads
+  0:33:33.766    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 431460110 reads
+  0:35:51.882    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 554962554 reads
+  0:44:36.728    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 1103103089 reads
+  0:48:26.148     4M / 25G   INFO    General                 (kmer_splitters.hpp        : 131)   Used 1344236152 reads
+  0:48:26.256     4M / 25G   INFO    General                 (kmer_index_builder.hpp    : 249)   Starting k-mer counting.
+  0:50:19.222     4M / 25G   INFO    General                 (kmer_index_builder.hpp    : 260)   K-mer counting done. There are 2196249758 kmers in total.
+  0:50:19.230     3M / 25G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Extension index construction (id: construction:extension_index_construction)
+  0:50:19.295     3M / 25G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 438)   Building kmer index
+  0:50:19.297     3M / 25G   INFO    General                 (kmer_index_builder.hpp    : 243)   Splitting kmer instances into 320 files using 32 threads. This might take a while.
+  0:50:19.304     4M / 25G   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 50000
+  0:50:19.310     4M / 25G   INFO    General                 (kmer_splitter.hpp         :  93)   Memory available for splitting buffers: 7.81247 Gb
+  0:50:19.316     4M / 25G   INFO    General                 (kmer_splitter.hpp         : 101)   Using cell size of 209715
+  0:50:28.884    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 6849275 kmers
+  0:50:29.508    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 13773896 kmers
+  0:50:30.162    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 20901651 kmers
+  0:50:30.847    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 28377497 kmers
+  0:50:31.537    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 36277533 kmers
+  0:50:32.230    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 44677950 kmers
+  0:50:32.968    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 53457186 kmers
+  0:50:33.733    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 62935149 kmers
+  0:50:34.584    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 73418787 kmers
+  0:50:35.543    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 86010482 kmers
+  0:50:37.047    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 105635691 kmers
+  0:50:45.789    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 225851700 kmers
+  0:50:46.462    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 232759264 kmers
+  0:50:47.098    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 239860920 kmers
+  0:50:47.761    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 247295578 kmers
+  0:50:48.423    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 255146861 kmers
+  0:50:49.114    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 263508342 kmers
+  0:50:49.874    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 272242233 kmers
+  0:50:50.669    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 281606355 kmers
+  0:51:10.738    21G / 26G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 541314459 kmers
+  0:51:53.391    21G / 30G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 1104403914 kmers
+  0:53:15.769    21G / 38G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 2196269118 kmers
+  0:53:15.835    21G / 38G   INFO    General                 (kmer_splitters.hpp        : 199)   Used 2196269118 kmers.
+  0:53:15.851     4M / 38G   INFO    General                 (kmer_index_builder.hpp    : 249)   Starting k-mer counting.
+  0:53:41.742     4M / 38G   INFO    General                 (kmer_index_builder.hpp    : 260)   K-mer counting done. There are 2124621539 kmers in total.
+  0:53:41.747     4M / 38G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  0:54:29.600  1529M / 38G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 2124621539 kmers, 1534771848 bytes occupied (5.77899 bits per kmer).
+  0:54:29.614  1529M / 38G   INFO    General                 (kmer_index_builder.hpp    : 169)   Merging final buckets.
+  0:56:34.313  3557M / 38G   INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build: 100)   Building k-mer extensions from k+1-mers
+  0:57:59.632  3557M / 38G   INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build: 105)   Building k-mer extensions from k+1-mers finished.
+  0:58:01.078  3556M / 38G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Early tip clipping (id: construction:early_tip_clipper)
+  0:58:01.081  3556M / 38G   INFO    General                 (construction.cpp          : 301)   Early tip clipper length bound set as (RL - K)
+  0:58:01.086  3556M / 38G   INFO   Early tip clipping       (early_simplification.hpp  :  47)   Early tip clipping
+  0:59:43.241  4836M / 38G   INFO   Early tip clipping       (early_simplification.hpp  :  82)   #tipped junctions: 13919650
+  0:59:43.928  4836M / 38G   INFO   Early tip clipping       (early_simplification.hpp  :  93)   Clipped tips: 14020346
+  0:59:44.654  3556M / 38G   INFO   Early tip clipping       (early_simplification.hpp  :  49)   311424096 22-mers were removed by early tip clipper
+  0:59:44.663  3556M / 38G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Condensing graph (id: construction:graph_condensing)
+  0:59:44.679  3556M / 38G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 354)   Extracting unbranching paths
+  1:01:44.048  9586M / 38G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 373)   Extracting unbranching paths finished. 172776910 sequences extracted
+  1:02:36.836  9585M / 38G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 309)   Collecting perfect loops
+  1:03:10.101  9602M / 38G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 342)   Collecting perfect loops finished. 3804 loops collected
+  1:03:21.772  9586M / 38G   INFO    General                 (debruijn_graph_constructor: 487)   Total 345561428 edges to create
+  1:03:21.794    23G / 38G   INFO    General                 (debruijn_graph_constructor: 489)   Collecting link records
+  1:07:30.930    28G / 38G   INFO    General                 (debruijn_graph_constructor: 491)   Ordering link records
+  1:07:33.362    28G / 38G   INFO    General                 (debruijn_graph_constructor: 493)   Sorting done
+  1:07:35.990    29G / 38G   INFO    General                 (debruijn_graph_constructor: 503)   Total 101152495 vertices to create
+  1:07:36.012    38G / 38G   INFO    General                 (debruijn_graph_constructor: 506)   Connecting the graph
+  1:14:20.112    30G / 42G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Filling coverage indices (PHM) (id: construction:coverage_filling_phm)
+  1:14:20.119    30G / 42G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  1:15:12.596    31G / 42G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 2196249758 kmers, 1586509136 bytes occupied (5.77898 bits per kmer).
+  1:15:16.512    39G / 44G   INFO    General                 (coverage_hash_map_builder.:  47)   Collecting k-mer coverage information from reads, this takes a while.
+  1:29:01.586    39G / 44G   INFO    General                 (construction.cpp          : 430)   Filling coverage and flanking coverage from PHM
+  1:29:11.881    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 32000000 edges
+  1:29:18.791    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 64000000 edges
+  1:29:25.952    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 96000000 edges
+  1:29:32.895    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 128000000 edges
+  1:29:39.893    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 160000000 edges
+  1:29:46.945    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 192000000 edges
+  1:29:53.966    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 224000000 edges
+  1:30:00.863    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 256000000 edges
+  1:30:08.075    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 288000000 edges
+  1:30:15.133    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 320000000 edges
+  1:30:20.928    39G / 44G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 345539144 edges
+  1:30:32.642    26G / 44G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == EC Threshold Finding (id: ec_threshold_finder)
+  1:30:32.832    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 181)   Kmer coverage valley at: 14
+  1:30:32.839    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 201)   K-mer histogram maximum: 80
+  1:30:32.844    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 237)   Estimated median coverage: 80. Coverage mad: 29.652
+  1:30:32.851    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 259)   Fitting coverage model
+  1:30:32.975    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 2
+  1:30:33.252    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 4
+  1:30:34.208    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 8
+  1:30:37.277    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 16
+  1:30:42.112    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 32
+  1:30:44.026    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 309)   Fitted mean coverage: 71.89. Fitted coverage std. dev: 27.9735
+  1:30:44.040    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 334)   Probability of erroneous kmer at valley: 0.21154
+  1:30:44.043    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 358)   Preliminary threshold calculated as: 22
+  1:30:44.047    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 362)   Threshold adjusted to: 22
+  1:30:44.051    26G / 44G   INFO    General                 (kmer_coverage_model.cpp   : 375)   Estimated genome size (ignoring repeats): 831977730
+  1:30:44.056    26G / 44G   INFO    General                 (genomic_info_filler.cpp   :  55)   Mean coverage was calculated as 71.89
+  1:30:44.060    26G / 44G   INFO    General                 (genomic_info_filler.cpp   :  70)   EC coverage threshold value was calculated as 22
+  1:30:44.065    26G / 44G   INFO    General                 (genomic_info_filler.cpp   :  71)   Trusted kmer low bound: 0
+  1:30:44.069    26G / 44G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Raw Simplification (id: raw_simplification)
+  1:30:44.076    26G / 44G   INFO    General                 (simplification.cpp        : 127)   PROCEDURE == Initial cleaning
+  1:30:44.083    26G / 44G   INFO    General                 (graph_simplification.hpp  : 662)   Flanking coverage based disconnection disabled
+  1:30:44.085    26G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Self conjugate edge remover
+  1:30:48.812    26G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Self conjugate edge remover triggered 0 times
+  1:30:48.824    26G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Initial tip clipper
+  1:31:00.905    26G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Initial tip clipper triggered 405190 times
+  1:31:00.918    26G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Initial ec remover
+  1:40:25.947    29G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Initial ec remover triggered 43764719 times
+  1:40:26.489    29G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Initial isolated edge remover
+  1:40:32.265    29G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Initial isolated edge remover triggered 824126 times
+  1:40:32.290    24G / 44G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Simplification (id: simplification)
+  1:40:32.293    24G / 44G   INFO    General                 (simplification.cpp        : 368)   Graph simplification started
+  1:40:32.296    24G / 44G   INFO    General                 (graph_simplification.hpp  : 634)   Creating parallel br instance
+  1:40:32.298    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 1
+  1:40:32.301    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  1:40:40.458    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 511810 times
+  1:40:40.514    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  1:56:54.060    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 3741999 times
+  1:56:54.306    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  1:57:56.337    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 2322484 times
+  1:57:56.535    25G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 2
+  1:57:56.540    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  1:58:10.710    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 90866 times
+  1:58:10.731    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  1:59:31.331    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 162504 times
+  1:59:31.454    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:00:30.283    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 4165777 times
+  2:00:30.509    25G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 3
+  2:00:30.515    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:00:35.472    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 3380 times
+  2:00:35.476    25G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:02:27.712    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 240334 times
+  2:02:27.807    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:02:43.909    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 1306578 times
+  2:02:44.090    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 4
+  2:02:44.095    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:02:47.029    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 380 times
+  2:02:47.032    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:03:21.152    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 81523 times
+  2:03:21.185    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:03:29.080    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 658088 times
+  2:03:29.207    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 5
+  2:03:29.212    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:03:30.402    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 157 times
+  2:03:30.406    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:03:47.018    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 40642 times
+  2:03:47.035    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:03:53.101    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 497780 times
+  2:03:53.205    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 6
+  2:03:53.210    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:03:53.942    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 117 times
+  2:03:53.946    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:04:06.826    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 27016 times
+  2:04:06.840    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:04:11.299    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 306913 times
+  2:04:11.357    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 7
+  2:04:11.364    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:04:11.842    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 69 times
+  2:04:11.849    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:04:20.049    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 17163 times
+  2:04:20.057    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:04:23.191    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 275496 times
+  2:04:23.242    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 8
+  2:04:23.245    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:04:23.611    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 48 times
+  2:04:23.615    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:04:30.851    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 14577 times
+  2:04:30.859    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:04:33.997    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 265079 times
+  2:04:34.046    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 9
+  2:04:34.049    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:04:34.392    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 51 times
+  2:04:34.395    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:04:42.363    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 12919 times
+  2:04:42.372    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:04:45.570    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 263845 times
+  2:04:45.619    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 10
+  2:04:45.623    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:04:45.974    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 40 times
+  2:04:45.977    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:04:54.231    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 12403 times
+  2:04:54.238    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:04:58.078    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 321042 times
+  2:04:58.135    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 11
+  2:04:58.143    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:05:00.385    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 1456 times
+  2:05:00.390    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:11:30.332    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 47323 times
+  2:11:30.370    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:11:32.677    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 2 times
+  2:11:32.688    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 12
+  2:11:32.694    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:11:33.409    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  2:11:33.413    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:11:33.422    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 1 times
+  2:11:33.428    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:11:33.437    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 0 times
+  2:11:33.443    24G / 44G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 13
+  2:11:33.449    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:11:33.455    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  2:11:33.461    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:11:33.467    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 0 times
+  2:11:33.473    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  2:11:33.479    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 0 times
+  2:11:36.984    23G / 44G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Simplification Cleanup (id: simplification_cleanup)
+  2:11:36.993    23G / 44G   INFO    General                 (simplification.cpp        : 176)   PROCEDURE == Post simplification
+  2:11:37.000    23G / 44G   INFO    General                 (graph_simplification.hpp  : 448)   Disconnection of relatively low covered edges disabled
+  2:11:37.008    23G / 44G   INFO    General                 (graph_simplification.hpp  : 485)   Complex tip clipping disabled
+  2:11:37.019    23G / 44G   INFO    General                 (graph_simplification.hpp  : 634)   Creating parallel br instance
+  2:11:37.025    23G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:11:39.209    23G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  2:11:39.219    23G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:18:00.186    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 195 times
+  2:18:00.196    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:18:02.219    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  2:18:02.226    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:24:20.510    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 0 times
+  2:24:20.528    24G / 44G   INFO    General                 (simplification.cpp        : 327)   Disrupting self-conjugate edges
+  2:25:17.097    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Removing isolated edges
+  2:25:18.923    24G / 44G   INFO   Simplification           (parallel_processing.hpp   : 170)   Removing isolated edges triggered 8641 times
+  2:25:18.929    23G / 44G   INFO    General                 (simplification.cpp        : 491)   Counting average coverage
+  2:25:28.354    23G / 44G   INFO    General                 (simplification.cpp        : 497)   Average coverage = 93.8896
+  2:25:28.358    23G / 44G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Contig Output (id: contig_output)
+  2:25:28.369    23G / 44G   INFO    General                 (read_converter.cpp        : 102)   Outputting contigs to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/K21/simplified_contigs
+  2:25:28.459    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   16384 reads processed
+  2:25:28.475    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   32768 reads processed
+  2:25:28.492    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   65536 reads processed
+  2:25:28.520    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   131072 reads processed
+  2:25:28.571    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   262144 reads processed
+  2:25:28.668    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   524288 reads processed
+  2:25:28.865    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   1048576 reads processed
+  2:25:29.249    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   2097152 reads processed
+  2:25:30.031    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   4194304 reads processed
+  2:25:31.727    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   8388608 reads processed
+  2:25:35.211    23G / 44G   INFO    General                 (binary_converter.cpp      :  96)   16777216 reads processed
+  2:25:45.077    23G / 44G   INFO    General                 (binary_converter.cpp      : 111)   33077160 reads written
+  2:25:49.045    23G / 44G   INFO    General                 (pipeline.cpp              : 287)   SPAdes finished
+  2:26:27.963     1M / 44G   INFO    General                 (main.cpp                  : 136)   Assembling time: 2 hours 26 minutes 27 seconds
+
+===== K21 finished. 
+
+
+===== K33 started. 
+
+
+== Running: /opt/conda/bin/spades-core /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/K33/configs/config.info
+
+  0:00:00.000     1M / 12M   INFO    General                 (main.cpp                  :  99)   Loaded config from /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/K33/configs/config.info
+  0:00:00.045     1M / 12M   INFO    General                 (memory_limit.cpp          :  48)   Memory limit set to 750 Gb
+  0:00:00.056     1M / 12M   INFO    General                 (main.cpp                  : 107)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.062     1M / 12M   INFO    General                 (main.cpp                  : 108)   Maximum k-mer length: 128
+  0:00:00.067     1M / 12M   INFO    General                 (main.cpp                  : 109)   Assembling dataset (/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/dataset.info) with K=33
+  0:00:00.071     1M / 12M   INFO    General                 (main.cpp                  : 110)   Maximum # of threads to use (adjusted due to OMP capabilities): 32
+  0:00:00.075     1M / 12M   INFO    General                 (pipeline.cpp              : 212)   SPAdes started
+  0:00:00.079     1M / 12M   INFO    General                 (pipeline.cpp              : 225)   Starting from stage: read_conversion
+  0:00:00.084     1M / 12M   INFO    General                 (pipeline.cpp              : 231)   Two-step repeat resolution disabled
+  0:00:00.088     1M / 12M   INFO   GraphCore                (graph_core.hpp            : 672)   Graph created, vertex min_id: 3, edge min_id: 3
+  0:00:00.092     1M / 12M   INFO   GraphCore                (graph_core.hpp            : 673)   Vertex size: 48, edge size: 40
+  0:00:00.096     1M / 12M   INFO    General                 (edge_index.hpp            : 113)   Size of edge index entries: 12/8
+  0:00:00.103     1M / 12M   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Binary Read Conversion (id: read_conversion)
+  0:00:00.108     1M / 12M   INFO    General                 (read_converter.cpp        :  53)   Binary reads detected
+  0:00:00.113     1M / 12M   INFO    General                 (read_converter.cpp        :  53)   Binary reads detected
+  0:00:00.119     1M / 12M   INFO    General                 (read_converter.cpp        :  53)   Binary reads detected
+  0:00:00.125     1M / 12M   INFO   StageManager             (stage.cpp                 : 185)   STAGE == de Bruijn graph construction (id: construction)
+  0:00:00.127     1M / 12M   INFO    General                 (construction.cpp          : 118)   Contigs from previous K will be used: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus/SPAdes_allLibs_decontam_R1R2_noIsolate/K21/simplified_contigs
+  0:00:00.396     4M / 14M   INFO    General                 (construction.cpp          : 153)   Max read length 150
+  0:00:00.408     4M / 14M   INFO    General                 (construction.cpp          : 159)   Average read length 149.84
+  0:00:00.412     4M / 14M   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == k+1-mer counting (id: construction:kpomer_counting)
+  0:00:00.416     4M / 14M   INFO    General                 (kmer_index_builder.hpp    : 243)   Splitting kmer instances into 320 files using 32 threads. This might take a while.
+  0:00:00.425     4M / 14M   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 50000
+  0:00:00.432     4M / 14M   INFO    General                 (kmer_splitter.hpp         :  93)   Memory available for splitting buffers: 7.81247 Gb
+  0:00:00.436     4M / 14M   INFO    General                 (kmer_splitter.hpp         : 101)   Using cell size of 104857
+  0:00:29.636    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 16898049 reads
+  0:00:50.901    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 33413381 reads
+  0:01:12.482    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 50425774 reads
+  0:01:33.918    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 66861887 reads
+  0:01:55.300    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 83482597 reads
+  0:02:17.468    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 100580465 reads
+  0:02:38.924    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 117334695 reads
+  0:02:59.928    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 133881576 reads
+  0:03:21.064    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 150706959 reads
+  0:03:42.900    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 167862170 reads
+  0:04:04.233    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 184657064 reads
+  0:04:26.576    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 201965730 reads
+  0:04:47.555    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 218502844 reads
+  0:05:53.127    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 269858290 reads
+  0:11:41.366    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 538370774 reads
+  0:22:04.841    21G / 25G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 1086918050 reads
+  0:27:16.190     4M / 25G   INFO    General                 (kmer_splitters.hpp        : 131)   Used 1410390472 reads
+  0:27:16.291     4M / 25G   INFO    General                 (kmer_index_builder.hpp    : 249)   Starting k-mer counting.
+  0:31:39.780     4M / 37G   INFO    General                 (kmer_index_builder.hpp    : 260)   K-mer counting done. There are 2781443362 kmers in total.
+  0:31:39.783     4M / 37G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Extension index construction (id: construction:extension_index_construction)
+  0:31:39.850     4M / 37G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 438)   Building kmer index
+  0:31:39.856     4M / 37G   INFO    General                 (kmer_index_builder.hpp    : 243)   Splitting kmer instances into 320 files using 32 threads. This might take a while.
+  0:31:39.863     4M / 37G   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 50000
+  0:31:39.871     4M / 37G   INFO    General                 (kmer_splitter.hpp         :  93)   Memory available for splitting buffers: 7.81247 Gb
+  0:31:39.875     4M / 37G   INFO    General                 (kmer_splitter.hpp         : 101)   Using cell size of 104857
+  0:31:49.734    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 5366672 kmers
+  0:31:50.519    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 12507280 kmers
+  0:31:51.395    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 19899914 kmers
+  0:31:52.244    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 27274560 kmers
+  0:31:53.104    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 34853735 kmers
+  0:31:53.965    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 42356378 kmers
+  0:31:54.819    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 50734677 kmers
+  0:31:55.679    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 59341882 kmers
+  0:31:56.657    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 67680507 kmers
+  0:31:57.631    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 76242916 kmers
+  0:31:58.521    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 83756384 kmers
+  0:31:59.525    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 91619137 kmers
+  0:32:00.478    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 100129717 kmers
+  0:32:01.458    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 110494500 kmers
+  0:32:02.466    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 121381057 kmers
+  0:32:03.569    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 132926360 kmers
+  0:32:04.685    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 143913235 kmers
+  0:32:05.687    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 154459710 kmers
+  0:32:17.585    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 283475074 kmers
+  0:32:44.164    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 545709860 kmers
+  0:33:36.429    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 1077247281 kmers
+  0:35:20.634    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 2155118378 kmers
+  0:36:22.471    21G / 37G   INFO    General                 (kmer_splitters.hpp        : 199)   Used 2781492642 kmers.
+  0:36:22.491     5M / 37G   INFO    General                 (kmer_index_builder.hpp    : 249)   Starting k-mer counting.
+  0:37:23.443     5M / 37G   INFO    General                 (kmer_index_builder.hpp    : 260)   K-mer counting done. There are 2743599948 kmers in total.
+  0:37:23.448     5M / 37G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  0:39:08.790  2026M / 37G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 2743599948 kmers, 1981833896 bytes occupied (5.77878 bits per kmer).
+  0:39:08.801  2026M / 37G   INFO    General                 (kmer_index_builder.hpp    : 169)   Merging final buckets.

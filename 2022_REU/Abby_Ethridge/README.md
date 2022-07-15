@@ -40,3 +40,16 @@ Started Step 1. Genome Properties
 Finished Step 1. Genome Properties
 
 Started Step 2. Assemble the Genome Using SPAdes
+
+---
+
+## July 15, 2022
+### PSMC
+
+Step 0. Setup
+
+Step 1. Preparing reference genomes
+
+Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+
+*ran sbatch dDocentHPC_ODU.sbatch

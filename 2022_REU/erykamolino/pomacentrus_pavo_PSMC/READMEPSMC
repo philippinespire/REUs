@@ -4,7 +4,7 @@ Starting the PSMC Proecess for Pomacentrus_pavo
 
 ## Step 0. Setup
 
-In your folder within `/home/e1garcia/shotgun_PIRE/REUs/2022_REU`, you have a folder for each species labeled `<speciesname>_PSMC`.
+In your folder within `/home/e1garcia/shotgun_PIRE/REUs/2022_REU`, you have a folder for each species labeled `pomacentrus_pavo_PSMC`.
 
 Your shotgun data are already copied in this folder - they are in a folder called something like "fq_fp1_clmp_fp2_fqscrn_repaired" (it will vary a bit between folders). I am going to call this folder `<shotgundata>` later on.
 
@@ -14,7 +14,7 @@ Scripts that you will be using are located in `/home/e1garcia/shotgun_PIRE/REUs/
 Copy this whole directory to your folder.
 
 ```
-cp -r /home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
+cp -r /home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC
 ```
 
 Move to your folder and create a folder called `data`.
@@ -58,7 +58,7 @@ How many scaffolds did we keep for the assembly? Note this in your README.
 And here is the script to calculate the total length of the filtered assemblies.
 
 ```
-cat reference.denovoSSL.<speciescode>20k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
+cat reference.denovoSSL.Ppa20k.fasta | grep -v "^>" | tr "\n" "\t" | sed 's/\t//g' | wc -c
 ```
 
 How long is the assembly?
@@ -67,7 +67,7 @@ How long is the assembly?
 Before we move forward, we need to change the names of the scaffolds to numerals (1,2,3...x). We can do that with another simple line of code.
 
 ```
-awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.denovoSSL.<speciescode>20k.fasta
+awk -i inplace '/^>/{print ">" ++i; next}{print}' reference.denovoSSL.Ppa20k.fasta
 ```
 
 Now we're ready to map to the reference!
@@ -79,31 +79,31 @@ We next need to map our shotgun reads to our reference genomes. This is a key st
 We first need to navigate back to our PSMC directory and clone the dDocent repo.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC
 git clone https://github.com/cbirdlab/dDocentHPC.git
 ```
 
-Make a folder called `mkBAM` and a folder called `mkBAM/<speciescode>_denovoSSL_20k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
+Make a folder called `mkBAM` and a folder called `mkBAM/Ppa_denovoSSL_20k_PSMC` in your `pomacentrus_pavo_PSMC` folder. Copy the shotgun library files to this folder.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/<shotgundata>/*.fq.gz /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/fq_fp1_clmp_fp2_fqscrn_repaired/*.fq.gz /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/mkBAM/Ppa_denovoSSL_20k_PSMC
 ```
 
 Now we need to copy some scripts and configuration files to our folders. Note that we need to use a modified version of the sbatch file that works with the ODU HPCC.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/dDocentHPC.bash /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/dDocentHPC/configs/config.5.cssl /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/dDocentHPC_ODU.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/dDocentHPC/dDocentHPC.bash /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/dDocentHPC/configs/config.5.cssl /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/scripts/dDocentHPC_ODU.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC
 ```
 
-Let's try mapping to the filtered version of our shotgun genome with scaffolds >20kb. Copy this reference genome files (`denovoSSL.<speciescode>20k`) to the appropriate folder.
+Let's try mapping to the filtered version of our shotgun genome with scaffolds >20kb. Copy this reference genome files (`denovoSSL.Ppa20k`) to the appropriate folder.
 
 ```
-cp home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/reference.denovoSSL.<speciescode>20k.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cp home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/reference.denovoSSL.Ppa20k.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/mkBAM/Ppa_denovoSSL_20k_PSMC
 ```
 
-In your `<speciescode>_denovoSSL_20k_PSMC` folder you should now have all of the files required to perform mapping: * reads to map (.R1.fq.gz/.R2.fq.gz) * reference genome (renamed scaffolds, with dDocent prefix reference.cutoff1.cutoff2.fasta) * dDocentHPC.bash * config file (currently config.5.cssl) * dDocentHPC_ODU.sbatch
+In your `Ppa_denovoSSL_20k_PSMC` folder you should now have all of the files required to perform mapping: * reads to map (.R1.fq.gz/.R2.fq.gz) * reference genome (renamed scaffolds, with dDocent prefix reference.cutoff1.cutoff2.fasta) * dDocentHPC.bash * config file (currently config.5.cssl) * dDocentHPC_ODU.sbatch
 
 Examine the `config.5.cssl` file - this file contains all of the setting that will be used to run dDocent. Most of these you can keep as they are. Recall that we used a specific convention to name our reference genome files - specifically the format is `reference.<cutoff1>.<cutoff2>.fasta`, where cutoff1 and cutoff2 refer to descriptive variables used by dDocent. We need to edit the config file `config.5.cssl` in each directory to so that dDocent can find the reference.  
 
@@ -141,8 +141,8 @@ Your header, and the lines you are running, should read something like this:
 ```
 #!/bin/bash -l
 
-#SBATCH --job-name=mkBAM_denovoSSL_<speciescode>20k
-#SBATCH -o mkBAM_denovoSLL_<speciescode>20k-%j.out
+#SBATCH --job-name=mkBAM_denovoSSL_Ppa20k
+#SBATCH -o mkBAM_denovoSLL_Ppa20k-%j.out
 #SBATCH -p main
 #SBATCH -c 4                                    # either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 
 ##SBATCH --ntasks=1
@@ -175,8 +175,8 @@ Add a hashtag at the beginning on the mkBAM line (so you don't run that step aga
 ```
 #!/bin/bash -l
 
-#SBATCH --job-name=fltrBAM_denovoSSL_<speciescode>20k
-#SBATCH -o fltrBAM_denovoSSL_<speciescode>20k-%j.out
+#SBATCH --job-name=fltrBAM_denovoSSL_Ppa20k
+#SBATCH -o fltrBAM_denovoSSL_Ppa20k-%j.out
 #SBATCH -p main
 #SBATCH -c 4					# either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 
 ##SBATCH --ntasks=1
@@ -213,10 +213,11 @@ We can calculate the mean depth using samtools. Let's use an interactive node to
 ```
 salloc
 module load samtools
-samtools depth <speciescode>_reduced_denovoSSL_20k.bam | awk '{sum+=$3} END { print "Average (covered sites) = ",sum/NR}'
+samtools depth Ppa_reduced_denovoSSL_20k.bam | awk '{sum+=$3} END { print "Average (covered sites) = ",sum/NR}'
 ```
 
 What was the average depth of coverage? What range of coverage would we use?
+
 
 Update the README.md file with this statistic.
 
@@ -224,16 +225,16 @@ Update the README.md file with this statistic.
 
 This step uses scripts modified from [Harvard FAS Informatics tutorial](https://informatics.fas.harvard.edu/psmc-journal-club-walkthrough.html), [Applying PSMC to Neandertal data](http://willyrv.github.io/tutorials/bioinformatics/AltaiNea-psmc.html), & the [PSMC documentation](https://github.com/lh3/psmc) to call a "consensus sequence" from our .bam file. We use SLURM's array mode to parallelize the consensus calling, meaning that for each of the scaffolds in our reference genome we create a new processthat calls the sequence for that scaffold.
 
-Make a folder called `joblog` inside `<speciescode>_denovoSSL_20k_PSMC`. This will hold your output logs.
+Make a folder called `joblog` inside `Ppa_denovoSSL_20k_PSMC`. This will hold your output logs.
 
-The script `mpileup.sbatch` uses a pipeline from samtools to bcftools to vcfutils.pl to create a consensus sequence. Copy this script from the scripts directory to the `<speciescode>_denovoSSL_20k_PSMC` folder.
+The script `mpileup.sbatch` uses a pipeline from samtools to bcftools to vcfutils.pl to create a consensus sequence. Copy this script from the scripts directory to the `Ppa_denovoSSL_20k_PSMC` folder.
 
 Examine the script. This has been modified from the workshop version - you do not need to edit it, but you will need to give it some arguments to tell it how to run correctly.
 
 The arguments are:
-1) Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
-2) Full species name, lowercase with underscores (`<speciesname>`)
-3) Species code (`<speciescode>`)
+1) Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ ('erykamolino')
+2) Full species name, lowercase with underscores ('pomacentrus_pavo')
+3) Species code (`Ppa`)
 4) The lower coverage cutoff determined from running samtools in the previous step (`<lowercutoff>`).
 5) The upper coverage cutoff determined from running samtools in the previous step (`<uppercutoff>`).
 6) A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
@@ -241,7 +242,7 @@ The arguments are:
 
 `--array=1-<arrayend>` runs the job in array mode, which can do up to 1000 sequential jobs. Since for a given species we may have >1000 scaffolds, you may have to run this script multiple times. Say you have 5,236 scaffolds - you would run the script 6 times, first with `<arraystart>` set to 0, then 1000, then 2000, then 3000, then 4000, then 5000. For the first five jobs you would set `<arrayend>` to 1000, but for the last  the last job you would set it to 236. You run the script multiple times to put the jobs on the queue and then just wait for them to finish.
 
-Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC`  using sbatch. 
+Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/mkBAM/Ppa_denovoSSL_20k_PSMC`  using sbatch. 
 
 ```
 sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart> <arrayend>
@@ -254,7 +255,7 @@ Now that we have consensus sequences we need to convert these to a format PSMC u
 Check again to make sure that all of the file paths are correct, then run the script. This script needs to be run from the directory containing all of your consensus sequences
 
 ```
-sbatch Sfa_denovoSSL_100k_psmcfa.sbatch
+sbatch Ppa_denovoSSL_100k_psmcfa.sbatch
 ```
 
 If you need to convert >1000 files we again have a modified version of the script (see `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_20k` again for an example).
@@ -266,7 +267,7 @@ We are finally ready to run PSMC!
 The psmc.sbatch script will run PSMC and generate a basic plot. Make sure all of the paths and the input/output file names are correct. To plot the demographic history on the scale of years we need to know generation time and mutation rate. We are assuming a default mutation rate (2.25x10^-8). Generation time is species-specific; for Sfa we can use 4 years, which is average for related species.
 
 ```
-sbatch Sfa_denovoSSL_100k_psmc.sbatch
+sbatch Ppa_denovoSSL_100k_psmc.sbatch
 ```  
 
 After running PSMC you can download the plot (.eps file) to your local computer and see the estimated demographic history of your species.
@@ -280,7 +281,7 @@ PSMC has a built in bootstrapping feature that can create confidence intervals f
 Run this script (make sure to modify to match your paths/etc) to perform 100 rounds of bootstrapping.
 
 ```
-sbatch Sfa_denovoSSL_100k_psmcboot.sbatch
+sbatch Ppa_denovoSSL_100k_psmcboot.sbatch
 ```
 
 ## Step 8. Examining the outputs and making plots.

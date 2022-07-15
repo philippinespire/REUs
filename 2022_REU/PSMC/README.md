@@ -41,7 +41,7 @@ mv scaffolds.fasta <speciescode>_shotgun_assembly.fa
 PSMC needs to have long chunks of contiguous sequence to make inferences, so want to use the larger scaffolds and filter out the small ones. We have a handy PERL-language script called `removesmalls` in the `scripts` folder that can do this. Run this on our two alternate reference genomes, keeping only scaffolds longer than 100kb (kilobases) or 20kb in length. We are going to name the output files in a specific way so they will be easy to work with later.
 
 ```
-perl ../scripts/removesmalls.pl 20000 <speciescode>_shotgun_assembly.fa > reference.denovoSSL.<speciescode>20k.fa
+perl ../scripts/removesmalls.pl 20000 <speciescode>_shotgun_assembly.fa > reference.denovoSSL.<speciescode>20k.fasta
 ```
 
 Now let's check the length of the filtered assembly. This is a one-line script that will tell you the number of scaffolds left after filtering.

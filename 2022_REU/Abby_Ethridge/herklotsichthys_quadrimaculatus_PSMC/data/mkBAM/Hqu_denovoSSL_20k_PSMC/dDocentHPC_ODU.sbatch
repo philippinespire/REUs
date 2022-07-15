@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#SBATCH --job-name=mkBAM_denovoSSL_Sfa100k
+#SBATCH --job-name=mkBAM_denovoSSL_Hqu20k
 #SBATCH -o mkBAM_denovoSSL_Sfa100k-%j.out
 #SBATCH -p main
 #SBATCH -c 4					# either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 

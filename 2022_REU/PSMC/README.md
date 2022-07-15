@@ -80,7 +80,7 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC
 git clone https://github.com/cbirdlab/dDocentHPC.git
 ```
 
-Make a folder called `mkBAM` and a folder called `mkBAM/<speciescode>_denovoSSL_20k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
+Make a folder called data, a folder called `data/mkBAM`, and a folder called `data/mkBAM/<speciescode>_denovoSSL_20k_PSMC` in your `<speciesname>_PSMC` folder. Copy the shotgun library files to this folder.
 
 ```
 cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/<shotgundata>/*.fq.gz /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC

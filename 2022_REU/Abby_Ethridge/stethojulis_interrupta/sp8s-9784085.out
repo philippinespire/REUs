@@ -1416,3 +1416,118 @@ mimalloc: warning: unable to allocate from region: size 4456448
   1:56:58.844    45G / 52G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
   1:57:28.875    45G / 52G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
   1:58:53.226    45G / 52G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 33600000 reads
+  2:01:20.919    45G / 52G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 67200000 reads
+  2:03:18.715    45G / 52G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 93930259 reads processed
+  2:03:19.410    42G / 52G   INFO    General                 (gap_closer.cpp            : 452)   Initializing gap closer
+  2:03:19.473    42G / 52G   INFO   GapCloser                (gap_closer.cpp            : 359)   Closing short gaps
+  2:03:30.251    42G / 52G   INFO   GapCloser                (gap_closer.cpp            : 391)   Closing short gaps complete: filled 1725 gaps after checking 129871 candidates
+  2:03:31.320    42G / 52G   INFO    General                 (gap_closer.cpp            : 456)   Gap closer done
+  2:03:31.514    42G / 52G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Simplification Cleanup (id: simplification_cleanup)
+  2:03:31.578    42G / 52G   INFO    General                 (simplification.cpp        : 176)   PROCEDURE == Post simplification
+  2:03:31.643    42G / 52G   INFO    General                 (graph_simplification.hpp  : 448)   Disconnection of relatively low covered edges disabled
+  2:03:31.709    42G / 52G   INFO    General                 (graph_simplification.hpp  : 485)   Complex tip clipping disabled
+  2:03:31.774    42G / 52G   INFO    General                 (graph_simplification.hpp  : 634)   Creating parallel br instance
+  2:03:31.839    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:03:32.409    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 15 times
+  2:03:32.475    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:03:42.777    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 43 times
+  2:03:42.843    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  2:03:43.417    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  2:03:43.480    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  2:03:54.176    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 0 times
+  2:03:54.275    42G / 52G   INFO    General                 (simplification.cpp        : 327)   Disrupting self-conjugate edges
+  2:03:59.701    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Removing isolated edges
+  2:04:00.296    42G / 52G   INFO   Simplification           (parallel_processing.hpp   : 170)   Removing isolated edges triggered 2640 times
+  2:04:00.356    42G / 52G   INFO    General                 (simplification.cpp        : 491)   Counting average coverage
+  2:04:02.371    42G / 52G   INFO    General                 (simplification.cpp        : 497)   Average coverage = 44.0808
+  2:04:02.442    42G / 52G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Contig Output (id: contig_output)
+  2:04:02.509    42G / 52G   INFO    General                 (read_converter.cpp        : 102)   Outputting contigs to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/K55/simplified_contigs
+  2:04:02.638    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   16384 reads processed
+  2:04:02.758    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   32768 reads processed
+  2:04:02.836    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   65536 reads processed
+  2:04:02.952    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   131072 reads processed
+  2:04:03.089    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   262144 reads processed
+  2:04:03.285    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   524288 reads processed
+  2:04:03.560    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   1048576 reads processed
+  2:04:04.018    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   2097152 reads processed
+  2:04:05.042    42G / 52G   INFO    General                 (binary_converter.cpp      :  96)   4194304 reads processed
+  2:04:05.940    42G / 52G   INFO    General                 (binary_converter.cpp      : 111)   6275137 reads written
+  2:04:09.332    42G / 52G   INFO    General                 (pipeline.cpp              : 287)   SPAdes finished
+  2:06:47.884     1M / 52G   INFO    General                 (main.cpp                  : 136)   Assembling time: 2 hours 6 minutes 47 seconds
+
+===== K55 finished. 
+
+
+===== K77 started. 
+
+
+== Running: /opt/conda/bin/spades-core /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/K77/configs/config.info
+
+  0:00:00.000     1M / 12M   INFO    General                 (main.cpp                  :  99)   Loaded config from /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/K77/configs/config.info
+  0:00:00.013     1M / 12M   INFO    General                 (memory_limit.cpp          :  48)   Memory limit set to 750 Gb
+  0:00:00.017     1M / 12M   INFO    General                 (main.cpp                  : 107)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.020     1M / 12M   INFO    General                 (main.cpp                  : 108)   Maximum k-mer length: 128
+  0:00:00.020     1M / 12M   INFO    General                 (main.cpp                  : 109)   Assembling dataset (/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/dataset.info) with K=77
+  0:00:00.020     1M / 12M   INFO    General                 (main.cpp                  : 110)   Maximum # of threads to use (adjusted due to OMP capabilities): 32
+  0:00:00.020     1M / 12M   INFO    General                 (pipeline.cpp              : 212)   SPAdes started
+  0:00:00.020     1M / 12M   INFO    General                 (pipeline.cpp              : 225)   Starting from stage: read_conversion
+  0:00:00.020     1M / 12M   INFO    General                 (pipeline.cpp              : 231)   Two-step repeat resolution disabled
+  0:00:00.020     1M / 12M   INFO   GraphCore                (graph_core.hpp            : 672)   Graph created, vertex min_id: 3, edge min_id: 3
+  0:00:00.020     1M / 12M   INFO   GraphCore                (graph_core.hpp            : 673)   Vertex size: 48, edge size: 40
+  0:00:00.020     1M / 12M   INFO    General                 (edge_index.hpp            : 113)   Size of edge index entries: 12/8
+  0:00:00.021     1M / 12M   INFO    General                 (pipeline.cpp              : 242)   Will need read mapping, kmer mapper will be attached
+  0:00:00.021     1M / 12M   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Binary Read Conversion (id: read_conversion)
+  0:00:00.024     1M / 14M   INFO    General                 (read_converter.cpp        :  53)   Binary reads detected
+  0:00:00.027     1M / 14M   INFO    General                 (read_converter.cpp        :  53)   Binary reads detected
+  0:00:00.031     1M / 14M   INFO    General                 (read_converter.cpp        :  53)   Binary reads detected
+  0:00:00.035     1M / 14M   INFO   StageManager             (stage.cpp                 : 185)   STAGE == de Bruijn graph construction (id: construction)
+  0:00:00.039     1M / 14M   INFO    General                 (construction.cpp          : 118)   Contigs from previous K will be used: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta/SPAdes_allLibs_decontam_R1R2_noIsolate/K55/simplified_contigs
+  0:00:01.516     4M / 20M   INFO    General                 (construction.cpp          : 153)   Max read length 150
+  0:00:01.520     4M / 20M   INFO    General                 (construction.cpp          : 159)   Average read length 149.852
+  0:00:01.523     4M / 20M   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == k+1-mer counting (id: construction:kpomer_counting)
+  0:00:01.526     4M / 20M   INFO    General                 (kmer_index_builder.hpp    : 243)   Splitting kmer instances into 320 files using 32 threads. This might take a while.
+  0:00:01.529     4M / 20M   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 50000
+  0:00:01.529     4M / 20M   INFO    General                 (kmer_splitter.hpp         :  93)   Memory available for splitting buffers: 7.81247 Gb
+  0:00:01.529     4M / 20M   INFO    General                 (kmer_splitter.hpp         : 101)   Using cell size of 69905
+  0:00:23.451    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 17498644 reads
+  0:00:39.873    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 35765850 reads
+  0:00:56.371    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 53467487 reads
+  0:01:11.988    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 71097085 reads
+  0:01:28.122    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 89041430 reads
+  0:01:46.295    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 107063645 reads
+  0:02:01.890    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 124520887 reads
+  0:02:17.506    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 142052262 reads
+  0:02:33.338    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 159673679 reads
+  0:02:48.792    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 176933575 reads
+  0:03:04.146    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 193890276 reads
+  0:03:20.126    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 211331382 reads
+  0:03:35.366    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 228819773 reads
+  0:04:23.603    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 282277612 reads
+  0:08:22.404    21G / 24G   INFO    General                 (kmer_splitters.hpp        : 125)   Processed 547904402 reads
+  0:16:17.901     5M / 24G   INFO    General                 (kmer_splitters.hpp        : 131)   Used 1049307960 reads
+  0:16:17.969     5M / 24G   INFO    General                 (kmer_index_builder.hpp    : 249)   Starting k-mer counting.
+  0:20:52.827     5M / 35G   INFO    General                 (kmer_index_builder.hpp    : 260)   K-mer counting done. There are 3156688908 kmers in total.
+  0:20:52.833     4M / 35G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Extension index construction (id: construction:extension_index_construction)
+  0:20:52.872     4M / 35G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 438)   Building kmer index
+  0:20:52.874     4M / 35G   INFO    General                 (kmer_index_builder.hpp    : 243)   Splitting kmer instances into 320 files using 32 threads. This might take a while.
+  0:20:52.880     4M / 35G   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 50000
+  0:20:52.888     4M / 35G   INFO    General                 (kmer_splitter.hpp         :  93)   Memory available for splitting buffers: 7.81247 Gb
+  0:20:52.892     4M / 35G   INFO    General                 (kmer_splitter.hpp         : 101)   Using cell size of 69905
+  0:20:58.598    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 5934893 kmers
+  0:20:59.207    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 11999091 kmers
+  0:20:59.834    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 18007720 kmers
+  0:21:00.443    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 24348664 kmers
+  0:21:01.031    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 30444180 kmers
+  0:21:01.625    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 36617128 kmers
+  0:21:02.255    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 42957559 kmers
+  0:21:02.887    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 49690931 kmers
+  0:21:03.483    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 56101475 kmers
+  0:21:04.087    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 62390900 kmers
+  0:21:04.734    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 68888200 kmers
+  0:21:05.328    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 75189775 kmers
+  0:21:05.930    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 81362779 kmers
+  0:21:06.544    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 87712790 kmers
+  0:21:07.208    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 94117452 kmers
+  0:21:07.794    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 100317616 kmers
+  0:21:08.437    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 106717970 kmers
+  0:21:11.591    21G / 35G   INFO    General                 (kmer_splitters.hpp        : 194)   Processed 139995651 kmers

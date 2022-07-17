@@ -18,12 +18,12 @@ module load container_env ddocent
 export SINGULARITY_BIND=/home/e1garcia
 
 CHR=`expr ${SLURM_ARRAY_TASK_ID} + ${6}`
-DATAPATH="/home/e1garcia/shotgun_PIRE//2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
+DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
 mkdir -p $DATAPATH/denovoSSL_20k_PSMC/
 mkdir -p $DATAPATH/denovoSSL_20k_PSMC/joblog
 
 cd ${DATAPATH}
 
-crun samtools mpileup -C50 -r $CHR -uf $DATAPATH/reference.denovoSSL.${3}20k.fasta $DATAPATH/${3}_denovoSSL_20k.bam | crun bcftools call -c - | crun vcfutils.pl vcf2fq -d ${4} -D ${5} $DATAPATH/${3}_denovoSSL_20k_PSMC/${3}_denovoSSL_20k.$CHR.fq
+crun samtools mpileup -C50 -r $CHR -uf $DATAPATH/reference.denovoSSL.${3}20k.fasta $DATAPATH/${3}_denovoSSL_20k.bam | crun bcftools call -c - | crun vcfutils.pl vcf2fq -d ${4} -D ${5} $DATAPATH/denovoSSL_20k_PSMC/${3}_denovoSSL_20k.$CHR.fq
 
-mv *mpileup*out $DATAPATH/${3}_denovoSSL_20k_PSMC/joblog
+mv *mpileup*out $DATAPATH/denovoSSL_20k_PSMC/joblog

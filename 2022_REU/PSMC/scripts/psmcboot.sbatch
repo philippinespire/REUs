@@ -15,10 +15,11 @@
 enable_lmod 
 module load container_env pire_genome_assembly/2021.07.01
 export SINGULARITY_BIND=/home/e1garcia
-cd /home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_100k/Sfa_denovoSSL_100k_PSMC
+DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
+cd ${DATAPATH}/denovoSSL_20k_PSMC
 
 RD="${SLURM_ARRAY_TASK_ID}"
 
-crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o SfadenovoSSL100kround-$RD.psmc SfadenovoSSL100kall.psmcfa
+crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o ${3}denovoSSL20kround-$RD.psmc ${3}denovoSSL20kall.psmcfa
 
 mv ../*psmcboot*out joblog

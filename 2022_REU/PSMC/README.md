@@ -228,42 +228,61 @@ The script `mpileup.sbatch` uses a pipeline from samtools to bcftools to vcfutil
 Examine the script. This has been modified from the workshop version - you do not need to edit it, but you will need to give it some arguments to tell it how to run correctly.
 
 The arguments are:
-1) Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
-2) Full species name, lowercase with underscores (`<speciesname>`)
-3) Species code (`<speciescode>`)
-4) The lower coverage cutoff determined from running samtools in the previous step (`<lowercutoff>`).
-5) The upper coverage cutoff determined from running samtools in the previous step (`<uppercutoff>`).
-6) A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
-7) The number of scaffolds in each batch (`<arrayend>`).
+* The number of scaffolds in a given batch (`<arrayend>`).
+* Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
+* Full species name, lowercase with underscores (`<speciesname>`)
+* Species code (`<speciescode>`)
+* The lower coverage cutoff determined from running samtools in the previous step (`<lowercutoff>`).
+* The upper coverage cutoff determined from running samtools in the previous step (`<uppercutoff>`).
+* A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
 
 `--array=1-<arrayend>` runs the job in array mode, which can do up to 1000 sequential jobs. Since for a given species we may have >1000 scaffolds, you may have to run this script multiple times. Say you have 5,236 scaffolds - you would run the script 6 times, first with `<arraystart>` set to 0, then 1000, then 2000, then 3000, then 4000, then 5000. For the first five jobs you would set `<arrayend>` to 1000, but for the last  the last job you would set it to 236. You run the script multiple times to put the jobs on the queue and then just wait for them to finish.
 
 Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC`  using sbatch. 
 
 ```
-sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart> <arrayend>
+sbatch mpileup.sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart>
 ```
 
 ## Step 5. Converting files to PSMC format.
 
 Now that we have consensus sequences we need to convert these to a format PSMC understands. PSMC is really only interested in whether we have any heterozygotes within chunks of 100 base pairs, not the complete sequence data, so its input files are simplifications of the consensus FASTA file. Again we can use an array script, `psmcfa.sbatch`, to do this over all of our sequence files.
 
-Check again to make sure that all of the file paths are correct, then run the script. This script needs to be run from the directory containing all of your consensus sequences
+Copy this script from the scripts directory to the `<speciescode>_denovoSSL_20k_PSMC` folder.
+
+Examine the script. Again, this script has been modified from the workshop version - you do not need to edit it, but you will need to give it some arguments to tell it how to run correctly.
+
+The arguments are:
+* The number of scaffolds in a given batch (`<arrayend>`).
+* Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
+* Full species name, lowercase with underscores (`<speciesname>`)
+* Species code (`<speciescode>`)
+* A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
 
 ```
-sbatch Sfa_denovoSSL_100k_psmcfa.sbatch
+sbatch psmcfa.sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <arraystart>
 ```
 
-If you need to convert >1000 files we again have a modified version of the script (see `/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_20k` again for an example).
+Again, depending on how many batches of 1000 scaffolds you have to process, you can run the script multiple times to put the jobs on the queue and then just wait for them to finish.
 
 ## Step 6. Running PSMC.
 
 We are finally ready to run PSMC!
 
-The psmc.sbatch script will run PSMC and generate a basic plot. Make sure all of the paths and the input/output file names are correct. To plot the demographic history on the scale of years we need to know generation time and mutation rate. We are assuming a default mutation rate (2.25x10^-8). Generation time is species-specific; for Sfa we can use 4 years, which is average for related species.
+The psmc.sbatch script will run PSMC and generate a basic plot. As before this script has been modified to work across species.
+
+The arguments are:
+* Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
+* Full species name, lowercase with underscores (`<speciesname>`)
+* Species code (`<speciescode>`)
+* Estimated generation time for your species (consult the species characteristics sheet for this (`<gentime>`)
+
+We are assuming a default mutation rate (2.25x10^-8) across all species.
+
+Run PSMC using the following script:
 
 ```
-sbatch Sfa_denovoSSL_100k_psmc.sbatch
+sbatch psmc.sbatch <yourname> <speciesname> <speciescode> <gentime>
 ```  
 
 After running PSMC you can download the plot (.eps file) to your local computer and see the estimated demographic history of your species.
@@ -274,10 +293,17 @@ We now have an idea of how our Sfa population may have changed over time. We don
 
 PSMC has a built in bootstrapping feature that can create confidence intervals for our demographic history based on resampling chunks of the data.
 
-Run this script (make sure to modify to match your paths/etc) to perform 100 rounds of bootstrapping.
+The psmc_boot.sbatch script will run PSMC and generate a basic plot. As before this script has been modified to work across species.
+
+The arguments are:
+* Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
+* Full species name, lowercase with underscores (`<speciesname>`)
+* Species code (`<speciescode>`)
+
+Run this script to perform 100 rounds of bootstrapping.
 
 ```
-sbatch Sfa_denovoSSL_100k_psmcboot.sbatch
+sbatch psmcboot.sbatch <yourname> <speciesname> <speciescode>
 ```
 
 ## Step 8. Examining the outputs and making plots.

@@ -1,7 +1,7 @@
 #!/bin/bash -l 
 
-#SBATCH --job-name=Sfa_denovoSSL_100k_psmc
-#SBATCH -o Sfa_denovoSSL_100k_psmc-%j.out 
+#SBATCH --job-name=denovoSSL_20k_psmc
+#SBATCH -o denovoSSL_20k_psmc-%j.out 
 #SBATCH --mem 6000
 #SBATCH -p main 
 #SBATCH -n 1 
@@ -14,8 +14,9 @@
 enable_lmod 
 module load container_env pire_genome_assembly/2021.07.01
 export SINGULARITY_BIND=/home/e1garcia
-cd /home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus/PSMC/data/mkBAM/shotgun_100k/Sfa_denovoSSL_100k_PSMC
-cat Sfa_denovoSSL_100k*.psmcfa > SfadenovoSSL100kall.psmcfa
-crun psmc -N25 -t15 -r5 -p "4+25*2+4+6" -o SfadenovoSSL100kall.psmc SfadenovoSSL100kall.psmcfa
-crun psmc2history.pl SfadenovoSSL100kall.psmc | crun history2ms.pl > ms-cmd.sh
-crun psmc_plot.pl -g 4 SfadenovoSSL100k SfadenovoSSL100kall.psmc
+DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
+cd ${DATAPATH}
+cat ${3}_denovoSSL_20k*.psmcfa > ${3}denovoSSL20kall.psmcfa
+crun psmc -N25 -t15 -r5 -p "4+25*2+4+6" -o ${3}denovoSSL20kall.psmc ${3}denovoSSL20kall.psmcfa
+crun psmc2history.pl ${3}denovoSSL20kall.psmc | crun history2ms.pl > ms-cmd.sh
+crun psmc_plot.pl -g ${4} ${3}denovoSSL20k ${3}denovoSSL20kall.psmc

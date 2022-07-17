@@ -19,4 +19,4 @@ DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_de
 cd ${DATAPATH}/denovoSSL_20k_PSMC/
 
 cat ${3}denovoSSL20kall.psmc ${3}denovoSSL20kround-*.psmc > ${3}denovoSSL20kcombined.psmc
-crun psmc_plot.pl -pY${4} ${3}denovoSSL20kcombined_Y${4} ${3}denovoSSL20kcombined.psmc
+crun psmc_plot.pl -g ${4} -pY${5} ${3}denovoSSL20kcombined_Y${5} ${3}denovoSSL20kcombined.psmc

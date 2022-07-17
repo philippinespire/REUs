@@ -15,7 +15,7 @@ enable_lmod
 module load container_env pire_genome_assembly/2021.07.01
 export SINGULARITY_BIND=/home/e1garcia
 DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
-cd ${DATAPATH}
+cd ${DATAPATH}/denovoSSL_20k_PSMC
 cat ${3}_denovoSSL_20k*.psmcfa > ${3}denovoSSL20kall.psmcfa
 crun psmc -N25 -t15 -r5 -p "4+25*2+4+6" -o ${3}denovoSSL20kall.psmc ${3}denovoSSL20kall.psmcfa
 crun psmc2history.pl ${3}denovoSSL20kall.psmc | crun history2ms.pl > ms-cmd.sh

@@ -275,7 +275,7 @@ The arguments are:
 * Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
 * Full species name, lowercase with underscores (`<speciesname>`)
 * Species code (`<speciescode>`)
-* Estimated generation time for your species (consult the species characteristics sheet for this (`<gentime>`)
+* Estimated generation time for your species - consult the species characteristics sheet for this (`<gentime>`)
 
 We are assuming a default mutation rate (2.25x10^-8) across all species.
 
@@ -310,7 +310,22 @@ sbatch psmcboot.sbatch <yourname> <speciesname> <speciescode>
 
 Let's take a look at our PSMC outputs.
 
-To plot the bootstrap result, use the `pmscbootplot.sbatch` script. Since this will include confidence intervals you will have to increase the maximum Y-axis value - 'pY100' will change it to 100x10^4. You can change the X-axis scale too. Try pY100 - does that capture the maximum bootstrapped value? Change and rerun the script if not.
+To plot the bootstrap result, use the `pmscbootplot.sbatch` script. Since this will include confidence intervals you will have to increase the maximum Y-axis value. This script is now updated so that you can give it a maximum Y axis value as a variable.
+
+The arguments are:
+* Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
+* Full species name, lowercase with underscores (`<speciesname>`)
+* Species code (`<speciescode>`)
+* Estimated generation time for your species (consult the species characteristics sheet for this (`<gentime>`)
+* Maximum y-axis value (`<ylim>`). 100 would change the upper limit to 100x10^4. 
+
+Run to plot the bootstraps.
+
+```
+sbatch psmcbootplot.sbatch <yourname> <speciesname> <speciescode> <gentime> <ylim>
+```
+
+The output plot will be named `<speciescode>denovoSSL20kcombined_Y<ylimit>`. You may have to adjust the y limit a few times to get it right.
 
 How does the confidence in our estimated demographic history change from the distant past (100,000 to 1,000,000 years ago) to the recent past (10,000 years ago)?
 

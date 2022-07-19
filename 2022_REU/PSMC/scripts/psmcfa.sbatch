@@ -18,7 +18,7 @@ module load container_env pire_genome_assembly/2021.07.01
 export SINGULARITY_BIND=/home/e1garcia
 
 CHR=`expr ${SLURM_ARRAY_TASK_ID} + ${4}`
-DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
+DATAPATH="/home/e1garcia/shotgun_PIRE/REUs/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC"
 
 gzip $DATAPATH/${3}_denovoSSL_20k.$CHR.fq
 

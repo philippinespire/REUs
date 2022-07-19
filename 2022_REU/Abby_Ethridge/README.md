@@ -53,3 +53,14 @@ Step 1. Preparing reference genomes
 Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
 *ran sbatch dDocentHPC_ODU.sbatch
+
+## July 19, 2022
+### Genome Assembly Section
+
+Finished Step 2. Assemble the Genome Using SPAdes
+
+Library  |  # of contigs |  size of largest contig  |  total length  |  N50  |  L50
+---  | ---  |  ---  |  ---  |  ---  |  ---
+
+
+Step 3. Running BUSCO

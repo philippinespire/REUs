@@ -214,7 +214,7 @@ We can calculate the mean depth using samtools. Let's use an interactive node to
 ```
 salloc
 module load samtools
-samtools depth <speciescode>_reduced_denovoSSL_20k.bam | awk '{sum+=$3} END { print "Average (covered sites) = ",sum/NR}'
+samtools depth <speciescode>_denovoSSL_20k_merged.bam | awk '{sum+=$3} END { print "Average (covered sites) = ",sum/NR}'
 ```
 
 What was the average depth of coverage? What range of coverage would we use?

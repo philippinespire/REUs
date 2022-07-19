@@ -334,8 +334,8 @@ Libraries for each assembly:
 Assembly  |  Library
 --- | ---
 A | 1G
-B | 1H
-C | 2A
+B | 2F
+C | 3E
 
 This SPAdes scripts automatically runs `QUAST` but have to run `BUSCO` separately.
 

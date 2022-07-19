@@ -195,11 +195,15 @@ Once you have edited your sbatch file you can run the filtering step using the s
 
 If we have multiple sorted .bam files from the same individual, we can merge those .bam files into a single .bam file using thecommand  `samtools merge`. To call genotypes we also need to index this merged file first. The sbatch script `mergebams.sbatch` can be used to do both of these things. This version is different from the workshop version - you should not need to edit it, but you do need to supply the appropriate `<speciescode>`. Copy it to your folder and execute.
 
+Before running, check the file names for your .bam files - they might only start with the first two letters of your species name (if the rename script was not run on them during the SSL pipeline). If this is the case, just use these two letters as the species code for this script.
+
 ```
 cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 sbatch mergebams.sbatch <speciescode>
 ```
+
+After this finishes running, if you only used the first two letters for the species code you should rename the output merged.bam file with the full species code, to keep our use of species code consistent.
 
 ## Step 3. Assessing depth of coverage.
 

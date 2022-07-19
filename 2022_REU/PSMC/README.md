@@ -245,7 +245,7 @@ The arguments are:
 Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC`  using sbatch. 
 
 ```
-sbatch mpileup.sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart>
+sbatch --array=1-<arrayend> mpileup.sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart>
 ```
 
 ## Step 5. Converting files to PSMC format.
@@ -264,7 +264,7 @@ The arguments are:
 * A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
 
 ```
-sbatch psmcfa.sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <arraystart>
+sbatch --array=1-<arrayend> psmcfa.sbatch <yourname> <speciesname> <speciescode> <arraystart>
 ```
 
 Again, depending on how many batches of 1000 scaffolds you have to process, you can run the script multiple times to put the jobs on the queue and then just wait for them to finish.

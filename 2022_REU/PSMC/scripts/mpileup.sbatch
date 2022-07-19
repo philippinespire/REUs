@@ -24,6 +24,6 @@ mkdir -p $DATAPATH/denovoSSL_20k_PSMC/joblog
 
 cd ${DATAPATH}
 
-crun samtools mpileup -C50 -r $CHR -uf $DATAPATH/reference.denovoSSL.${3}20k.fasta $DATAPATH/${3}_denovoSSL_20k.bam | crun bcftools call -c - | crun vcfutils.pl vcf2fq -d ${4} -D ${5} $DATAPATH/denovoSSL_20k_PSMC/${3}_denovoSSL_20k.$CHR.fq
+crun samtools mpileup -C50 -r $CHR -uf $DATAPATH/reference.denovoSSL.${3}20k.fasta $DATAPATH/${3}_denovoSSL_20k_merged.bam | crun bcftools call -c - | crun vcfutils.pl vcf2fq -d ${4} -D ${5} $DATAPATH/denovoSSL_20k_PSMC/${3}_denovoSSL_20k.$CHR.fq
 
 mv *mpileup*out $DATAPATH/denovoSSL_20k_PSMC/joblog

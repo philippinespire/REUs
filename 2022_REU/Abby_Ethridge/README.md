@@ -50,9 +50,9 @@ Step 0. Setup
 
 Step 1. Preparing reference genomes
 
-Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
-*ran sbatch dDocentHPC_ODU.sbatch
+---
 
 ## July 19, 2022
 ### Genome Assembly Section
@@ -64,3 +64,11 @@ Library  |  # of contigs |  size of largest contig  |  total length  |  N50  |  
 
 
 Step 3. Running BUSCO
+
+### PSMC
+
+Finsihed Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+
+Step 3. Assessing depth of coverage
+
+Started Step 4. Calling genotypes and consensus sequences

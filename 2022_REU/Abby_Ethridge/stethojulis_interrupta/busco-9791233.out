@@ -23,3 +23,10 @@ INFO:	[hmmsearch]	728 of 3640 task(s) completed
 INFO:	[hmmsearch]	1092 of 3640 task(s) completed
 INFO:	[hmmsearch]	1456 of 3640 task(s) completed
 INFO:	[hmmsearch]	1820 of 3640 task(s) completed
+INFO:	[hmmsearch]	2184 of 3640 task(s) completed
+INFO:	[hmmsearch]	2548 of 3640 task(s) completed
+INFO:	[hmmsearch]	2912 of 3640 task(s) completed
+INFO:	[hmmsearch]	3276 of 3640 task(s) completed
+INFO:	[hmmsearch]	3640 of 3640 task(s) completed
+INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+INFO:	Running 1 job(s) on metaeuk, starting at 07/19/2022 16:27:15

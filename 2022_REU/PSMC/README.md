@@ -203,7 +203,7 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/
 sbatch mergebams.sbatch <speciescode>
 ```
 
-After this finishes running, if you only used the first two letters for the species code you should rename the output merged.bam file with the full species code, to keep our use of species code consistent.
+After this finishes running, if you only used the first two letters for the species code you should rename the output merged.bam and merged.bam.bai files with the full species code, to keep our use of species code consistent.
 
 ## Step 3. Assessing depth of coverage.
 

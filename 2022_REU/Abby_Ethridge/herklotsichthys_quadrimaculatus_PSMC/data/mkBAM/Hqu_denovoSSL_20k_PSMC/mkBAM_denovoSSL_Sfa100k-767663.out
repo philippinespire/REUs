@@ -172,3 +172,10 @@ Fri Jul 15 03:31:24 EDT 2022  Using BWA to map reads.
 Fri Jul 15 03:33:01 EDT 2022  was ref assembled by dDocent? No. Expected insert length not modified for BWA
 
 Fri Jul 15 03:33:01 EDT 2022  Run bwa mem on non-dDocent files
+[bam_sort_core] merging from 80 files and 40 in-memory blocks...
+[bam_sort_core] merging from 120 files and 40 in-memory blocks...
+[bam_sort_core] merging from 80 files and 40 in-memory blocks...
+
+Fri Jul 15 15:29:09 EDT 2022 mkBAM completed!
+
+Compress large filesFri Jul 15 15:29:09 EDT 2022

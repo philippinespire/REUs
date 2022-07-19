@@ -1,0 +1,49 @@
+<b>Allison's Readme</b>
+---
+
+Notes:
+
+/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison
+
+rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
+---
+
+07/08/2022
+
+	First introduction draft completed
+
+07/11/2022
+
+	Readme created
+
+	<i>Corythoichthys haematopterus</i> raw fq.qz files
+	renamed prior to running species through pipeline.
+	
+	renameFQGZ.bash run, renamed to Cha-CPnd, outputs:
+	
+	Cha-CPnd_001_Ex1-1A_L4_1.fq.gz  Cha-CPnd_001_Ex1-2G_L4_1.fq.gz
+	Cha-CPnd_001_Ex1-1A_L4_2.fq.gz  Cha-CPnd_001_Ex1-2G_L4_2.fq.gz
+	Cha-CPnd_001_Ex1-1H_L4_1.fq.gz  stdin_fastqc.html
+	Cha-CPnd_001_Ex1-1H_L4_2.fq.gz  stdin_fastqc.zip
+
+	Git push permission error
+
+	attempted to run Multi_FastQC.sh, permission error
+
+07/12/2022
+
+	Still have permission error for pushing
+
+	Got MultiQC to run
+
+	/home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq" "fq.gz"
+	
+	Ran Fastqp
+
+        Multi_FastQC.sh successfuly run, html file copied to personal computer
+        
+		/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html
+	
+	Able to push/pull as of 11:47
+
+	First fastp successful, html file copied to personal computer   

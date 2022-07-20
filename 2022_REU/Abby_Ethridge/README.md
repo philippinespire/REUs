@@ -81,6 +81,13 @@ Started Step 4. Calling genotypes and consensus sequences
 ## July 20, 2022
 ### Genome Assembly Section
 
+Step 4. Fill in QUAST and BUSCO Values
 
+Step 5. Identify Best Assembly
+
+Step 6. Assemble Contaminated Data From the Best Library
 
 ### PSMC
+
+Step 5. Converting files to PSMC format.
+

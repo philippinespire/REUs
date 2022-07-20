@@ -245,7 +245,7 @@ The arguments are:
 Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC`  using sbatch. 
 
 ```
-sbatch --array=1-<arrayend> mpileup.sbatch --array=1-<arrayend> <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart>
+sbatch --array=1-<arrayend> mpileup.sbatch <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart>
 ```
 
 ## Step 5. Converting files to PSMC format.

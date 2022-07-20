@@ -71,7 +71,10 @@ rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allis
 	Updated all readme files (took down notes on computer while permission issues were not letting me save in readme)
 	
 	Organized Cha directory
-	
+
+	Recorded quast reports into readme for all libraries
+
+		
 	
 	
 	

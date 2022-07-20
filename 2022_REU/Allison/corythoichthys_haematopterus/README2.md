@@ -380,14 +380,14 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh 
 
 Species    |Assembly    |DataType    |SCAFIG    |covcutoff    |genome scope v.    |No. of contigs    |Largest contig    |Total lenght    |% Genome size completeness    |N50    |L50    |Ns per 100 kbp    |BUSCO single copy
 ------  |------  |------ |------ |------ |------  |------ |------ |------ |------ |------  |------ |------ |------
-Sfa  |A  |decontam       |contgs       |off       |X       |  XX  | XX  | XX  | XX% | XX  |  XX  |  0  | XX%
-Sfa  |A  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  |  XX% | XX  | XX  | XX  | XX%
-Sfa  |B  |decontam       |contgs       |off       |X       |  XX |  XX  |   XX  |  XX% |  XX  |  XX  |  0  | XX%
-Sfa  |B  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  |  XX% |  XX  |  XX  |  XX  | XX%
-Sfa  |C  |decontam       |contgs       |off       |X       |  XX  |  XX  |  XX  | XX% | XX  | XX  |  0  |  XX%
-Sfa  |C  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  | XX% |  XX  |  XX  | XX | XX%
-Sfa  |allLibs  |decontam       |contigs       |off       |X    |  XX | XX |  XX  |  XX% |  XX  | XX  | xx  | XX%
-Sfa  |allLibs  |decontam       |scaffolds       |off       |X   | XX | XX |  XX  |  XX% | XX  |  XX  | XX | XX%
+Sfa  |A  |decontam       |contgs       |off       |X       |  XX  | XX  | XX  | XX% | 8516  |  116066  |  45376391  | 46.86%
+Sfa  |A  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  |  XX% | 9451  | 198527  | 50028297  | 46.76%
+Sfa  |B  |decontam       |contgs       |off       |X       |  XX |  XX  |   XX  |  XX% |  12295  |  176474  |  56786073  | 45.54%
+Sfa  |B  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  |  XX% |  14138  |  269079  |  65369174  | 45.28%
+Sfa  |C  |decontam       |contgs       |off       |X       |  XX  |  XX  |  XX  | XX% | 6572  | 153476  |  36962939  |  46.19%
+Sfa  |C  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  | XX% |  7408  |  182426  | 40835802 | 45.98%
+Sfa  |allLibs  |decontam       |contigs       |off       |X    |  XX | XX |  XX  |  XX% |  74819  | 282571  | 364837995  | 41.16%
+Sfa  |allLibs  |decontam       |scaffolds       |off       |X   | XX | XX |  XX  |  XX% | 76635  |  282571  | 378208088 | 41.15%
 
 ## Step 5. Identify Best Assembly
 

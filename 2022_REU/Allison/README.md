@@ -43,3 +43,38 @@ rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allis
         Multi_FastQC.sh successfuly run, html file copied to personal computer
         
 		/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html   
+
+07/18/2022
+
+	Getting over jetlag. Checked on jobs set before leaving the Philippines. No jobs were still running on wahab or turing.
+
+	Recorded data from quast output for all libs
+
+	Running BUSCO failed. Sent message to slack about it.
+
+07/19/2022
+
+	Re-ran SPAdes for 1, 2 and 3
+
+	Recorded quast report for all libs
+	
+	Worked on paper- found sources that contradict hypothesis, took notes on them
+	
+	Got BUSCO to run for all individual libraries
+
+07/20/2022
+	
+	SPAdes for 1, 2, and 3 ran successfuly- marked as A/B/C
+	
+	Scaffolds and contigs results from BUSCO for all libs exist, Brendan ran contigs as test. Recorded info in readme
+	
+	Updated all readme files (took down notes on computer while permission issues were not letting me save in readme)
+	
+	Organized Cha directory
+	
+	
+	
+	
+
+
+

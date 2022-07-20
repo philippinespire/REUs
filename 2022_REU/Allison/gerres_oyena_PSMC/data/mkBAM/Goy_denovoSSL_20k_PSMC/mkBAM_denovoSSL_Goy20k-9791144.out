@@ -181,3 +181,8 @@ Tue Jul 19 11:47:10 EDT 2022  was ref assembled by dDocent? No. Expected insert 
 
 Tue Jul 19 11:47:13 EDT 2022  Run bwa mem on non-dDocent files
 [bam_sort_core] merging from 80 files and 40 in-memory blocks...
+[bam_sort_core] merging from 40 files and 40 in-memory blocks...
+
+Tue Jul 19 16:31:12 EDT 2022 mkBAM completed!
+
+Compress large filesTue Jul 19 16:31:12 EDT 2022

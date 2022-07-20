@@ -1392,3 +1392,571 @@ Reads length: 150
   0:13:02.903  2180M / 40G   INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build: 105)   Building k-mer extensions from k+1-mers finished.
   0:13:03.748  2178M / 40G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Condensing graph (id: construction:graph_condensing)
   0:13:03.757  2179M / 40G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 354)   Extracting unbranching paths
+  0:13:59.848  4231M / 40G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 373)   Extracting unbranching paths finished. 31927465 sequences extracted
+  0:14:25.793  4231M / 40G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 309)   Collecting perfect loops
+  0:14:39.783  4233M / 40G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 342)   Collecting perfect loops finished. 455 loops collected
+  0:14:42.611  4231M / 40G   INFO    General                 (debruijn_graph_constructor: 487)   Total 63855840 edges to create
+  0:14:42.625  6691M / 40G   INFO    General                 (debruijn_graph_constructor: 489)   Collecting link records
+  0:15:42.565  7667M / 40G   INFO    General                 (debruijn_graph_constructor: 491)   Ordering link records
+  0:15:42.901  7667M / 40G   INFO    General                 (debruijn_graph_constructor: 493)   Sorting done
+  0:15:43.450  8179M / 40G   INFO    General                 (debruijn_graph_constructor: 503)   Total 41635321 vertices to create
+  0:15:43.458    12G / 40G   INFO    General                 (debruijn_graph_constructor: 506)   Connecting the graph
+  0:17:26.334    10G / 40G   INFO    General                 (stage.cpp                 : 117)   PROCEDURE == Filling coverage indices (PHM) (id: construction:coverage_filling_phm)
+  0:17:26.338    10G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  0:18:33.159    11G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 1295081701 kmers, 935621600 bytes occupied (5.77954 bits per kmer).
+  0:18:34.588    16G / 40G   INFO    General                 (coverage_hash_map_builder.:  47)   Collecting k-mer coverage information from reads, this takes a while.
+  0:19:10.532    16G / 40G   INFO    General                 (construction.cpp          : 430)   Filling coverage and flanking coverage from PHM
+  0:19:30.196    16G / 40G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 32000000 edges
+  0:19:48.642    16G / 40G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 63849618 edges
+  0:19:48.669    16G / 40G   INFO    General                 (coverage_filling.hpp      :  82)   Processed 63855733 edges
+  0:20:02.308  7871M / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == EC Threshold Finding (id: ec_threshold_finder)
+  0:20:02.320  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 181)   Kmer coverage valley at: 94
+  0:20:02.327  7871M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 201)   K-mer histogram maximum: 96
+  0:20:02.332  7871M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 237)   Estimated median coverage: 97. Coverage mad: 2.9652
+  0:20:02.340  7871M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 259)   Fitting coverage model
+  0:20:02.459  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 2
+  0:20:02.758  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 4
+  0:20:03.622  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 8
+  0:20:05.027  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 16
+  0:20:06.169  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 295)   ... iteration 32
+  0:20:06.739  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 309)   Fitted mean coverage: 233.638. Fitted coverage std. dev: 88.6974
+  0:20:06.742  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 334)   Probability of erroneous kmer at valley: 0.970978
+  0:20:06.742  7873M / 40G   WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 94
+  0:20:06.742  7873M / 40G   INFO    General                 (kmer_coverage_model.cpp   : 375)   Estimated genome size (ignoring repeats): 519160
+  0:20:06.743  7871M / 40G   INFO    General                 (genomic_info_filler.cpp   :  57)   Failed to estimate mean coverage
+  0:20:06.743  7871M / 40G   INFO    General                 (genomic_info_filler.cpp   :  70)   EC coverage threshold value was calculated as 94
+  0:20:06.743  7871M / 40G   INFO    General                 (genomic_info_filler.cpp   :  71)   Trusted kmer low bound: 0
+  0:20:06.743  7871M / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Gap Closer (id: early_gapcloser)
+  0:20:06.748  7880M / 40G   INFO    General                 (edge_index.hpp            : 113)   Size of edge index entries: 12/8
+  0:20:15.526  8972M / 40G   INFO    General                 (gap_closer.cpp            : 101)   Total edges in tip neighborhood: 37744681 out of 63855733, length: 1726489268
+  0:20:19.259  9348M / 40G   INFO    General                 (edge_index.hpp            : 167)   Using small index (max_id = 64175122)
+  0:20:22.234  9348M / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  0:20:58.561    10G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 1073946576 kmers, 775673944 bytes occupied (5.77812 bits per kmer).
+  0:21:00.829    18G / 40G   INFO    General                 (edge_index_builders.hpp   : 265)   Collecting edge information from graph, this takes a while.
+  0:21:21.624    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 200000 reads
+  0:21:21.636    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 400000 reads
+  0:21:21.651    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 600000 reads
+  0:21:21.677    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 800000 reads
+  0:21:21.683    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1000000 reads
+  0:21:21.713    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1200000 reads
+  0:21:21.754    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 2200000 reads
+  0:21:21.978    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 4200000 reads
+  0:21:26.202    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
+  0:21:31.277    18G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
+  0:21:41.381    19G / 40G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 29157065 reads processed
+  0:22:01.033  9723M / 40G   INFO    General                 (gap_closer.cpp            : 452)   Initializing gap closer
+  0:22:01.066  9723M / 40G   INFO   GapCloser                (gap_closer.cpp            : 359)   Closing short gaps
+  0:23:29.839    12G / 40G   INFO   GapCloser                (gap_closer.cpp            : 391)   Closing short gaps complete: filled 185359 gaps after checking 4156286 candidates
+  0:23:32.034    12G / 40G   INFO    General                 (gap_closer.cpp            : 456)   Gap closer done
+  0:23:34.406    11G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Raw Simplification (id: raw_simplification)
+  0:23:34.410    11G / 40G   INFO    General                 (simplification.cpp        : 127)   PROCEDURE == Initial cleaning
+  0:23:34.412    11G / 40G   INFO    General                 (simplification.cpp        :  66)   Most init cleaning disabled since detected mean 0 was less than activation coverage 10
+  0:23:34.417    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Self conjugate edge remover
+  0:23:35.800    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Self conjugate edge remover triggered 3 times
+  0:23:35.801    11G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Simplification (id: simplification)
+  0:23:35.801    11G / 40G   INFO    General                 (simplification.cpp        : 368)   Graph simplification started
+  0:23:35.801    11G / 40G   INFO    General                 (graph_simplification.hpp  : 634)   Creating parallel br instance
+  0:23:35.801    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 1
+  0:23:35.801    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:24:44.725  9470M / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 9954157 times
+  0:24:44.854  9470M / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:18.812    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 58903 times
+  0:25:18.823    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:27.153    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 640901 times
+  0:25:27.166    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 2
+  0:25:27.172    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:28.239    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 138189 times
+  0:25:28.261    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:38.213    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 16552 times
+  0:25:38.232    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:38.513    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 24245 times
+  0:25:38.521    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 3
+  0:25:38.523    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:38.555    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 827 times
+  0:25:38.558    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:40.198    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 2257 times
+  0:25:40.205    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:40.295    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 7567 times
+  0:25:40.299    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 4
+  0:25:40.301    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:40.313    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 201 times
+  0:25:40.316    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:41.075    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 887 times
+  0:25:41.079    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:41.122    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 3710 times
+  0:25:41.125    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 5
+  0:25:41.128    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:41.135    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 82 times
+  0:25:41.138    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:41.551    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 493 times
+  0:25:41.554    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:41.580    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 2162 times
+  0:25:41.583    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 6
+  0:25:41.586    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:41.592    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 61 times
+  0:25:41.595    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:41.843    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 314 times
+  0:25:41.846    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:41.863    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 1442 times
+  0:25:41.866    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 7
+  0:25:41.869    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:41.874    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 46 times
+  0:25:41.877    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:42.053    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 227 times
+  0:25:42.056    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:42.070    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 1009 times
+  0:25:42.073    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 8
+  0:25:42.076    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:42.080    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 17 times
+  0:25:42.083    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:42.215    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 186 times
+  0:25:42.218    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:42.228    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 714 times
+  0:25:42.231    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 9
+  0:25:42.234    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:42.238    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 19 times
+  0:25:42.241    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:42.331    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 122 times
+  0:25:42.334    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:42.344    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 607 times
+  0:25:42.347    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 10
+  0:25:42.350    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:42.353    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 22 times
+  0:25:42.356    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:42.426    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 94 times
+  0:25:42.429    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:42.437    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 524 times
+  0:25:42.440    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 11
+  0:25:42.443    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:43.517    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 1072 times
+  0:25:43.520    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:44.638    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 161 times
+  0:25:44.641    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:45.587    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 3 times
+  0:25:45.596    11G / 40G   INFO    General                 (simplification.cpp        : 373)   PROCEDURE == Simplification cycle, iteration 12
+  0:25:45.601    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:25:45.608    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  0:25:45.612    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:25:45.618    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 0 times
+  0:25:45.625    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Low coverage edge remover
+  0:25:45.633    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Low coverage edge remover triggered 0 times
+  0:25:46.392    11G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Gap Closer (id: late_gapcloser)
+  0:25:46.404    11G / 40G   INFO    General                 (edge_index.hpp            : 113)   Size of edge index entries: 12/8
+  0:25:50.964    12G / 40G   INFO    General                 (gap_closer.cpp            : 101)   Total edges in tip neighborhood: 20604263 out of 20675243, length: 1923468148
+  0:25:52.583    12G / 40G   INFO    General                 (edge_index.hpp            : 167)   Using small index (max_id = 128350241)
+  0:25:54.714    12G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  0:26:29.245    12G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 973923239 kmers, 740130732 bytes occupied (6.07958 bits per kmer).
+  0:26:31.330    20G / 40G   INFO    General                 (edge_index_builders.hpp   : 265)   Collecting edge information from graph, this takes a while.
+  0:26:53.276    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 200000 reads
+  0:26:53.462    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 400000 reads
+  0:26:53.538    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 600000 reads
+  0:26:53.576    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 800000 reads
+  0:26:53.621    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1000000 reads
+  0:26:53.624    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1200000 reads
+  0:26:53.844    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 2200000 reads
+  0:26:54.482    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 4200000 reads
+  0:27:01.890    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
+  0:27:11.400    20G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
+  0:27:30.023    21G / 40G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 29157065 reads processed
+  0:27:46.955    13G / 40G   INFO    General                 (gap_closer.cpp            : 452)   Initializing gap closer
+  0:27:46.994    13G / 40G   INFO   GapCloser                (gap_closer.cpp            : 359)   Closing short gaps
+  0:28:26.499    13G / 40G   INFO   GapCloser                (gap_closer.cpp            : 391)   Closing short gaps complete: filled 71173 gaps after checking 3265452 candidates
+  0:28:27.828    13G / 40G   INFO    General                 (gap_closer.cpp            : 456)   Gap closer done
+  0:28:29.780    11G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Simplification Cleanup (id: simplification_cleanup)
+  0:28:29.845    11G / 40G   INFO    General                 (simplification.cpp        : 176)   PROCEDURE == Post simplification
+  0:28:29.847    11G / 40G   INFO    General                 (graph_simplification.hpp  : 448)   Disconnection of relatively low covered edges disabled
+  0:28:29.851    11G / 40G   INFO    General                 (graph_simplification.hpp  : 485)   Complex tip clipping disabled
+  0:28:29.853    11G / 40G   INFO    General                 (graph_simplification.hpp  : 634)   Creating parallel br instance
+  0:28:29.855    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:28:31.031    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  0:28:31.037    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:28:32.156    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 0 times
+  0:28:32.159    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Tip clipper
+  0:28:33.213    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Tip clipper triggered 0 times
+  0:28:33.221    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Bulge remover
+  0:28:34.185    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Bulge remover triggered 0 times
+  0:28:34.188    11G / 40G   INFO    General                 (simplification.cpp        : 327)   Disrupting self-conjugate edges
+  0:28:41.922    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 167)   Running Removing isolated edges
+  0:28:58.335    11G / 40G   INFO   Simplification           (parallel_processing.hpp   : 170)   Removing isolated edges triggered 9346972 times
+  0:28:58.417    11G / 40G   INFO    General                 (simplification.cpp        : 491)   Counting average coverage
+  0:28:58.911    11G / 40G   INFO    General                 (simplification.cpp        : 497)   Average coverage = 3.39382
+  0:28:58.914    11G / 40G   WARN    General                 (simplification.cpp        : 500)   The determined erroneous connection coverage threshold may be determined improperly
+  0:28:58.916    11G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Mismatch Correction (id: mismatch_correction)
+  0:28:58.918    11G / 40G   INFO    General                 (graph_pack.cpp            :  67)   Index refill
+  0:28:58.921    11G / 40G   INFO    General                 (edge_index.hpp            : 156)   Using small index (max_id = 128350241)
+  0:28:59.928    11G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 395)   Building perfect hash indices
+  0:29:12.931    11G / 40G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 431)   Index built. Total 453730979 kmers, 332921426 bytes occupied (5.86994 bits per kmer).
+  0:29:13.925    14G / 40G   INFO    General                 (edge_index_builders.hpp   : 252)   Collecting edge information from graph, this takes a while.
+  0:29:20.371    14G / 40G   INFO    General                 (graph_pack.cpp            :  77)   Normalizing k-mer map. Total 17980869 kmers to process
+  0:29:24.440    14G / 40G   INFO    General                 (graph_pack.cpp            :  79)   Normalizing done
+  0:29:24.443    14G / 40G   INFO    General                 (mismatch_correction.cpp   : 400)   Collect potential mismatches
+  0:29:27.260    14G / 40G   INFO    General                 (mismatch_correction.cpp   : 192)   Total 63092 edges (out of 1839044) with 1392315 potential mismatch positions (22.068 positions per edge)
+  0:29:27.270    14G / 40G   INFO    General                 (mismatch_correction.cpp   : 402)   Potential mismatches collected
+  0:29:30.872    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 200000 reads
+  0:29:30.924    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 400000 reads
+  0:29:32.453    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 600000 reads
+  0:29:32.525    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 800000 reads
+  0:29:32.566    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1000000 reads
+  0:29:32.676    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1200000 reads
+  0:29:32.880    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 2200000 reads
+  0:29:33.150    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 4200000 reads
+  0:29:38.373    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
+  0:29:44.742    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
+  0:30:00.345    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 33600000 reads
+  0:30:29.316    14G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 67200000 reads
+  0:31:18.072    16G / 40G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 116657294 reads processed
+  0:31:20.306    14G / 40G   INFO    General                 (mismatch_correction.cpp   : 395)   All edges processed
+  0:31:20.350    14G / 40G   INFO    General                 (mismatch_correction.cpp   : 450)   Corrected 116 nucleotides
+  0:31:20.353    14G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Contig Output (id: contig_output)
+  0:31:20.358    14G / 40G   INFO    General                 (contig_output.hpp         :  16)   Outputting contigs to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/before_rr.fasta
+  0:31:30.601    14G / 40G   INFO    General                 (contig_output_stage.cpp   : 151)   Writing GFA graph to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/assembly_graph_after_simplification.gfa
+  0:31:39.474    14G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Paired Information Counting (id: late_pair_info_count)
+  0:31:44.260    15G / 40G   INFO    General                 (graph_pack.cpp            :  77)   Normalizing k-mer map. Total 17994509 kmers to process
+  0:31:48.412    15G / 40G   INFO    General                 (graph_pack.cpp            :  79)   Normalizing done
+  0:31:48.697    15G / 40G   INFO    General                 (pair_info_count.cpp       : 339)   Min edge length for estimation: 725
+  0:31:48.700    15G / 40G   INFO    General                 (pair_info_count.cpp       : 350)   Estimating insert size for library #0
+  0:31:48.703    15G / 40G   INFO    General                 (pair_info_count.cpp       : 202)   Estimating insert size (takes a while)
+  0:31:48.860    15G / 40G   INFO    General                 (pair_info_count.cpp       :  48)   Selecting usual mapper
+  0:32:00.504    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 200000 reads
+  0:32:00.546    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 400000 reads
+  0:32:01.768    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 600000 reads
+  0:32:01.876    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 800000 reads
+  0:32:01.942    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1000000 reads
+  0:32:01.969    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1200000 reads
+  0:32:02.342    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 2200000 reads
+  0:32:02.666    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 4200000 reads
+  0:32:15.426    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
+  0:32:29.584    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
+  0:32:53.098    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 29157065 reads processed
+  0:32:53.290    15G / 40G   INFO    General                 (pair_info_count.cpp       : 220)   Edge pairs: 11988727
+  0:32:53.293    15G / 40G   INFO    General                 (pair_info_count.cpp       : 222)   6660018 paired reads (22.8419% of all) aligned to long edges
+  0:32:53.295    15G / 40G   INFO    General                 (pair_info_count.cpp       : 369)     Insert size = 374.67, deviation = 80.6338, left quantile = 258, right quantile = 459, read length = 150
+  0:32:53.307    15G / 40G   INFO    General                 (pair_info_count.cpp       : 390)   Filtering data for library #0
+  0:32:53.330    15G / 40G   INFO    General                 (pair_info_count.cpp       :  48)   Selecting usual mapper
+  0:33:06.257    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 200000 reads
+  0:33:06.361    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 400000 reads
+  0:33:06.512    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 600000 reads
+  0:33:06.584    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 800000 reads
+  0:33:06.594    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1000000 reads
+  0:33:06.602    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1200000 reads
+  0:33:06.747    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 2200000 reads
+  0:33:07.371    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 4200000 reads
+  0:33:20.126    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
+  0:33:35.012    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
+  0:34:30.329    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 29157065 reads processed
+  0:34:30.336    15G / 40G   INFO    General                 (pair_info_count.cpp       : 402)   Mapping library #0
+  0:34:30.340    15G / 40G   INFO    General                 (pair_info_count.cpp       : 404)   Mapping paired reads (takes a while)
+  0:34:30.343    15G / 40G   INFO    General                 (pair_info_count.cpp       : 299)   Left insert size quantile 258, right insert size quantile 459, filtering threshold 2, rounding threshold 0
+  0:34:30.372    15G / 40G   INFO    General                 (pair_info_count.cpp       :  48)   Selecting usual mapper
+  0:34:43.355    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 200000 reads
+  0:34:43.404    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 400000 reads
+  0:34:43.638    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 600000 reads
+  0:34:43.658    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 800000 reads
+  0:34:43.745    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1000000 reads
+  0:34:44.120    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 1200000 reads
+  0:34:44.870    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 2200000 reads
+  0:34:45.896    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 4200000 reads
+  0:34:59.324    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 8400000 reads
+  0:35:24.287    15G / 40G   INFO    General                 (sequence_mapper_notifier.h:  77)   Processed 16800000 reads
+  0:38:35.641    16G / 40G   INFO    General                 (sequence_mapper_notifier.h:  95)   Total 29157065 reads processed
+  0:38:35.990    16G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Distance Estimation (id: distance_estimation)
+  0:38:35.994    16G / 40G   INFO    General                 (distance_estimation.cpp   : 179)   Processing library #0
+  0:38:36.001    16G / 40G   INFO    General                 (distance_estimation.cpp   : 150)   Weight Filter Done
+  0:38:36.005    16G / 40G   INFO   DistanceEstimator        (distance_estimation.hpp   : 116)   Using SIMPLE distance estimator
+  0:40:30.197    16G / 40G   INFO    General                 (distance_estimation.cpp   :  37)   Filtering info
+  0:40:30.231    16G / 40G   INFO    General                 (pair_info_filters.hpp     : 242)   Start filtering; library index size: 19687874
+  0:40:36.587    16G / 40G   INFO    General                 (pair_info_filters.hpp     : 263)   Done filtering; library index size: 9643259
+  0:40:36.635    16G / 40G   INFO    General                 (distance_estimation.cpp   : 156)   Refining clustered pair information
+  0:40:39.155    16G / 40G   INFO    General                 (distance_estimation.cpp   : 158)   The refining of clustered pair information has been finished
+  0:40:39.158    16G / 40G   INFO    General                 (distance_estimation.cpp   : 160)   Improving paired information
+  0:40:54.444    16G / 40G   INFO   PairInfoImprover         (pair_info_improver.hpp    : 104)   Paired info stats: missing = 2188725; contradictional = 166
+  0:41:17.282    16G / 40G   INFO   PairInfoImprover         (pair_info_improver.hpp    : 104)   Paired info stats: missing = 353512; contradictional = 0
+  0:41:17.327    16G / 40G   INFO    General                 (distance_estimation.cpp   : 104)   Filling scaffolding index
+  0:41:17.332    16G / 40G   INFO   DistanceEstimator        (distance_estimation.hpp   : 116)   Using SMOOTHING distance estimator
+  0:43:09.046    16G / 40G   INFO    General                 (distance_estimation.cpp   :  37)   Filtering info
+  0:43:09.053    16G / 40G   INFO    General                 (pair_info_filters.hpp     : 242)   Start filtering; library index size: 2428216
+  0:43:10.271    16G / 40G   INFO    General                 (pair_info_filters.hpp     : 263)   Done filtering; library index size: 2428216
+  0:43:10.275    16G / 40G   INFO    General                 (distance_estimation.cpp   : 186)   Clearing raw paired index
+  0:43:12.025    15G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Repeat Resolving (id: repeat_resolving)
+  0:43:12.108    15G / 40G   INFO    General                 (repeat_resolving.cpp      :  87)   Using Path-Extend repeat resolving
+  0:43:12.114    15G / 40G   INFO    General                 (launcher.cpp              : 600)   ExSPAnder repeat resolving tool started
+  0:43:12.893    15G / 40G   INFO    General                 (coverage_uniformity_analyz:  25)   genomic coverage is 2.47358 calculated of length 226885099
+  0:43:16.871    19G / 40G   INFO    General                 (launcher.cpp              : 418)   Creating main extenders, unique edge length = 2000
+  0:43:16.877    19G / 40G   INFO    General                 (extenders_logic.cpp       : 334)   Estimated coverage of library #0 is 3.39382
+  0:43:16.884    19G / 40G   INFO    General                 (extenders_logic.cpp       : 345)   Creating extender; library index size: 14727567
+  0:43:16.896    19G / 40G   INFO    General                 (extenders_logic.cpp       : 334)   Estimated coverage of library #0 is 3.39382
+  0:43:16.901    19G / 40G   INFO    General                 (extenders_logic.cpp       : 345)   Creating extender; library index size: 14727567
+  0:43:17.463    19G / 40G   INFO    General                 (extenders_logic.cpp       : 543)   Using 1 paired-end library
+  0:43:17.469    19G / 40G   INFO    General                 (extenders_logic.cpp       : 544)   Using 1 paired-end scaffolding library
+  0:43:17.474    19G / 40G   INFO    General                 (extenders_logic.cpp       : 545)   Using 0 single read libraries
+  0:43:17.478    19G / 40G   INFO    General                 (launcher.cpp              : 447)   Total number of extenders is 3
+  0:43:17.483    19G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 0 paths from 916500 (0%)
+  0:43:17.540    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 128 paths from 916500 (0%)
+  0:43:17.565    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 256 paths from 916500 (0%)
+  0:43:17.610    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 512 paths from 916500 (0%)
+  0:43:17.722    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 1024 paths from 916500 (0%)
+  0:43:17.884    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 2048 paths from 916500 (0%)
+  0:43:18.088    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 4096 paths from 916500 (0%)
+  0:43:18.530    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 8192 paths from 916500 (0%)
+  0:43:19.273    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 16384 paths from 916500 (1%)
+  0:43:20.584    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 32768 paths from 916500 (3%)
+  0:43:22.843    19G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 65536 paths from 916500 (7%)
+  0:43:24.442    20G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 91651 paths from 916500 (10%)
+  0:43:26.747    20G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 131072 paths from 916500 (14%)
+  0:43:29.133    20G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 183302 paths from 916500 (20%)
+  0:43:31.721    20G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 262144 paths from 916500 (28%)
+  0:43:32.096    20G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 274953 paths from 916500 (30%)
+  0:43:34.184    21G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 366604 paths from 916500 (40%)
+  0:43:35.777    21G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 458255 paths from 916500 (50%)
+  0:43:36.765    21G / 40G   INFO    General                 (path_extenders.cpp        :  34)   Processed 524288 paths from 916500 (57%)
+  0:43:37.123    21G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 549906 paths from 916500 (60%)
+  0:43:38.244    22G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 641557 paths from 916500 (70%)
+  0:43:39.133    22G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 733208 paths from 916500 (80%)
+  0:43:39.783    22G / 40G   INFO    General                 (path_extenders.cpp        :  36)   Processed 824859 paths from 916500 (90%)
+  0:43:41.884    23G / 40G   INFO    General                 (launcher.cpp              : 250)   Finalizing paths
+  0:43:41.892    23G / 40G   INFO    General                 (launcher.cpp              : 252)   Deduplicating paths
+  0:43:45.179    22G / 40G   INFO    General                 (launcher.cpp              : 256)   Paths deduplicated
+  0:43:45.187    22G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  60)   Removing overlaps
+  0:43:45.195    22G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  63)   Sorting paths
+  0:43:46.394    22G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  70)   Marking overlaps
+  0:43:46.403    22G / 40G   INFO   OverlapRemover           (overlap_remover.hpp       : 116)   Marking start/end overlaps
+  0:43:52.485    22G / 40G   INFO   OverlapRemover           (overlap_remover.hpp       : 119)   Marking remaining overlaps
+  0:43:58.776    22G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  73)   Splitting paths
+  0:43:59.050    23G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  78)   Deduplicating paths
+  0:43:59.787    22G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  80)   Overlaps removed
+  0:44:01.063    23G / 40G   INFO    General                 (launcher.cpp              : 273)   Paths finalized
+  0:44:01.073    23G / 40G   INFO    General                 (launcher.cpp              : 454)   Closing gaps in paths
+  0:44:04.097    26G / 40G   INFO    General                 (launcher.cpp              : 484)   Gap closing completed
+  0:44:04.649    26G / 40G   INFO    General                 (launcher.cpp              : 302)   Traversing tandem repeats
+  0:44:10.935    26G / 40G   INFO    General                 (launcher.cpp              : 312)   Traversed 1 loops
+  0:44:10.945    26G / 40G   INFO    General                 (launcher.cpp              : 250)   Finalizing paths
+  0:44:10.955    26G / 40G   INFO    General                 (launcher.cpp              : 252)   Deduplicating paths
+  0:44:11.443    26G / 40G   INFO    General                 (launcher.cpp              : 256)   Paths deduplicated
+  0:44:11.453    26G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  60)   Removing overlaps
+  0:44:11.463    26G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  63)   Sorting paths
+  0:44:12.222    26G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  70)   Marking overlaps
+  0:44:12.232    26G / 40G   INFO   OverlapRemover           (overlap_remover.hpp       : 116)   Marking start/end overlaps
+  0:44:13.197    26G / 40G   INFO   OverlapRemover           (overlap_remover.hpp       : 119)   Marking remaining overlaps
+  0:44:14.241    26G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  73)   Splitting paths
+  0:44:14.343    26G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  78)   Deduplicating paths
+  0:44:14.834    26G / 40G   INFO   PEResolver               (pe_resolver.cpp           :  80)   Overlaps removed
+  0:44:16.081    26G / 40G   INFO    General                 (launcher.cpp              : 273)   Paths finalized
+  0:44:16.091    26G / 40G   INFO    General                 (launcher.cpp              : 664)   ExSPAnder repeat resolving tool finished
+  0:44:19.101    18G / 40G   INFO   StageManager             (stage.cpp                 : 185)   STAGE == Contig Output (id: contig_output)
+  0:44:19.159    18G / 40G   INFO    General                 (contig_output.hpp         :  16)   Outputting contigs to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/before_rr.fasta
+  0:44:29.258    18G / 40G   INFO    General                 (contig_output_stage.cpp   : 151)   Writing GFA graph to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/assembly_graph_with_scaffolds.gfa
+  0:44:32.821    18G / 40G   INFO    General                 (contig_output_stage.cpp   : 165)   Outputting FastG graph to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/assembly_graph.fastg
+  0:44:54.801    18G / 40G   INFO    General                 (contig_output_stage.cpp   : 196)   Breaking scaffolds
+  0:45:04.467    22G / 40G   INFO    General                 (contig_output_stage.cpp   :  98)   Outputting contigs to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/final_contigs.fasta
+  0:45:14.170    22G / 40G   INFO    General                 (contig_output_stage.cpp   : 104)   Outputting FastG paths to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/final_contigs.paths
+  0:45:21.642    19G / 40G   INFO    General                 (contig_output_stage.cpp   :  98)   Outputting contigs to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/scaffolds.fasta
+  0:45:28.751    19G / 40G   INFO    General                 (contig_output_stage.cpp   : 104)   Outputting FastG paths to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/scaffolds.paths
+  0:45:30.595    19G / 40G   INFO    General                 (contig_output_stage.cpp   : 111)   Populating GFA with scaffold paths
+  0:45:32.227    18G / 40G   INFO    General                 (pipeline.cpp              : 287)   SPAdes finished
+  0:45:38.490     1M / 40G   INFO    General                 (main.cpp                  : 136)   Assembling time: 0 hours 45 minutes 38 seconds
+
+===== K99 finished. 
+
+
+===== Copy files started. 
+
+
+== Running: /opt/conda/bin/python /opt/conda/share/spades/spades_pipeline/scripts/copy_files.py /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/before_rr.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/before_rr.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/assembly_graph_after_simplification.gfa /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/assembly_graph_after_simplification.gfa /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/final_contigs.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/contigs.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/first_pe_contigs.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/first_pe_contigs.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/strain_graph.gfa /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/strain_graph.gfa /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/scaffolds.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.fasta /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/scaffolds.paths /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.paths /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/assembly_graph_with_scaffolds.gfa /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/assembly_graph_with_scaffolds.gfa /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/assembly_graph.fastg /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/assembly_graph.fastg /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/K99/final_contigs.paths /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/contigs.paths
+
+
+===== Copy files finished. 
+
+
+===== Assembling finished. 
+
+
+===== Breaking scaffolds started. 
+
+
+== Running: /opt/conda/bin/python /opt/conda/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py --result_scaffolds_filename /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.fasta --misc_dir /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/misc --threshold_for_breaking_scaffolds 3
+
+
+===== Breaking scaffolds finished. 
+
+
+===== Terminate started. 
+
+
+===== Terminate finished. 
+
+ * Corrected reads are in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/corrected/
+ * Assembled contigs are in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/contigs.fasta
+ * Assembled scaffolds are in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.fasta
+ * Paths in the assembly graph corresponding to the contigs are in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/contigs.paths
+ * Paths in the assembly graph corresponding to the scaffolds are in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.paths
+ * Assembly graph is in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/assembly_graph.fastg
+ * Assembly graph in GFA format is in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/assembly_graph_with_scaffolds.gfa
+
+======= SPAdes pipeline finished WITH WARNINGS!
+
+=== Error correction and assembling warnings:
+ * 0:13:30.090    11G / 28G   WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 88
+ * 0:13:30.095    11G / 28G   WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 88
+ * 0:27:26.609  9028M / 28G   WARN    General                 (simplification.cpp        : 500)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:15:04.454  8977M / 39G   WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 3
+ * 0:15:04.456  8977M / 39G   WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 3
+ * 0:14:25.885  9269M / 29G   WARN    General                 (kmer_coverage_model.cpp   : 218)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:14:31.429  9277M / 29G   WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 112
+ * 0:18:31.476  8207M / 34G   WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 126
+ * 0:20:06.742  7873M / 40G   WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 94
+======= Warnings saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/warnings.log
+
+SPAdes log can be found here: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/spades.log
+
+Thank you for using SPAdes!
+
+Running QUAST Now
+
+/opt/conda/bin/quast.py /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/contigs.fasta -o /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report --est-ref-size 342000000 -s --eukaryote --large
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-4.4.302-1.el6_10.x86_64-x86_64-with-fedora-32-Thirty_Two (linux_64)
+  Python version: 3.7.9
+  CPUs number: 32
+
+Started: 2022-07-19 16:50:06
+
+Logging to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus
+Main parameters: 
+  MODE: large, threads: 8, eukaryotic: true, split scaffolds: true, minimum contig length: 3000, \
+  minimum alignment length: 500, ambiguity: one, threshold for extensive misassembly size: 7000
+
+Contigs:
+  Pre-processing...
+  /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/contigs.fasta ==> contigs
+    breaking scaffolds into contigs:
+      WARNING: nothing was broken, skipping 'contigs broken' from further analysis
+
+2022-07-19 16:50:21
+Running Basic statistics processor...
+  Estimated reference length = 342000000
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 5041, L50 = 1498, Total length = 36962939, GC % = 46.19, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 1x)...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-07-19 16:50:25
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-07-19 16:50:26
+RESULTS:
+  Text versions of total report are saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/report.html
+  PDF version (tables and plots) is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/report.pdf
+  Icarus (contig browser) is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/icarus.html
+  Log is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_contigs_report/quast.log
+
+Finished: 2022-07-19 16:50:26
+Elapsed time: 0:00:20.382899
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/opt/conda/bin/quast.py /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.fasta -o /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report --est-ref-size 342000000 -s --eukaryote --large
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-4.4.302-1.el6_10.x86_64-x86_64-with-fedora-32-Thirty_Two (linux_64)
+  Python version: 3.7.9
+  CPUs number: 32
+
+Started: 2022-07-19 16:50:27
+
+Logging to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus
+Main parameters: 
+  MODE: large, threads: 8, eukaryotic: true, split scaffolds: true, minimum contig length: 3000, \
+  minimum alignment length: 500, ambiguity: one, threshold for extensive misassembly size: 7000
+
+Contigs:
+  Pre-processing...
+  /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/scaffolds.fasta ==> scaffolds
+    breaking scaffolds into contigs:
+      7408 scaffolds (scaffolds) were broken into 8004 contigs (scaffolds_broken)
+
+2022-07-19 16:50:50
+Running Basic statistics processor...
+  Estimated reference length = 342000000
+  Contig files: 
+    1  scaffolds
+    2  scaffolds_broken
+  Calculating N50 and L50...
+    1  scaffolds, N50 = 4851, L50 = 1756, Total length = 40835802, GC % = 45.98, # N's per 100 kbp =  84.64
+    2  scaffolds_broken, N50 = 4774, L50 = 1700, Total length = 38942698, GC % = 46.08, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/GC_content_plot.pdf
+  Drawing scaffolds GC content plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/scaffolds_GC_content_plot.pdf
+  Drawing scaffolds_broken GC content plot...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/scaffolds_broken_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 1x)...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/scaffolds_coverage_histogram.pdf
+  Drawing scaffolds_broken coverage histogram (bin size: 1x)...
+    saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/basic_stats/scaffolds_broken_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-07-19 16:50:57
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-07-19 16:50:59
+RESULTS:
+  Text versions of total report are saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/report.html
+  PDF version (tables and plots) is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/report.pdf
+  Icarus (contig browser) is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/icarus.html
+  Log is saved to /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/SPAdes_Cha-CPnd-C_decontam_R1R2_noIsolate/quast_scaffolds_report/quast.log
+
+Finished: 2022-07-19 16:50:59
+Elapsed time: 0:00:31.862625
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

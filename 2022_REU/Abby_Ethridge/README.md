@@ -61,7 +61,10 @@ Finished Step 2. Assemble the Genome Using SPAdes
 
 Library  |  # of contigs |  size of largest contig  |  total length  |  N50  |  L50
 ---  | ---  |  ---  |  ---  |  ---  |  ---
-
+A  |  69126  |  150657  |  583970986  |  10319  |  15699
+B  |  69634  |  150819  |  579984097  |  10094  |  15982
+C  |  67590  |  130976  |  344743603  |  5055  |  22374
+alllibs  |  63103  |  135104  |  307932117  |  4743  |  21357
 
 Step 3. Running BUSCO
 
@@ -72,3 +75,12 @@ Finsihed Step 2. Mapping reads to a reference genome and working with mapping (.
 Step 3. Assessing depth of coverage
 
 Started Step 4. Calling genotypes and consensus sequences
+
+---
+
+## July 20, 2022
+### Genome Assembly Section
+
+
+
+### PSMC

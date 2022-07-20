@@ -236,8 +236,8 @@ The arguments are:
 * Your personal directory name in /home/e1garcia/shotgun_PIRE/REUs/2022_REU/ (`<yourname>`)
 * Full species name, lowercase with underscores (`<speciesname>`)
 * Species code (`<speciescode>`)
-* The lower coverage cutoff determined from running samtools in the previous step (`<lowercutoff>`).
-* The upper coverage cutoff determined from running samtools in the previous step (`<uppercutoff>`).
+* The lower coverage cutoff determined from running samtools in the previous step (`<lowercutoff>`) - rounded the the nearest integer.
+* The upper coverage cutoff determined from running samtools in the previous step (`<uppercutoff>`) - rounded the the nearest integer.
 * A starting value to be added to the array task ID (`<arraystart>`). You will run these array jobs in batches of 1000, so start with 0 for the first batch, 1000 for the next batch, etc.
 
 `--array=1-<arrayend>` runs the job in array mode, which can do up to 1000 sequential jobs. Since for a given species we may have >1000 scaffolds, you may have to run this script multiple times. Say you have 5,236 scaffolds - you would run the script 6 times, first with `<arraystart>` set to 0, then 1000, then 2000, then 3000, then 4000, then 5000. For the first five jobs you would set `<arrayend>` to 1000, but for the last  the last job you would set it to 236. You run the script multiple times to put the jobs on the queue and then just wait for them to finish.

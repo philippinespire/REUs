@@ -15,7 +15,7 @@
 enable_lmod 
 module load container_env pire_genome_assembly/2021.07.01
 export SINGULARITY_BIND=/home/e1garcia
-DATAPATH="/home/e1garcia/shotgun_PIRE/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
+DATAPATH="/home/e1garcia/shotgun_PIRE/REUs/2022_REU/${1}/${2}_PSMC/data/mkBAM/${3}_denovoSSL_20k_PSMC"
 cd ${DATAPATH}/denovoSSL_20k_PSMC
 
 RD="${SLURM_ARRAY_TASK_ID}"

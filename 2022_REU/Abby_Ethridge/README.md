@@ -91,3 +91,11 @@ Step 6. Assemble Contaminated Data From the Best Library
 
 Step 5. Converting files to PSMC format.
 
+---
+
+## July 21, 2022
+### PSMC
+
+Step 6. Running PSMC
+
+Step 7. Creating confidence intervals via bootstrapping

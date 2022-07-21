@@ -198,12 +198,12 @@ If we have multiple sorted .bam files from the same individual, we can merge tho
 Before running, check the file names for your .bam files - they might only start with the first two letters of your species name (if the rename script was not run on them during the SSL pipeline). If this is the case, just use these two letters as the species code for this script.
 
 ```
-cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
+cp /home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts/mergebams.sbatch /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yourname>/<speciesname>_PSMC/data/mkBAM/<speciescode>_denovoSSL_20k_PSMC
 sbatch mergebams.sbatch <speciescode>
 ```
 
-After this finishes running, if you only used the first two letters for the species code you should rename (using `mv`) the output merged.bam and merged.bam.bai files with the full species code, to keep our use of species code consistent.
+After this finishes running, if you only used the first two letters for the species code you should rename (using `mv`) the output <speciescode>_denovoSSL_20k_merged.bam and <speciescode>_denovoSSL_20k_merged.bam.bai files with the full species code, to keep our use of species code consistent.
 
 ## Step 3. Assessing depth of coverage.
 

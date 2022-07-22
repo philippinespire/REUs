@@ -44,7 +44,7 @@ Started Step 2. Assemble the Genome Using SPAdes
 ---
 
 ## July 15, 2022
-### PSMC
+### PSMC: Herklotsichthys quadrimaculatus
 
 Step 0. Setup
 
@@ -68,7 +68,7 @@ alllibs  |  63103  |  135104  |  307932117  |  4743  |  21357
 
 Step 3. Running BUSCO
 
-### PSMC
+### PSMC: Herklotsichthys quadrimaculatus
 
 Finsihed Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
@@ -87,15 +87,22 @@ Step 5. Identify Best Assembly
 
 Step 6. Assemble Contaminated Data From the Best Library
 
-### PSMC
+### PSMC: Herklotsichthys quadrimaculatus
 
 Step 5. Converting files to PSMC format.
 
 ---
 
 ## July 21, 2022
-### PSMC
+### PSMC: Herklotsichthys quadrimaculatus
 
 Step 6. Running PSMC
 
 Step 7. Creating confidence intervals via bootstrapping
+
+---
+
+## July 22, 2022
+### PSMC: Herklotsichthys quadrimaculatus
+
+Step 8. Examining the outputs and making plots

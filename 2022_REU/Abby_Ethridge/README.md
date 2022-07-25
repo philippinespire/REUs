@@ -81,7 +81,7 @@ Started Step 4. Calling genotypes and consensus sequences
 ## July 20, 2022
 ### Genome Assembly Section
 
-Step 4. Fill in QUAST and BUSCO Values
+Finished Step 4. Fill in QUAST and BUSCO Values
 
 Step 5. Identify Best Assembly
 
@@ -106,3 +106,19 @@ Step 7. Creating confidence intervals via bootstrapping
 ### PSMC: Herklotsichthys quadrimaculatus
 
 Step 8. Examining the outputs and making plots
+
+---
+
+## July 25, 2022
+### Genome Assmbly Section
+
+Run BUSCO on contaminated data
+
+### PSMC: Spratelloides gracili
+
+Step 0. Setup
+
+Step 1. Preparing reference genomes
+
+Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+* need to run sbatch dDocentHPC_ODU.sbatch

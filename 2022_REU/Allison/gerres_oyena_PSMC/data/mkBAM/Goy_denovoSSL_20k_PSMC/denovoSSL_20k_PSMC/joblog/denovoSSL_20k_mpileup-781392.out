@@ -1,0 +1,11 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[E::hts_open_format] Failed to open file "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/Goy_denovoSSL_20k_merged.bam" : No such file or directory
+[mpileup] failed to open /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/Goy_denovoSSL_20k_merged.bam: No such file or directory
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: 'denovoSSL_20k_mpileup-781391.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-781391.out' are the same file
+mv: 'denovoSSL_20k_mpileup-781392.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-781392.out' are the same file
+mv: 'denovoSSL_20k_mpileup-781393.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-781393.out' are the same file

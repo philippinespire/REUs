@@ -1,1 +1,1 @@
-Readme for first PSMC run
+PSMC for Gerres oyena

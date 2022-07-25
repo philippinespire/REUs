@@ -64,17 +64,25 @@ rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allis
 
 07/20/2022
 	
-	SPAdes for 1, 2, and 3 ran successfuly- marked as A/B/C
+	SPAdes for 2 and 3 ran successfuly- marked as B/C
 	
 	Scaffolds and contigs results from BUSCO for all libs exist, Brendan ran contigs as test. Recorded info in readme
 	
-	Updated all readme files (took down notes on computer while permission issues were not letting me save in readme)
+	Updating readme files (took down notes on computer while permission issues were not letting me save in readme)
 	
 	Organized Cha directory
 	
 	Rsync'd all quast reports onto personal desktop
 
-	Added quast resulrs to step 4 table in Cha readme 
+	Added quast results to step 4 table in Cha readme
+
+	Submitted contigs for B (batch job 775394) and scaffolds for B (batch job 775404)
+	
+	Submitted contigs for C (batch job 775407) and scaffolds for C (batch job 775408)
+
+	Need to re-run SPAdes for 1st library (A), code:
+
+							sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "afink007" "Cha" "1" "decontam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired" 
 	
 	
 

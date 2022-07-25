@@ -1,0 +1,5 @@
+
+[E::hts_open_format] Failed to open file "Sfa_library1_reduced.denovoSSL.Sfa100k-RG.bam" : No such file or directory
+samtools merge: fail to open "Sfa_library1_reduced.denovoSSL.Sfa100k-RG.bam": No such file or directory
+[E::hts_open_format] Failed to open file "Sfa_reduced_denovoSSL_100k.bam" : No such file or directory
+samtools index: failed to open "Sfa_reduced_denovoSSL_100k.bam": No such file or directory

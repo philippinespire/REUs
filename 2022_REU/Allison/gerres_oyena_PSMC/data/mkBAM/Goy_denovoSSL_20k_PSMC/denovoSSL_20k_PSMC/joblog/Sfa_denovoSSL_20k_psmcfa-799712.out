@@ -1,0 +1,7 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Goy_denovoSSL_20k.8347.fq: No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-799718.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-799719.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-799720.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-799721.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-799722.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-799722.out' are the same file

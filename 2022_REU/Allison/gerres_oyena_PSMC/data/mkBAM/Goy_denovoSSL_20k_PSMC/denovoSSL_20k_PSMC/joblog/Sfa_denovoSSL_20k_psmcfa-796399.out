@@ -1,0 +1,7 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/gerres_oyena_PSMC/data/mkBAM/Goy_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Goy_denovoSSL_20k.2078.fq: No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-796401.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-796402.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-796403.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-796405.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-796406.out': No such file or directory

@@ -3,7 +3,7 @@
 ---
 
 ## July 12, 2022
-### Pre-Processing Section
+### Pre-Processing Section: Stethojulis interrupta
 
 Step 0. Rename the raw fq.gz files
 
@@ -20,7 +20,7 @@ Started Step 5. Run fastq_screen
 ---
 
 ## July 13, 2022
-### Pre-Processing Section
+### Pre-Processing Section: Stethojulis interrupta
 
 Finished Step 5. Run fastq_screen
 
@@ -28,14 +28,14 @@ Step 6. Repair fastq_screen paired end files
 
 Step 7. Calculate the percent of reads lost in each step
 
-### Genome Assembly Section
+### Genome Assembly Section: Stethojulis interrupta
 
 Started Step 1. Genome Properties
 
 ---
 
 ## July 14, 2022
-### Genome Assembly Section
+### Genome Assembly Section: Stethojulis interrupta
 
 Finished Step 1. Genome Properties
 
@@ -55,7 +55,7 @@ Started Step 2. Mapping reads to a reference genome and working with mapping (.b
 ---
 
 ## July 19, 2022
-### Genome Assembly Section
+### Genome Assembly Section: Stethojulis interrupta
 
 Finished Step 2. Assemble the Genome Using SPAdes
 
@@ -79,7 +79,7 @@ Started Step 4. Calling genotypes and consensus sequences
 ---
 
 ## July 20, 2022
-### Genome Assembly Section
+### Genome Assembly Section: Stethojulis interrupta
 
 Finished Step 4. Fill in QUAST and BUSCO Values
 
@@ -110,9 +110,9 @@ Step 8. Examining the outputs and making plots
 ---
 
 ## July 25, 2022
-### Genome Assmbly Section
+### Genome Assembly Section: Stethojulis interrupta
 
-Run BUSCO on contaminated data
+Run BUSCO on contaminated scaffolds data
 
 ### PSMC: Spratelloides gracili
 
@@ -121,4 +121,11 @@ Step 0. Setup
 Step 1. Preparing reference genomes
 
 Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
-* need to run sbatch dDocentHPC_ODU.sbatch
+
+---
+
+## July 26, 2022
+### Genome Assembly Section: Stethojulis interrupta
+
+Run BUSCO on contaminated contigs data
+

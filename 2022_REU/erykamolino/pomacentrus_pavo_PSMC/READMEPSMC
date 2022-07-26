@@ -217,7 +217,7 @@ samtools depth Ppa_reduced_denovoSSL_20k.bam | awk '{sum+=$3} END { print "Avera
 ```
 
 What was the average depth of coverage? What range of coverage would we use?
-
+83.0219
 
 Update the README.md file with this statistic.
 

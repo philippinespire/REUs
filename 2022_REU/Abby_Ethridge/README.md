@@ -128,4 +128,39 @@ Started Step 2. Mapping reads to a reference genome and working with mapping (.b
 ### Genome Assembly Section: Stethojulis interrupta
 
 Run BUSCO on contaminated contigs data
+* Scaffolds Library A Deconimated is the best!
 
+---
+
+## July 27, 2022
+### PSMC: Spratelloides gracili
+
+Finished Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+
+Step 3. Assessing depth of coverage
+
+Step 4. Calling genotypes and consensus sequences
+
+Step 5. Converting files to PSMC format
+
+Step 6. Running PSMC
+
+Step 7. Creating confidence intervals via bootstrapping
+
+Step 8. Examining the outputs and making plots
+
+### PSMC: Stethojulis interrupta
+
+Step 1. Preparing reference genomes
+
+Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+* Running sbatch dDocentHPC_ODU.sbatch 1st round
+
+### PSMC: Ambassis kopsii
+
+Step 0. Setup
+
+Step 1. Preparing reference genomes
+
+Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+* Running sbatch dDocentHPC_ODU.sbatch 1st round

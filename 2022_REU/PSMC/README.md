@@ -163,7 +163,7 @@ If all of that is set you should be able to run dDocentHPC and map your reads by
 sbatch dDocentHPC_ODU.sbatch
 ```
 
-This mapping step can take a while (overnight or a day or two!) depending on shotgun library sizes. 
+This mapping step can take a while (overnight or a day or two!) depending on shotgun library sizes. When the sbatch has finished running check its output and make sure you have files with -RAW.bam and -RAW.bam.bai extensions for each of the input libraries. 
 
 After we have generated the .bam files we need to filter them. This can be done just by editing the sbatch file to un-comment the appopriate line in your sbatch file and rerunning. 
 
@@ -191,7 +191,7 @@ export SINGULARITY_BIND=/home/e1garcia
 crun bash dDocentHPC.bash fltrBAM config.5.cssl
 ```
 
-Once you have edited your sbatch file you can run the filtering step using the same `sbatch dDocentHPC_ODU.sbatch` command that you used before.
+Once you have edited your sbatch file you can run the filtering step using the same `sbatch dDocentHPC_ODU.sbatch` command that you used before. When the sbatch has finished running check its output and make sure you have files with -RG.bam and -RG.bam.bai extensions for each of the input libraries.
 
 If we have multiple sorted .bam files from the same individual, we can merge those .bam files into a single .bam file using thecommand  `samtools merge`. To call genotypes we also need to index this merged file first. The sbatch script `mergebams.sbatch` can be used to do both of these things. This version is different from the workshop version - you should not need to edit it, but you do need to supply the appropriate `<speciescode>`. Copy it to your folder and execute.
 

@@ -2,8 +2,26 @@
 
 ---
 
-## July 12, 2022
-### Pre-Processing Section: Stethojulis interrupta
+## Checklist
+
+### SSL: 
+* Stethojulis interrupta
+
+### PSMC:
+* Herklotsichthys quadrimaculatus
+* Spratelloides gracili
+* Stethojulis interrupta 
+* Ambassis kopsii - in progress
+* Periophthalmus argentilineatus - not started
+* Sphaeramia nematoptera - not started
+
+---
+
+## Journal
+
+### July 12, 2022
+
+#### Pre-Processing Section: Stethojulis interrupta
 
 Step 0. Rename the raw fq.gz files
 
@@ -17,10 +35,9 @@ Step 4. Run fastp2
 
 Started Step 5. Run fastq_screen
 
----
+### July 13, 2022
 
-## July 13, 2022
-### Pre-Processing Section: Stethojulis interrupta
+#### Pre-Processing Section: Stethojulis interrupta
 
 Finished Step 5. Run fastq_screen
 
@@ -28,23 +45,21 @@ Step 6. Repair fastq_screen paired end files
 
 Step 7. Calculate the percent of reads lost in each step
 
-### Genome Assembly Section: Stethojulis interrupta
+#### Genome Assembly Section: Stethojulis interrupta
 
 Started Step 1. Genome Properties
 
----
+### July 14, 2022
 
-## July 14, 2022
-### Genome Assembly Section: Stethojulis interrupta
+#### Genome Assembly Section: Stethojulis interrupta
 
 Finished Step 1. Genome Properties
 
 Started Step 2. Assemble the Genome Using SPAdes
 
----
+### July 15, 2022
 
-## July 15, 2022
-### PSMC: Herklotsichthys quadrimaculatus
+#### PSMC: Herklotsichthys quadrimaculatus
 
 Step 0. Setup
 
@@ -52,10 +67,9 @@ Step 1. Preparing reference genomes
 
 Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
----
+### July 19, 2022
 
-## July 19, 2022
-### Genome Assembly Section: Stethojulis interrupta
+#### Genome Assembly Section: Stethojulis interrupta
 
 Finished Step 2. Assemble the Genome Using SPAdes
 
@@ -68,7 +82,7 @@ alllibs  |  63103  |  135104  |  307932117  |  4743  |  21357
 
 Step 3. Running BUSCO
 
-### PSMC: Herklotsichthys quadrimaculatus
+#### PSMC: Herklotsichthys quadrimaculatus
 
 Finsihed Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
@@ -76,10 +90,9 @@ Step 3. Assessing depth of coverage
 
 Started Step 4. Calling genotypes and consensus sequences
 
----
+### July 20, 2022
 
-## July 20, 2022
-### Genome Assembly Section: Stethojulis interrupta
+#### Genome Assembly Section: Stethojulis interrupta
 
 Finished Step 4. Fill in QUAST and BUSCO Values
 
@@ -87,34 +100,31 @@ Step 5. Identify Best Assembly
 
 Step 6. Assemble Contaminated Data From the Best Library
 
-### PSMC: Herklotsichthys quadrimaculatus
+#### PSMC: Herklotsichthys quadrimaculatus
 
 Step 5. Converting files to PSMC format.
 
----
+### July 21, 2022
 
-## July 21, 2022
-### PSMC: Herklotsichthys quadrimaculatus
+#### PSMC: Herklotsichthys quadrimaculatus
 
 Step 6. Running PSMC
 
 Step 7. Creating confidence intervals via bootstrapping
 
----
+### July 22, 2022
 
-## July 22, 2022
-### PSMC: Herklotsichthys quadrimaculatus
+#### PSMC: Herklotsichthys quadrimaculatus
 
 Step 8. Examining the outputs and making plots
 
----
+### July 25, 2022
 
-## July 25, 2022
-### Genome Assembly Section: Stethojulis interrupta
+#### Genome Assembly Section: Stethojulis interrupta
 
 Run BUSCO on contaminated scaffolds data
 
-### PSMC: Spratelloides gracili
+#### PSMC: Spratelloides gracili
 
 Step 0. Setup
 
@@ -122,18 +132,16 @@ Step 1. Preparing reference genomes
 
 Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
----
+### July 26, 2022
 
-## July 26, 2022
-### Genome Assembly Section: Stethojulis interrupta
+#### Genome Assembly Section: Stethojulis interrupta
 
 Run BUSCO on contaminated contigs data
 * Scaffolds Library A Deconimated is the best!
 
----
+### July 27, 2022
 
-## July 27, 2022
-### PSMC: Spratelloides gracili
+#### PSMC: Spratelloides gracili
 
 Finished Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
 
@@ -149,12 +157,11 @@ Step 7. Creating confidence intervals via bootstrapping
 
 Step 8. Examining the outputs and making plots
 
-### PSMC: Stethojulis interrupta
+#### PSMC: Stethojulis interrupta
 
 Step 1. Preparing reference genomes
 
 Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
-* Running sbatch dDocentHPC_ODU.sbatch 1st round
 
 ### PSMC: Ambassis kopsii
 
@@ -163,4 +170,26 @@ Step 0. Setup
 Step 1. Preparing reference genomes
 
 Started Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
-* Running sbatch dDocentHPC_ODU.sbatch 1st round
+
+### July 28, 2022
+
+#### PSMC: Stethojulis interrupta
+
+Finished Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+
+Step 3. Assessing depth of coverage
+
+Step 4. Calling genotypes and consensus sequences
+
+Step 5. Converting files to PSMC format
+
+Step 6. Running PSMC
+
+Step 7. Creating confidence intervals via bootstrapping
+
+Step 8. Examining the outputs and making plots
+
+### PSMC: Ambassis kopsii
+
+Continuing Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+* 2nd round of sbatch dDocentHPC_ODU.sbatch

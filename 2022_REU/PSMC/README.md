@@ -247,6 +247,7 @@ Execute the script from your `/home/e1garcia/shotgun_PIRE/REUs/2022_REU/<yournam
 ```
 sbatch --array=1-<arrayend> mpileup.sbatch <yourname> <speciesname> <speciescode> <lowercutoff> <uppercutoff> <arraystart>
 ```
+sbatch --array=1-1000 mpileup.sbatch erykamolino pomacentrus_pavo Ppa 27 166 0
 
 ## Step 5. Converting files to PSMC format.
 

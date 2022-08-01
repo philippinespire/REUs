@@ -12,7 +12,7 @@
 * Spratelloides gracili - need R
 * Stethojulis interrupta - need R
 * Ambassis kopsii - need R
-* Periophthalmus argentilineatus - not started
+* Periophthalmus argentilineatus - PSMC
 * Sphaeramia nematoptera - not started
 
 ---
@@ -210,3 +210,14 @@ Step 6. Running PSMC
 Step 7. Creating confidence intervals via bootstrapping
 
 Step 8. Examining the outputs and making plots
+
+### August 1, 2022
+
+#### PSMC: Periophthalmus argentilineatus
+
+Step 0. Setup
+
+Step 1. Preparing reference genomes.
+
+Statrted Step 2. Mapping reads to a reference genome and working with mapping (.bam) files
+* first round of sbatch dDocentHPC_ODU.sbatch

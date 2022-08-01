@@ -1,0 +1,18 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[E::mpileup] fail to parse region '1307' with /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/Cha_denovoSSL_20k_merged.bam
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: 'denovoSSL_20k_mpileup-878069.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878069.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878070.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878070.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878071.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878071.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878072.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878072.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878073.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878073.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878074.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878074.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878075.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878075.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878076.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878076.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878077.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878077.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878078.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878078.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878079.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878079.out' are the same file

@@ -1,0 +1,24 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[E::hts_open_format] Failed to open file "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/Hmi_denovoSSL_20k_merged.bam" : No such file or directory
+[mpileup] failed to open /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/Hmi_denovoSSL_20k_merged.bam: No such file or directory
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: 'denovoSSL_20k_mpileup-859232.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859232.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859233.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859233.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859234.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859234.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859235.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859235.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859236.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859236.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859237.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859237.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859238.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859238.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859239.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859239.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859240.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859240.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859241.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859241.out' are the same file
+mv: cannot move 'denovoSSL_20k_mpileup-859242.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859242.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-859243.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859243.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859244.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859244.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859245.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859245.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859246.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859246.out' are the same file
+mv: 'denovoSSL_20k_mpileup-859247.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-859247.out' are the same file

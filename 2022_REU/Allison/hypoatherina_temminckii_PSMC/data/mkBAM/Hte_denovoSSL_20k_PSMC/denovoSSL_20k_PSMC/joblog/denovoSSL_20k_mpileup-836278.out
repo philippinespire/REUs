@@ -1,0 +1,11 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-836298.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836298.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836299.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836299.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836300.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836300.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836301.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836301.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836302.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836302.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836303.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836303.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836304.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836304.out' are the same file

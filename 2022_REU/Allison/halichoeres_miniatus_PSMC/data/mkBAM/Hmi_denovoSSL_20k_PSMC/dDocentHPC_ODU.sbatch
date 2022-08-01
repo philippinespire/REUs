@@ -1,14 +1,14 @@
 #!/bin/bash -l
 
-#SBATCH --job-name=mkBAM_denovoSSL_Sfa100k
-#SBATCH -o mkBAM_denovoSSL_Sfa100k-%j.out
-#SBATCH -p main
-#SBATCH -c 4					# either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 
-##SBATCH --ntasks=1
-##SBATCH --cpus-per-task=40			# 40 for Wahab or 32 for Turing
-#SBATCH --mail-user=br450@rutgers.edu
-#SBATCH --mail-type=begin
-#SBATCH --mail-type=END
+SBATCH --job-name=mkBAM_denovoSSL_Hmi20k
+SBATCH -o mkBAM_denovoSSL_Hmi20k-%j.out
+SBATCH -p main
+SBATCH -c 4					# either < -c 4 > or < --ntasks=1 together withw --cpus-per-task=40 > We have been using -c 4 
+SBATCH --ntasks=1
+SBATCH --cpus-per-task=40			# 40 for Wahab or 32 for Turing
+SBATCH --mail-user=agf63@scarletmail.rutgers.edu
+SBATCH --mail-type=begin
+SBATCH --mail-type=END
 
 enable_lmod
 module load container_env ddocent

@@ -1,0 +1,30 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated
+[E::idx_find_and_load] Could not retrieve index file for '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/Aur_denovoSSL_20k_merged.bam'
+[mpileup] fail to load index for /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/Aur_denovoSSL_20k_merged.bam
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: 'denovoSSL_20k_mpileup-868983.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868983.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868984.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868984.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868985.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868985.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868986.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868986.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868987.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868987.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868988.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868988.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868989.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868989.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868990.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868990.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868991.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868991.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868992.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868992.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868993.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868993.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868994.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868994.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868995.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868995.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868996.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868996.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868997.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868997.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868998.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868998.out' are the same file
+mv: 'denovoSSL_20k_mpileup-868999.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-868999.out' are the same file
+mv: 'denovoSSL_20k_mpileup-869000.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-869000.out' are the same file
+mv: 'denovoSSL_20k_mpileup-869001.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-869001.out' are the same file
+mv: 'denovoSSL_20k_mpileup-869002.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-869002.out' are the same file
+mv: 'denovoSSL_20k_mpileup-869003.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-869003.out' are the same file

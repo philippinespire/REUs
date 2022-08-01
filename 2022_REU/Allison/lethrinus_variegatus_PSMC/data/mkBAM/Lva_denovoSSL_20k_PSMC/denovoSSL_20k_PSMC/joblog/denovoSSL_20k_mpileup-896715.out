@@ -1,0 +1,20 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 3 samples in 1 input files
+mv: cannot stat 'denovoSSL_20k_mpileup-896732.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896733.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896734.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896735.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896736.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896737.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-896738.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-896738.out' are the same file
+mv: 'denovoSSL_20k_mpileup-896739.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-896739.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-896740.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896741.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896742.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-896743.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-896743.out' are the same file
+mv: 'denovoSSL_20k_mpileup-896744.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-896744.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-896745.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-896746.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-896747.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-896747.out' are the same file

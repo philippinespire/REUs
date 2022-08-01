@@ -1,0 +1,7 @@
+
+/var/spool/slurmd/job872796/slurm_script: line 25: 15794 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: 'Sfa_denovoSSL_20k_psmcfa-872833.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-872833.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-872834.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-872834.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-872835.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-872835.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-872836.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-872836.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-872837.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-872837.out' are the same file

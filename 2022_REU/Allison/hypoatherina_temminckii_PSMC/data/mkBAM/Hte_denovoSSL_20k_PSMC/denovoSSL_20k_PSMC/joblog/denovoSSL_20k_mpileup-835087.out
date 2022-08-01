@@ -1,0 +1,17 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-835106.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835107.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835108.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835109.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835110.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835111.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835112.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835113.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835114.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835115.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835116.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835117.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-835118.out': No such file or directory

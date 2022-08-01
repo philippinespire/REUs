@@ -1,0 +1,20 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-950808.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950808.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950809.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950809.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950810.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950810.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950811.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950811.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950812.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950812.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950813.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950813.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950814.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950814.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950815.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950815.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950816.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950816.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950817.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950817.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950818.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950818.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950819.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950819.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950820.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950820.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950821.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950821.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950822.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950822.out' are the same file
+mv: 'denovoSSL_20k_mpileup-950823.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-950823.out' are the same file

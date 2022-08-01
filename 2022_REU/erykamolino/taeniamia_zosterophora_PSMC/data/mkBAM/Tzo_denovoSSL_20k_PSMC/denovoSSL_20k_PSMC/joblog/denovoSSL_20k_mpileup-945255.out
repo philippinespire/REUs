@@ -1,0 +1,20 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-945287.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945288.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945289.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945290.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945291.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945292.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945293.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945294.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945295.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-945296.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-945296.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-945297.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-945298.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-945298.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-945299.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-945300.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-945300.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-945301.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-945302.out': No such file or directory

@@ -1,0 +1,13 @@
+
+/var/spool/slurmd/job866927/slurm_script: line 25: 18031 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866947.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866949.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866950.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866951.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866952.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866954.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866955.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866956.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866957.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-866958.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-866959.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-866959.out': No such file or directory

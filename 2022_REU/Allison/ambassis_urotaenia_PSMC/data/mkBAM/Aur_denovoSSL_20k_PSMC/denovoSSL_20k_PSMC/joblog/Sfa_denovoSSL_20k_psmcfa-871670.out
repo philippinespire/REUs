@@ -1,0 +1,23 @@
+
+/var/spool/slurmd/job871670/slurm_script: line 25: 15916 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871696.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871697.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871698.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871699.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871700.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871701.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871702.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871703.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871704.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871705.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871706.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871707.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871708.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871709.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871710.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871711.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871712.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871713.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-871714.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-871714.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-871715.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-871716.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-871716.out' are the same file

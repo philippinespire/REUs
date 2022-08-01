@@ -82,8 +82,14 @@ rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allis
 
 	Need to re-run SPAdes for 1st library (A), code:
 
-	sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "afink007" "Cha" "1" "decontam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired" 
-	
+	sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "afink007" "Cha" "1" "decontam" 
+"342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired" 
+
+07/25/2022
+
+	getting back to Cha
+
+Something went wrong with running SPADES for A, re-running	
 	
 
 

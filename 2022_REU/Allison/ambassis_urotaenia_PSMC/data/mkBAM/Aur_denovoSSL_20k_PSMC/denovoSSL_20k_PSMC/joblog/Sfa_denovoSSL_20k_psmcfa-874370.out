@@ -1,0 +1,25 @@
+
+/var/spool/slurmd/job874370/slurm_script: line 25: 10554 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874395.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874396.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874397.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874398.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874399.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874400.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874401.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874402.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874403.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874404.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874405.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874406.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874407.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874408.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874409.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874410.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874411.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874412.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874413.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874414.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874415.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874416.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-874417.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-874417.out' are the same file

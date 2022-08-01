@@ -1,0 +1,10 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-907951.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-907952.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-907953.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-907954.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-907955.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-907955.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-907956.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-907956.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-907957.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-907958.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-907958.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-907959.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-907959.out' are the same file

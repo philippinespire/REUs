@@ -1,0 +1,13 @@
+
+/var/spool/slurmd/job873108/slurm_script: line 25: 17010 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873145.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873146.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873147.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873148.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873149.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873150.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873151.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873152.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873153.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873154.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873155.out': No such file or directory

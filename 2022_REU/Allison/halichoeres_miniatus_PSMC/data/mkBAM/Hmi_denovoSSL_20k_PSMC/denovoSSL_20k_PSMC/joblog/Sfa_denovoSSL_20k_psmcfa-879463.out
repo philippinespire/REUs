@@ -1,0 +1,4 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Hmi_denovoSSL_20k.57.fq: No such file or directory
+/var/spool/slurmd/job879463/slurm_script: line 25: 24447 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat '*psmcfa*out': No such file or directory

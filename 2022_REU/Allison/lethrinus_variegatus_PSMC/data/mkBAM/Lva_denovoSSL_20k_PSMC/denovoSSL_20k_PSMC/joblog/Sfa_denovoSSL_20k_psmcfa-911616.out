@@ -1,0 +1,8 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-911663.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-911664.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-911665.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-911666.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-911667.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-911668.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-911669.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-911669.out' are the same file

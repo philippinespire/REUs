@@ -1,0 +1,15 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-837836.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837837.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837838.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837839.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837840.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837841.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837842.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837843.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837844.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-837845.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-837846.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-837846.out' are the same file

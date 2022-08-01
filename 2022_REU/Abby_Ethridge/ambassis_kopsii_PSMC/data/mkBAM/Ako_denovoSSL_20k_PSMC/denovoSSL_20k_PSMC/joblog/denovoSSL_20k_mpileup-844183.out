@@ -1,0 +1,17 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-844204.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844204.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844205.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844205.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844206.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844206.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844207.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844207.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844208.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844208.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844209.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844209.out' are the same file
+mv: cannot move 'denovoSSL_20k_mpileup-844210.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844210.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-844212.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844212.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844213.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844213.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844214.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844214.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844215.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844215.out' are the same file
+mv: 'denovoSSL_20k_mpileup-844216.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844216.out' are the same file
+mv: cannot move 'denovoSSL_20k_mpileup-844217.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/ambassis_kopsii_PSMC/data/mkBAM/Ako_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-844217.out': No such file or directory

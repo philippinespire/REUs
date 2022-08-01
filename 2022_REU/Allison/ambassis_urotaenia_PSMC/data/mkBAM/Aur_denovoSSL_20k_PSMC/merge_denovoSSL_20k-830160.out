@@ -1,0 +1,6 @@
+
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes
+samtools merge: "Aur-CRag_NRR_decont__correctedIDs.denovoSSL.Aur20k-RG.bam" is truncated
+[E::hts_open_format] Failed to open file "_denovoSSL_20k_merged.bam" : No such file or directory
+samtools index: failed to open "_denovoSSL_20k_merged.bam": No such file or directory

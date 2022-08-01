@@ -1,0 +1,27 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[E::hts_open_format] Failed to open file "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/Hmi_denovoSSL_20k_merged.bam" : No such file or directory
+[mpileup] failed to open /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/Hmi_denovoSSL_20k_merged.bam: No such file or directory
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: cannot stat 'denovoSSL_20k_mpileup-853239.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853240.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853241.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853242.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853243.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853244.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853245.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853246.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853247.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853248.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853249.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853250.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853251.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853252.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853253.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853254.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853255.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853256.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-853257.out': No such file or directory

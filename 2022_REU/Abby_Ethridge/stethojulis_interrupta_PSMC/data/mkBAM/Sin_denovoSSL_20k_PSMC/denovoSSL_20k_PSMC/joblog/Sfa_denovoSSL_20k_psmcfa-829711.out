@@ -1,0 +1,12 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829742.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829743.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829744.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829745.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829746.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829747.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829748.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829749.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829750.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-829751.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-829752.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/stethojulis_interrupta_PSMC/data/mkBAM/Sin_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-829752.out' are the same file

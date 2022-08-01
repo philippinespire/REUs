@@ -1,0 +1,6 @@
+
+/var/spool/slurmd/job879405/slurm_script: line 18: cd: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/Hte_denovoSSL_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC: No such file or directory
+cat: 'Hte_denovoSSL_20k*.psmcfa': No such file or directory
+Use of uninitialized value in division (/) at /opt/psmc/bin/psmc_plot.pl line 119, <> line 1939.
+Use of uninitialized value in division (/) at /opt/psmc/bin/psmc_plot.pl line 119, <> line 1939.
+Illegal division by zero at /opt/psmc/bin/psmc_plot.pl line 119, <> line 1939.

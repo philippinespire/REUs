@@ -1,0 +1,31 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[E::mpileup] fail to parse region '1569' with /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/Cha_denovoSSL_20k_merged.bam
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: cannot stat 'denovoSSL_20k_mpileup-878323.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878324.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878325.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878326.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878327.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878328.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878329.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878330.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878331.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878332.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878333.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878334.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-878335.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878335.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878336.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878336.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-878337.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-878338.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878338.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-878339.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-878340.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-878341.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878341.out' are the same file
+mv: 'denovoSSL_20k_mpileup-878342.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878342.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-878343.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-878344.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878344.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-878345.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-878346.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus_PSMC/data/mkBAM/Cha_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-878346.out' are the same file

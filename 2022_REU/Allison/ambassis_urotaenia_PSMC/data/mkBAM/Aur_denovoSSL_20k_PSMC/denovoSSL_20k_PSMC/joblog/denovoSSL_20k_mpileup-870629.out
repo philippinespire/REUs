@@ -1,0 +1,36 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated
+[E::idx_find_and_load] Could not retrieve index file for '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/Aur_denovoSSL_20k_merged.bam'
+[mpileup] fail to load index for /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/Aur_denovoSSL_20k_merged.bam
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: cannot stat 'denovoSSL_20k_mpileup-870649.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870650.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870651.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870652.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870653.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870654.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870655.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870656.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870657.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870658.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870659.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870660.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-870661.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870661.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-870662.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-870663.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870663.out' are the same file
+mv: 'denovoSSL_20k_mpileup-870664.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870664.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-870665.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870666.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-870667.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870667.out' are the same file
+mv: 'denovoSSL_20k_mpileup-870668.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870668.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-870669.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870670.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-870671.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870671.out' are the same file
+mv: 'denovoSSL_20k_mpileup-870672.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-870672.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-870673.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870674.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-870675.out': No such file or directory

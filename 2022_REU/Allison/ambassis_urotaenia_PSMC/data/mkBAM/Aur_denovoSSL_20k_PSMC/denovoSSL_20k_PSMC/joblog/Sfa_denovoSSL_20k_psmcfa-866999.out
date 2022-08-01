@@ -1,0 +1,10 @@
+
+/var/spool/slurmd/job866999/slurm_script: line 25: 19593 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-867011.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-867012.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-867015.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-867018.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-867019.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-867020.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-867021.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-867021.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-867024.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-867024.out' are the same file

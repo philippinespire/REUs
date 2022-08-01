@@ -1,0 +1,8 @@
+
+/var/spool/slurmd/job849999/slurm_script: line 25:  8743 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: 'Sfa_denovoSSL_20k_psmcfa-850021.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-850021.out' are the same file
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-850028.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-850028.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-850029.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-850029.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-850030.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-850030.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-850031.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-850032.out': No such file or directory

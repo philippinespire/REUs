@@ -1,0 +1,2 @@
+
+/var/spool/slurmd/job867648/slurm_script: line 25: 14883 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa

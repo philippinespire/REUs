@@ -1,0 +1,31 @@
+
+/var/spool/slurmd/job880330/slurm_script: line 25: 15045 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880349.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880350.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880351.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880352.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880353.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880354.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880355.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880356.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880357.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-880358.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880358.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880359.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880359.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880360.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-880361.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880361.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880362.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880362.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880363.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880363.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880364.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880364.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880365.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-880366.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880366.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880367.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880367.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880368.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880368.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880369.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880369.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880370.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880371.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880372.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-880373.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880373.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880374.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880374.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-880375.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-880375.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880376.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-880377.out': No such file or directory

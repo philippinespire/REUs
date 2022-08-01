@@ -15,8 +15,8 @@ July 14, 2022:
 July 15, 2022:
 ** SPAdes still running for all libraries assembly, started another SPAdes program for 1st library. Also started PSMC for P.pavo today, waiting on bam files to be made. 
 
-July 16, 2022: 
-**
+July 26, 2022:
+** Ran the merge job and samtools module to assess depth coverage. Also running SPAdes on the 2nd and 3rd library. 
 
 **Deliverables**
 

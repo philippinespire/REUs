@@ -1,0 +1,43 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated
+[E::idx_find_and_load] Could not retrieve index file for '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/Aur_denovoSSL_20k_merged.bam'
+[mpileup] fail to load index for /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/Aur_denovoSSL_20k_merged.bam
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: cannot stat 'denovoSSL_20k_mpileup-869674.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869675.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869676.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869677.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869678.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869679.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869680.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869681.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869682.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869683.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869684.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869685.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869686.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869687.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869688.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869689.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869690.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869691.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869692.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869693.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869694.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869695.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869696.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869697.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869698.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869699.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869700.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869701.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869702.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869703.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869704.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869705.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869706.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-869707.out': No such file or directory

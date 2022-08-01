@@ -1,0 +1,13 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-816441.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816441.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816442.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816442.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816443.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816443.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816444.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816444.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816445.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816445.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816446.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816446.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816447.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816447.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816448.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816448.out' are the same file
+mv: 'denovoSSL_20k_mpileup-816449.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/spratelloides_gracilis_PSMC/data/mkBAM/Sgr_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-816449.out' are the same file

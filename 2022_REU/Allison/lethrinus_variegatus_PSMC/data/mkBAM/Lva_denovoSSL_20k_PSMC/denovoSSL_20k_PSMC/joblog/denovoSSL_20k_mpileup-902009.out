@@ -1,0 +1,17 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot move 'denovoSSL_20k_mpileup-902021.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-902021.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-902023.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-902023.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-902025.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-902026.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-902027.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-902028.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-902030.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-902030.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-902031.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-902033.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-902033.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-902034.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-902035.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-902035.out' are the same file
+mv: 'denovoSSL_20k_mpileup-902036.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-902036.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-902047.out': No such file or directory

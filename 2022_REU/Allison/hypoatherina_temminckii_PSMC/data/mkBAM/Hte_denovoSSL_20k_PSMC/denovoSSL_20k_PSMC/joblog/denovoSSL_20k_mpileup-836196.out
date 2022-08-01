@@ -1,0 +1,22 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-836207.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836208.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836209.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836210.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836211.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836212.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836213.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836214.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836215.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836216.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836217.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836218.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-836219.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836219.out' are the same file
+mv: 'denovoSSL_20k_mpileup-836220.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836220.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-836221.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836222.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-836223.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-836224.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-836224.out' are the same file

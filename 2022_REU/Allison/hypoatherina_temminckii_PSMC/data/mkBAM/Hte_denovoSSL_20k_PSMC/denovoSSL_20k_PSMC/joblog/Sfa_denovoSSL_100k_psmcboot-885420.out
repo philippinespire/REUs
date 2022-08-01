@@ -1,0 +1,5 @@
+
+mv: '../Sfa_denovoSSL_100k_psmcboot-885494.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-885494.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-885495.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-885495.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-885496.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-885496.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-885498.out': No such file or directory

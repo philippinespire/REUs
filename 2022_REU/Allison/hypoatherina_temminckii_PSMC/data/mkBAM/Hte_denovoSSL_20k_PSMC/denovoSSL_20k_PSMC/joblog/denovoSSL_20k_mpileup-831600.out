@@ -1,0 +1,26 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-831609.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831610.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831611.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831612.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831613.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831614.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831615.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831616.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831617.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831618.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831619.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831620.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831621.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831622.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831623.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831624.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831625.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831626.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831627.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-831628.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-831628.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-831629.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831630.out': No such file or directory

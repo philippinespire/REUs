@@ -1,0 +1,16 @@
+
+/var/spool/slurmd/job873502/slurm_script: line 25: 40387 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873538.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873539.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873540.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873541.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873542.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873543.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873544.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-873545.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-873545.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873546.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-873547.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-873547.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-873548.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-873548.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-873549.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-873549.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-873550.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-873550.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-873551.out': No such file or directory

@@ -1,0 +1,14 @@
+
+/var/spool/slurmd/job874777/slurm_script: line 25: 22687 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874813.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874814.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874815.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874816.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874817.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874818.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874819.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874820.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874821.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874822.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874823.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-874824.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-874824.out' are the same file

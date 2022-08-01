@@ -1,0 +1,25 @@
+
+/var/spool/slurmd/job875343/slurm_script: line 25: 35144 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875364.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875365.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875366.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875367.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875368.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875369.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875370.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875371.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875372.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875373.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875374.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875375.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875376.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875377.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875378.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875379.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875380.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875381.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875382.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-875383.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-875384.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-875384.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-875385.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-875385.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-875386.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-875386.out' are the same file

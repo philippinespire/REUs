@@ -1,0 +1,4 @@
+
+/var/spool/slurmd/job790285/slurm_script: line 19: cd: /home/e1garcia/shotgun_PIRE/2022_REU/Abby_Ethridge/herklotsichthys_quadrimaculatus_PSMC/data/mkBAM/Hqu_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC: No such file or directory
+/var/spool/slurmd/job790285/slurm_script: line 23:  7397 Segmentation fault      crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o ${3}denovoSSL20kround-$RD.psmc ${3}denovoSSL20kall.psmcfa
+mv: cannot stat '../*psmcboot*out': No such file or directory

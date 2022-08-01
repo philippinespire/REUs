@@ -1,0 +1,19 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-831553.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831554.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831555.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831556.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831557.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831558.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831559.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831560.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-831561.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-831562.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-831562.out' are the same file
+mv: 'denovoSSL_20k_mpileup-831563.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-831563.out' are the same file
+mv: 'denovoSSL_20k_mpileup-831564.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-831564.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-831565.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-831566.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-831566.out' are the same file
+mv: 'denovoSSL_20k_mpileup-831567.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/hypoatherina_temminckii_PSMC/data/mkBAM/Hte_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-831567.out' are the same file

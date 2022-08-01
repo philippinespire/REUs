@@ -1,0 +1,20 @@
+
+/var/spool/slurmd/job874421/slurm_script: line 25: 11402 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: 'Sfa_denovoSSL_20k_psmcfa-874451.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-874451.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874452.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874453.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874454.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874455.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874456.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874457.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874458.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874459.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874460.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874461.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874462.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874463.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874464.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874465.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874466.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874467.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-874468.out': No such file or directory

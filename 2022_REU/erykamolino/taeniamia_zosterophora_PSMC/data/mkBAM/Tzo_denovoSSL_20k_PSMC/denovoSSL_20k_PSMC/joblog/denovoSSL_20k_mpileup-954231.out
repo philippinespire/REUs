@@ -1,0 +1,22 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-954265.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954266.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954267.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954268.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954269.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954270.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954271.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954272.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954273.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954274.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954275.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954276.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-954277.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-954278.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-954278.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-954279.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-954280.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-954280.out' are the same file
+mv: 'denovoSSL_20k_mpileup-954281.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-954281.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-954282.out': No such file or directory

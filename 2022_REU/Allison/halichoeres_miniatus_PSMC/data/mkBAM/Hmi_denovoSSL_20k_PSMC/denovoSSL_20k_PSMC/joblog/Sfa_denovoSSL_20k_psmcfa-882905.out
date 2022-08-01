@@ -1,0 +1,33 @@
+
+/var/spool/slurmd/job882905/slurm_script: line 25: 26963 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882921.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882922.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882923.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882924.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882925.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882926.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882927.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882928.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882929.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882930.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882931.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882932.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882933.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882934.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882935.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882936.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882937.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882938.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882939.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882940.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882941.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882942.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882943.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882944.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882945.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882946.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882947.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882948.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882949.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882950.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-882951.out': No such file or directory

@@ -1,0 +1,24 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960199.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960200.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960201.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960202.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960203.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960204.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960205.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960206.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960207.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960208.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960209.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960210.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960211.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960212.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960213.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-960214.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960214.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-960215.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-960216.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960216.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-960217.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960217.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-960218.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960218.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-960219.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960219.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-960220.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960220.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-960221.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/taeniamia_zosterophora_PSMC/data/mkBAM/Tzo_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-960221.out' are the same file

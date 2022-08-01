@@ -1,0 +1,25 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904492.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904494.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904495.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904496.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904498.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904500.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904501.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904502.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904503.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904504.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904505.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904506.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904507.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904508.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904509.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904510.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904511.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904513.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904514.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904515.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904516.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904517.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-904518.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-904519.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/lethrinus_variegatus_PSMC/data/mkBAM/Lva_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-904519.out' are the same file

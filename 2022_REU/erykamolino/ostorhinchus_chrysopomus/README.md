@@ -395,14 +395,14 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh 
 
 Species    |Assembly    |Data Type    |SCAFIG    |Covcutoff    |Genome Scope v.    |No. of Contigs    |Largest Contig    |Total Length    |% Genome Size Completeness    |N50    |L50    |Ns per 100 kbp    |BUSCO Single Copy
 ------  |------  |------ |------ |------ |------  |------ |------ |------ |------ |------  |------ |------ |------
-Och  |A  |decontam       |contgs       |off       |2       |  67123  | 76658  | 485971358  | 77 % | 8294  |  17506  |  0  | 53.9 %
-Och  |A  |decontam       |scaffolds       |off       |2    |  52432  |  129917  |   540390606  |  85 % | 14081  | 10678  | 687.92  | 68.5 %
-Och  |B  |decontam       |contgs       |off       |2       |  66179  |  89863  |   503699552  |  79 % |  8954  |  16792  |  0  | 56.8 %
-Och  |B  |decontam       |scaffolds       |off       |2    |  52101  |  155803  |   548869041  |  86 % |  14587  |  10542  |  580.13  | 70.8 %
-Och  |C  |decontam       |contgs       |off       |2       |  65353  |  92853  |  489986080  | 77 % | 8743  | 16693  |  0  |  55.9 %
-Och  |C  |decontam       |scaffolds       |off       |2    |  51239  |  176566  |   539924893  | 86 % |  14784  |  10318  | 641.53 | 69.5 %
-Och  |allLibs  |decontam       |contigs       |off       |2    |  67941  |  81176 |   494984098  |  80 % |  8354  | 17737  |  0  | 54.1 %
-Och  |allLibs  |decontam       |scaffolds       |off       |2   |  51674  |  142490  |   553408247  |  87? % |  15053  |  10228  | 733.46 | 69 %
+Och  |A  |decontam       |contigs       |off       |2       |  81865  | 168825  | 817740343  | 38.84 % | 13163  |  17352  |  0  | 53.9 %
+Och  |A  |decontam       |scaffolds       |off       |2    |  84259  |  168825 |   821500536  |  38.84 % | 13087  | 17495  | 0  | 68.5 %
+Och  |B  |decontam       |contigs       |off       |2       |  84901  |  182776  |   802206314  |  38.83 % |  12200  |  18516  |  0  | 56.8 %
+Och  |B  |decontam       |scaffolds       |off       |2    |  87454  |  182776  |   806294854  |  38.83 % |  12131  |  18684  |  0  | 70.8 %
+Och  |C  |decontam       |contigs       |off       |2       |  85612  |  191640  |  823945406  | 38.77 % | 12468  | 18377  |  0  |  55.9 %
+Och  |C  |decontam       |scaffolds       |off       |2    |  92755  |  191640  |   836533417  | 38.79 % |  12255  |  18885 | 0 | 69.5 %
+Och  |allLibs  |decontam       |contigs       |off       |2    |  84458  |  179505 |   855174075  |  38.85 % |  13388  | 17693  |  0  | 54.1 %
+Och  |allLibs  |decontam       |scaffolds       |off       |2   |  91362  |  179505  |   867787511  |  38.87 % |  13147  |  18168  | 0 | 69 %
 
 ## Step 5. Identify Best Assembly
 

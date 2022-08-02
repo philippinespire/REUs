@@ -1,6 +1,8 @@
 # Function to plot PSMC using .psmc output
-# Code originally from https://figshare.com/articles/Plot_PSMC_results/3996156/1
-# Obtained from https://github.com/elhumble/SHO_analysis_2020
+# Modified from https://github.com/elhumble/SHO_analysis_2020/blob/master/scripts/plot_psmc.R
+
+## load PSMC data into R
+##be sure to provide mutation rate + genration time. other variables can be left at defaults
 
 psmc.result<-function(file,i.iteration=25,mu=1e-8,s=100,g=1)
 {
@@ -18,7 +20,7 @@ psmc.result<-function(file,i.iteration=25,mu=1e-8,s=100,g=1)
   
   write(TR,"temp.psmc.result")
   theta0<-as.numeric(read.table("temp.psmc.result")[1,2])
-  N0<-theta0/4/mu/s # scale 
+  N0<-theta0/(4*mu)/s # scale 
 
   write(RS,"temp.psmc.result")
   a<-read.table("temp.psmc.result")
@@ -41,3 +43,40 @@ psmc.result<-function(file,i.iteration=25,mu=1e-8,s=100,g=1)
   #plot(Ne~YearsAgo)
 }
 
+###plot a PSMC result
+###must do library(ggplot2) first
+
+psmc.plot<-function(result)
+{
+	ggplot(data=result,aes(x=YearsAgo+1,y=Ne)) +
+	scale_x_log10(breaks = scales::pretty_breaks())+
+	geom_line()
+}
+
+
+###extract theta0
+psmc.theta0<-function(file,i.iteration=25,mu=1e-8,s=100,g=1)
+{
+  X<-scan(file=file,what="",sep="\n",quiet=TRUE)
+  
+  # extract data for each iteration (30)
+  
+  START<-grep("^RD",X) # line numbers
+  END<-grep("^//",X) # line numbers
+  
+  X<-X[START[i.iteration+1]:END[i.iteration+1]]
+  
+  TR<-grep("^TR",X,value=TRUE) # \theta_0 \rho_0
+  RS<-grep("^RS",X,value=TRUE) # k t_k \lambda_k \pi_k \sum_{l\not=k}A_{kl} A_{kk}
+  
+  write(TR,"temp.psmc.result")
+  as.numeric(read.table("temp.psmc.result")[1,2])
+ }
+
+###extract Ne for a given time
+psmc.Netime<-function(result,time)
+{
+	Tdiff=min(abs(result$YearsAgo-time))
+	interval=which(abs(result$YearsAgo-time)==Tdiff)
+	ifelse(result$YearsAgo[interval[2]]-time<0,result$Ne[interval[2]],result$Ne[interval[2]-1])
+}

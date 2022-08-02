@@ -401,8 +401,8 @@ Och  |B  |decontam       |contigs       |off       |2       |  84901  |  182776 
 Och  |B  |decontam       |scaffolds       |off       |2    |  87454  |  182776  |   806294854  |  38.83 % |  12131  |  18684  |  0  | 70.8 %
 Och  |C  |decontam       |contigs       |off       |2       |  85612  |  191640  |  823945406  | 38.77 % | 12468  | 18377  |  0  |  55.9 %
 Och  |C  |decontam       |scaffolds       |off       |2    |  92755  |  191640  |   836533417  | 38.79 % |  12255  |  18885 | 0 | 69.5 %
-Och  |allLibs  |decontam       |contigs       |off       |2    |  84458  |  179505 |   855174075  |  38.85 % |  13388  | 17693  |  0  | 54.1 %
-Och  |allLibs  |decontam       |scaffolds       |off       |2   |  91362  |  179505  |   867787511  |  38.87 % |  13147  |  18168  | 0 | 69 %
+Och  |allLibs  |decontam       |contigs       |off       |2    |  84458  |  179505 |   855174075  |  38.85 % |  13388  | 17693  |  0  | 54.07 %
+Och  |allLibs  |decontam       |scaffolds       |off       |2   |  91362  |  179505  |   867787511  |  38.87 % |  13147  |  18168  | 0 | 68.96 %
 
 ## Step 5. Identify Best Assembly
 

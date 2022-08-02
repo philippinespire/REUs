@@ -1,0 +1,3 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-981275.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-981276.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-981276.out': No such file or directory

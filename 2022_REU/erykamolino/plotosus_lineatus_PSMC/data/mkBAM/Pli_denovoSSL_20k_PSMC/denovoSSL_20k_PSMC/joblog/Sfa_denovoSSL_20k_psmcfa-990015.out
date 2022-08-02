@@ -1,0 +1,5 @@
+
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-990063.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/plotosus_lineatus_PSMC/data/mkBAM/Pli_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-990063.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-990064.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/plotosus_lineatus_PSMC/data/mkBAM/Pli_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-990064.out' are the same file
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-990065.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/plotosus_lineatus_PSMC/data/mkBAM/Pli_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-990065.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-990066.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/plotosus_lineatus_PSMC/data/mkBAM/Pli_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-990066.out': No such file or directory

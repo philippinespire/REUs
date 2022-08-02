@@ -1,0 +1,11 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977897.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977898.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977899.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-977901.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-977901.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977902.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977903.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977904.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-977905.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-977905.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-977906.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-977906.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-977907.out': No such file or directory

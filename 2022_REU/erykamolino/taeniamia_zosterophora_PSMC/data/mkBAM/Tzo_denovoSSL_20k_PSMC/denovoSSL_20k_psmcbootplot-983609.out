@@ -1,0 +1,25 @@
+
+cat: 'TzodenovoSSL20kround-*.psmc': No such file or directory
+
+Usage:   psmc_plot.pl [options] <out.prefix> <in.psmc>
+
+Options: -u FLOAT   absolute mutation rate per nucleotide [2.5e-08]
+         -s INT     skip used in data preparation [100]
+         -X FLOAT   maximum generations, 0 for auto [0]
+         -x FLOAT   minimum generations, 0 for auto [10000]
+         -Y FLOAT   maximum popsize, 0 for auto [TzodenovoSSL20kcombined_Y]
+         -m INT     minimum number of iteration [5]
+         -n INT     take n-th iteration (suppress GOF) [20]
+         -M titles  multiline mode [null]
+         -f STR     font for title, labels and tics [Helvetica,16]
+         -g INT     number of years per generation [2.5]
+         -w INT     line width [4]
+         -P STR     position of the keys [right top]
+         -T STR     figure title [null]
+         -N FLOAT   false negative rate [0]
+         -S         no scaling
+         -L         show the last bin
+         -p         convert to PDF (with epstopdf)
+         -R         do not remove temporary files
+         -G         plot grid
+

@@ -1,0 +1,37 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Aur_denovoSSL_20k.4837.fq.gz already exists;	not overwritten
+/var/spool/slurmd/job976547/slurm_script: line 25: 21324 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976565.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976566.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976567.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976568.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976569.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976570.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976571.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976572.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976573.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976574.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976575.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976576.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976577.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976578.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976579.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976580.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976581.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976582.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976583.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976584.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976585.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-976586.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-976586.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-976587.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-976587.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976588.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976589.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-976590.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-976590.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976591.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976592.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976593.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-976594.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-976594.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976595.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-976596.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-976596.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-976597.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-976597.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-976598.out': No such file or directory

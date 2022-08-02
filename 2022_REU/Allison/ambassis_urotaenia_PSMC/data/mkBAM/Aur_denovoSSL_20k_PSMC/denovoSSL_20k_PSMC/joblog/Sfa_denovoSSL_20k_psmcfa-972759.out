@@ -1,0 +1,16 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Aur_denovoSSL_20k.1050.fq.gz already exists;	not overwritten
+/var/spool/slurmd/job972759/slurm_script: line 25:  5903 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-972797.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-972797.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-972799.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-972799.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-972800.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-972800.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-972801.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-972801.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972802.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-972803.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-972803.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972804.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972805.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972806.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-972807.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-972807.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972808.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972809.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-972810.out': No such file or directory

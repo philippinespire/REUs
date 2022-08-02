@@ -1,0 +1,43 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Aur_denovoSSL_20k.3718.fq.gz already exists;	not overwritten
+/var/spool/slurmd/job975429/slurm_script: line 25: 12661 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975438.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975439.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975440.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975441.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975442.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975443.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975444.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975445.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975446.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975447.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975448.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975449.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975450.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975451.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975452.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975453.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975454.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975455.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975456.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975457.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975458.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975459.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975460.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975461.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975462.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975463.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975464.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975465.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975466.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975467.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-975468.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-975468.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975469.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975470.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975471.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975472.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-975473.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-975473.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975474.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975475.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-975476.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-975477.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-975477.out' are the same file

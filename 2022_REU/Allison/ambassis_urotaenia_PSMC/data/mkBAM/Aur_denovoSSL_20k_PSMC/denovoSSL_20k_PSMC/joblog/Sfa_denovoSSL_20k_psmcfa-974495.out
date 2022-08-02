@@ -1,0 +1,10 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Aur_denovoSSL_20k.2783.fq.gz already exists;	not overwritten
+/var/spool/slurmd/job974495/slurm_script: line 25: 10888 Segmentation fault      crun fq2psmcfa -q 20 $DATAPATH/${3}_denovoSSL_20k.$CHR.fq.gz > $DATAPATH/${3}_denovoSSL_20k.$CHR.psmcfa
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-974534.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-974534.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-974536.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-974536.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-974537.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-974539.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-974539.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-974540.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/ambassis_urotaenia_PSMC/data/mkBAM/Aur_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-974540.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-974541.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-974542.out': No such file or directory

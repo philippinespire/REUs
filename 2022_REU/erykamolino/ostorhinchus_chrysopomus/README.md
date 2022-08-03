@@ -449,6 +449,8 @@ ls -d busco_*
 # I then provide the species 3-letter code, scaffolds, and copy and paste the parameters from the busco dir after "SPAdes_" 
 cd probe_design
 mv scaffolds.fasta Sgr_scaffolds_B_decontam_R1R2_noIsolate.fasta
+
+mv scaffolds.fasta Ppa_scaffolds_allLibs_decontam_R1R2_noIsolate.fasta
 ```
 
 Execute the first script

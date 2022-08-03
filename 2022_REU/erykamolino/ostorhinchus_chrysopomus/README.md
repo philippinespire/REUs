@@ -406,9 +406,7 @@ Och  |allLibs  |decontam       |scaffolds       |off       |2   |  75507  |  277
 
 ## Step 5. Identify Best Assembly
 
-Scaffold assembly B of library 1H created the best assembly. 
-
-Assemblies B and allLibs were very similar, and different metrics were slightly higher in one or the other but at end, I went for assembly B based on its higher BUSCO score.
+Scaffold assembly of all libraries created the best assembly based on its highest BUSCO score and N50 score. 
 
 ## Step 6. Assemble Contaminated Data From the Best Library
 

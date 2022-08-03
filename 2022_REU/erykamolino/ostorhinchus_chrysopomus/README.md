@@ -395,12 +395,12 @@ sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh 
 
 Species    |Assembly    |Data Type    |SCAFIG    |Covcutoff    |Genome Scope v.    |No. of Contigs    |Largest Contig    |Total Length    |% Genome Size Completeness    |N50    |L50    |Ns per 100 kbp    |BUSCO Single Copy
 ------  |------  |------ |------ |------ |------  |------ |------ |------ |------ |------  |------ |------ |------
-Och  |A  |decontam       |contigs       |off       |2       |  81865  | 168825  | 817740343  | 38.84 % | 13163  |  17352  |  0  | 53.9%
-Och  |A  |decontam       |scaffolds       |off       |2    |  79271  |  199604 |    825105417  |  38.84 % | 14040  | 16206  | 20.53  | 68.5%
-Och  |B  |decontam       |contigs       |off       |2       |  84901  |  182776  |   802206314  |  38.83 % |  12200  |  18516  |  0  | 56.8%
-Och  |B  |decontam       |scaffolds       |off       |2    |  82315  |  191507  |   810219895  |  38.83 % |  12992  |  17358  |  19.79  | 70.8%
-Och  |C  |decontam       |contigs       |off       |2       |  85612  |  191640  |  823945406  | 38.77 % | 12468  | 18377  |  0  |  55.9%
-Och  |C  |decontam       |scaffolds       |off       |2    |  78378  |  276968  |   847729770  | 38.80 % |  14799  |  15555 | 177.47 | 69.5%
+Och  |A  |decontam       |contigs       |off       |2       |  81865  | 168825  | 817740343  | 38.84 % | 13163  |  17352  |  0  | 63.63%
+Och  |A  |decontam       |scaffolds       |off       |2    |  79271  |  199604 |    825105417  |  38.84 % | 14040  | 16206  | 20.53  | 65%
+Och  |B  |decontam       |contigs       |off       |2       |  84901  |  182776  |   802206314  |  38.83 % |  12200  |  18516  |  0  | 61.98%
+Och  |B  |decontam       |scaffolds       |off       |2    |  82315  |  191507  |   810219895  |  38.83 % |  12992  |  17358  |  19.79  | 63.19%
+Och  |C  |decontam       |contigs       |off       |2       |  85612  |  191640  |  823945406  | 38.77 % | 12468  | 18377  |  0  |  61.57%
+Och  |C  |decontam       |scaffolds       |off       |2    |  78378  |  276968  |   847729770  | 38.80 % |  14799  |  15555 | 177.47 | 67.03%
 Och  |allLibs  |decontam       |contigs       |off       |2    |  84458  |  179505 |   855174075  |  38.85 % |  13388  | 17693  |  0  | 54.07%
 Och  |allLibs  |decontam       |scaffolds       |off       |2   |  75507  |  277781  |   878447116  |  38.88 % |  16447  |  14525  | 195.13 | 68.96%
 

@@ -43,13 +43,24 @@ psmc.result<-function(file,i.iteration=25,mu=1e-8,s=100,g=1)
   #plot(Ne~YearsAgo)
 }
 
-###plot a PSMC result
+###plot a PSMC result - log scale x axis
+###must do library(ggplot2) first
+
+psmc.plot.log<-function(result)
+{
+	ggplot(data=result,aes(x=YearsAgo+1,y=Ne,group=species,color=group)) +
+	scale_x_log10(breaks = scales::pretty_breaks(),limits=c(2000,2000000)) +
+	geom_line() +
+  theme(axis.text.x = element_text(angle = -20))
+}
+
+###plot a PSMC result - normal scale x axis
 ###must do library(ggplot2) first
 
 psmc.plot<-function(result)
 {
-	ggplot(data=result,aes(x=YearsAgo+1,y=Ne)) +
-	scale_x_log10(breaks = scales::pretty_breaks())+
+	ggplot(data=result,aes(x=YearsAgo+1,y=Ne,group=species,color=group)) +
+	xlim(2000,2000000) +
 	geom_line()
 }
 

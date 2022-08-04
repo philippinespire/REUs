@@ -139,3 +139,16 @@ Reads length: 150
   9:51:54.470   215G / 246G  INFO   K-mer Counting           (kmer_data.cpp             : 384)   Collection done, postprocessing.
   9:52:25.801   215G / 246G  INFO   K-mer Counting           (kmer_data.cpp             : 397)   There are 7022277652 kmers in total. Among them 4421873386 (62.9692%) are singletons.
   9:52:25.801   215G / 246G  INFO    General                 (main.cpp                  : 173)   Subclustering Hamming graph
+ 15:30:24.615   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 650)   Subclustering done. Total 2333613 non-read kmers were generated.
+ 15:30:24.618   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 651)   Subclustering statistics:
+ 15:30:24.628   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 652)     Total singleton hamming clusters: 1721478226. Among them 880734906 (51.1615%) are good
+ 15:30:24.632   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 653)     Total singleton subclusters: 88986105. Among them 87923055 (98.8054%) are good
+ 15:30:24.632   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 654)     Total non-singleton subcluster centers: 1046804815. Among them 806437534 (77.038%) are good
+ 15:30:24.632   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 655)     Average size of non-trivial subcluster: 5.06788 kmers
+ 15:30:24.632   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 656)     Average number of sub-clusters per non-singleton cluster: 1.41388
+ 15:30:24.632   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 657)     Total solid k-mers: 1775095495
+ 15:30:24.632   215G / 246G  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 658)     Substitution probabilities: [4,4]((0.887239,0.03839,0.0295699,0.0448014),(0.0570488,0.881578,0.0228455,0.0385272),(0.0369985,0.0223164,0.882119,0.0585662),(0.0441571,0.0293152,0.0382925,0.888235))
+ 15:30:28.072   215G / 246G  INFO    General                 (main.cpp                  : 178)   Finished clustering.
+ 15:30:28.083   215G / 246G  INFO    General                 (main.cpp                  : 197)   Starting solid k-mers expansion in 32 threads.
+ 16:09:32.282   215G / 246G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 0 produced 944097746 new k-mers.
+ 16:48:35.318   215G / 246G  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 1 produced 49496979 new k-mers.

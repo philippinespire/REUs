@@ -1,0 +1,15 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-1016219.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016219.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1016220.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016220.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1016221.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016221.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1016222.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016222.out' are the same file
+mv: cannot move 'denovoSSL_20k_mpileup-1016223.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016223.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1016225.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016225.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1016226.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016226.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1016227.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016227.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1016228.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016228.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1016229.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016229.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1016230.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1016230.out': No such file or directory

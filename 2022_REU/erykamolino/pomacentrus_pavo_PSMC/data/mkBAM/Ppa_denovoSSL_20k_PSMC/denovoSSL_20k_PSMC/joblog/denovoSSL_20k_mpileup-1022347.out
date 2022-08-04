@@ -1,0 +1,24 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-1022368.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022368.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022369.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022369.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022370.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022370.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022371.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022371.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022372.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022372.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022373.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022373.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022374.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022374.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022375.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022375.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022376.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022376.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022377.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022377.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022378.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022378.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022379.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022379.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022380.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022380.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022381.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022381.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022382.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022382.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022383.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022383.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022384.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022384.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022385.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022385.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022386.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022386.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1022387.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1022387.out' are the same file

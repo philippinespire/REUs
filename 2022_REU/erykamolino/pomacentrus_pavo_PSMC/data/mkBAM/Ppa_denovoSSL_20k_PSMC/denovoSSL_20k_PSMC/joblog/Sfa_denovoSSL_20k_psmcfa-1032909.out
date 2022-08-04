@@ -1,0 +1,19 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032923.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032924.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032925.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032926.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032927.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032928.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032929.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032930.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032931.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032932.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032932.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032933.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032933.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032934.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032935.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032936.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032937.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032937.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032938.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032938.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032939.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032940.out': No such file or directory

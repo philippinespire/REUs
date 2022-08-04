@@ -1,0 +1,4 @@
+
+gzip: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Ppa_denovoSSL_20k.4853.fq: No such file or directory
+/var/spool/slurmd/job1007576/slurm_script: line 25: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/Ppa_denovoSSL_20k.4853.psmcfa: No such file or directory
+mv: target '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog' is not a directory

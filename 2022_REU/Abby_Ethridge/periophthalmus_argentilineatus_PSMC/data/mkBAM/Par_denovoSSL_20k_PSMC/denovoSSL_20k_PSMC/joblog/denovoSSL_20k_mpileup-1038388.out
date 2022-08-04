@@ -1,0 +1,14 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: 'denovoSSL_20k_mpileup-1038418.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038418.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038419.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038419.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038420.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038420.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038421.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038421.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038422.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038422.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038423.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038423.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038424.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038424.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038425.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038425.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038426.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038426.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1038427.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Abby_Ethridge/periophthalmus_argentilineatus_PSMC/data/mkBAM/Par_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1038427.out' are the same file

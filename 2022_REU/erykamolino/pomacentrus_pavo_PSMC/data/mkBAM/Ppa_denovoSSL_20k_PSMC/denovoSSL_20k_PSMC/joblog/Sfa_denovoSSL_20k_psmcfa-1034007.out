@@ -1,0 +1,18 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034037.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034038.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034039.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034040.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034041.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034042.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034043.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034044.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034045.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034046.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034047.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034048.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034049.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034050.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1034051.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1034052.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1034052.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1034053.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1034053.out' are the same file

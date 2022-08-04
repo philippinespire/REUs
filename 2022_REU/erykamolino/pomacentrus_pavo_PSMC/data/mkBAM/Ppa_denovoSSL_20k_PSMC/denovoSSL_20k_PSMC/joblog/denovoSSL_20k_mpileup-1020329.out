@@ -1,0 +1,28 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-1020346.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020347.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020348.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020349.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020350.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020351.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020352.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020353.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020354.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020355.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020356.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020357.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020358.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020359.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020360.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020361.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020362.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020363.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020364.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020365.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1020366.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1020366.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1020367.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1020367.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1020368.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1020369.out': No such file or directory

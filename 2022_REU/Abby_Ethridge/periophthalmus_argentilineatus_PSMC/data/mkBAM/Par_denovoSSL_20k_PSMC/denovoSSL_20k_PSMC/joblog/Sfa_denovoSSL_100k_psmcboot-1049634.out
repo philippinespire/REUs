@@ -1,0 +1,4 @@
+
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1049684.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1049684.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1049686.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1049686.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1049687.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1049687.out' are the same file

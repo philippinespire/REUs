@@ -1,0 +1,38 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032123.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032124.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032125.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032126.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032127.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032128.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032129.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032130.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032131.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032132.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032133.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032134.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032135.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032135.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032136.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032136.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032137.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032137.out' are the same file
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1032138.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032138.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1032139.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032139.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1032140.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032140.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1032142.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032142.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032149.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032149.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032150.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032150.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032151.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032151.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032152.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032152.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032153.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032153.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032154.out': No such file or directory
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1032155.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032155.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032157.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032158.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032158.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032159.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032159.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1032160.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032160.out' are the same file
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1032161.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/pomacentrus_pavo_PSMC/data/mkBAM/Ppa_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1032161.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032162.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032163.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032164.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032165.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032166.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1032167.out': No such file or directory

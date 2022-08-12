@@ -63,7 +63,17 @@
         Corrected editing error in config5ssl.sbatch [replaced 80 with 30]
         running mkBAM: Job 817761
         
-        
+07/28/2022
+
+    Step 2: 
+    
+        mkBAM ran successfully.
+        fltrBAM job 819762 ran successfully
+        mergebam job 819758 failed.
+        fltrBAM re-run successfully.
+        mergebam re-run, failed.
+        mergebam re-run using Hm instead of Hmi.
+    
     
         
 

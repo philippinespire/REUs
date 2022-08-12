@@ -73,6 +73,33 @@
         fltrBAM re-run successfully.
         mergebam re-run, failed.
         mergebam re-run using Hm instead of Hmi.
+
+07/29/2022
+
+    Step 2: 
+        
+        mergebams ran successfully.
+    
+    Step 3:  
+       
+        ran samtools depth coverage:
+            84.8435 mean depth, range 28.2811666667 - 169.687
+            3777 scaffolds
+            
+    Step 4: 
+        
+        mpileup ran successfully, 3777 fq files
+        gentime: 3.63182283
+    
+    Step 5:
+    
+        psmcfa ran successfuly.
+
+07/20/2022
+
+         
+    
+        
     
     
         

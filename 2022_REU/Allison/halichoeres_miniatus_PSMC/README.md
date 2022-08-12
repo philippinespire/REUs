@@ -1,6 +1,6 @@
 <i>Haliocheres miniatus</i> (Hmi) PSMC Log
 
-07/25/2020
+07/25/2022
 
     Step 0:
  
@@ -19,7 +19,7 @@
       Edited config.5.cssl
       Running mkBAM
 
-07/26/2020
+07/26/2022
 
     Step 2:
     
@@ -31,12 +31,26 @@
                         samtools index: failed to open "Hmi_denovoSSL_20k_merged.bam": No such file or directory
         ran mergebamns with Hm instead of Hmi.
         mergebams ran successfully.
+    
+    Step 3:
+  
         ran samtools depth coverage:
             84.8435 mean depth, range 28.2811666667 - 169.687
+    
+    Step 4:        
+            
         ran mpileup:    sbatch --array=1-1000 mpileup.sbatch Allison halichoeres_miniatus Hmi 85 170 0
                         sbatch --array=1001-2000 mpileup.sbatch Allison halichoeres_miniatus Hmi 85 170 0
                         sbatch --array=2001-3000 mpileup.sbatch Allison halichoeres_miniatus Hmi 85 170 0
                         sbatch --array=3001-3777 mpileup.sbatch Allison halichoeres_miniatus Hmi 85 170 0
+        mpileup failed. Missplelled joblog directory. made new directory, re-running.
+        mpileup failed. error in dDocent filtering step.
+
+07/27/2022
+
+    Step 2:
+    
+        
 
         
         

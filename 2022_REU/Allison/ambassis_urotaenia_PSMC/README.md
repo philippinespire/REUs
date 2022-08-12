@@ -71,3 +71,28 @@
     Step 2:
       
       Re-ran fltrBAM job 883903
+
+08/01/2022
+    
+    Step 2: 
+      
+      fltrBAM successful
+      renamed files to merge naming convention as per Brendan's instructions
+
+    Step 3:
+         
+      ran samtools depth: Avg depth: 119.939, range 39.9796666667 - 239.878
+    
+    Step 4:
+    
+      mpileup ran successfully for all 5823 scaffolds
+      psmcfa ran successfully for all 5823 scaffolds
+    
+    Steps 6-8:
+    
+      psmc, bootstrapping ran successfully
+      eps plots and psmc files exported
+    
+      
+           
+   

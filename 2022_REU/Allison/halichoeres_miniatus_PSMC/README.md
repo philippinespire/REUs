@@ -1,4 +1,4 @@
-<i>Haliocheres miniatus</i> (Hmi) PSMC Log
+<title><i>Haliocheres miniatus</i> (Hmi) PSMC Log </title>
 
 07/25/2022
 

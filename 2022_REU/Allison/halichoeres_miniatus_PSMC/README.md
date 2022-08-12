@@ -25,10 +25,10 @@
     
         mkBAM ran successfully.
         mergebam failed:
-            [E::hts_open_format] Failed to open file "Hmi*-RG.bam" : No such file or directory
-            samtools merge: fail to open "Hmi*-RG.bam": No such file or directory
-            [E::hts_open_format] Failed to open file "Hmi_denovoSSL_20k_merged.bam" : No such file or directory
-            samtools index: failed to open "Hmi_denovoSSL_20k_merged.bam": No such file or directory
+                        [E::hts_open_format] Failed to open file "Hmi*-RG.bam" : No such file or directory
+                        samtools merge: fail to open "Hmi*-RG.bam": No such file or directory
+                        [E::hts_open_format] Failed to open file "Hmi_denovoSSL_20k_merged.bam" : No such file or directory
+                        samtools index: failed to open "Hmi_denovoSSL_20k_merged.bam": No such file or directory
         ran mergebamns with Hm instead of Hmi.
         mergebams ran successfully.
         ran samtools depth coverage:

@@ -95,7 +95,52 @@
     
         psmcfa ran successfuly.
 
-07/20/2022
+07/30/2022
+
+    Step 2:
+    
+        Something went wrong during psmcfa.
+        Re-running mkBAM job 885452
+
+08/01/2022
+
+    Step 2:
+    
+        mkBAM failed, cannot find trimmed reads
+        rm namelist.denovoSSL.Hmi20k 
+        re-ran mkBAM
+        fltrBAM 1049716
+        fltrBAM ran
+        mergebam ran
+    
+    Step 3:
+    
+        Ran smatools depth: 74.3657, 49.5771333333-148.7314 
+        
+08/02/2022  
+    
+    Step 4: 
+        
+        mpileup ran successfully, 3777 fq files
+        gentime: 3.63182283
+    
+    Step 5:
+    
+        psmcfa ran successfuly.
+        
+    Step 6:
+    
+        psmc ran successfully.
+    
+    Step 7:
+    
+        psmcboot ran successfully.
+    
+    Step 8:
+    
+        psmc .eps bootstrap plot created.
+        
+        
 
          
     

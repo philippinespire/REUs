@@ -48,7 +48,22 @@
 
 07/27/2022
 
+    Step 0:
+    
+        Deleted files that were created from steps 0 -4
+        Copied scripts, created directories
+        No need to rename Hmi_shotgun_assembly.fa, already exists
+    
+    Step 1:
+    
+        Completed without issue, see 07/25/2022
+    
     Step 2:
+    
+        Corrected editing error in config5ssl.sbatch [replaced 80 with 30]
+        running mkBAM: Job 817761
+        
+        
     
         
 

@@ -39,9 +39,35 @@
       failed, issue with accessing fq.gz files
       fixed, running 819335
       Running fltr Bam job 819506
-    
+
+07/28/2022    
       
+    Step 2: 
     
-      
+      fltrBAM ran successfully
+      copied over mergebams
+      ran mergebams 819771
+      mergebam ran successfully
     
+    Step 3:
+    
+      Samtools depth not runnin correctly.
+    
+    Step 2:
+    
+      Re-ran merebams successfully.
+
+07/29/2022      
+    
+    Step 3:
       
+      Samtools depth ran successfully: average depth= 149.641, 49.8803333333 - 299.282
+      
+    Step 4:
+    
+      Mpileup worked for all 5823 scaffolds
+      Psmcfa failed
+    
+    Step 2:
+      
+      Re-ran fltrBAM job 883903

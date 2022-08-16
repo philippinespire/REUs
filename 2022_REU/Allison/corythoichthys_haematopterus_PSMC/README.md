@@ -46,3 +46,10 @@
     Step 6.
   
       Psmc job 883848 ran successfully
+      
+ 07/30/2022
+ 
+    Steps 7-8.
+    
+        Psmcbootplot ran successfully
+        ***Cha done in terminal***

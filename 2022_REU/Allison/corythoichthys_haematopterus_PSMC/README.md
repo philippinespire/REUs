@@ -7,11 +7,11 @@
     Copied scaffolds.fasta into main directory
     copied scripts, made data/mkBAM, renamed fasta file
     
-  Step 1
+  Step 1.
   
-   removesmalls ran successfully
-   658 scaffolds, length of filtered assembly: 35226418
-   Changed names to numerals
+    removesmalls ran successfully
+    658 scaffolds, length of filtered assembly: 35226418
+    Changed names to numerals
    
   Step 2.
 

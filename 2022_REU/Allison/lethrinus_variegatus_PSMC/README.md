@@ -1,24 +1,26 @@
-Lva PSMC Readme
----
+# <i>Lethrinus Variegatus</i> "Lva" PSMC Readme
 
-07/25/2022
+07/25/2022  
 
-no scaffolds.fasta exists -> go to repo
-best assembly has not been determined yet, so there is no reference genome
+  Step 0.
+
+      scaffolds.fasta not added to directory
 
 07/27/2022
 
-use Alllibs
-scaffolds.fasta added by Brendan
-reneamed scaffolds file
-removed smalls
-14506 scaffolds
-assembly length: 566550182
-renamed smalls to have numerals
-cloned dDocent
-Lva_denovoSSL_20k_PSMC created
-Copied over fq.gz files
-copied scripts & fasta file
+  Step 0.
+  
+  Alllibs scaffolds.fasta added by Brendan
+  reneamed scaffolds.fasta
+  
+  Step 1.
+  
+  Ran removesmalls: 14506 scaffolds, assembly length: 566550182
+  Renamed smalls to have numerals
+  
+  Step 2.
+  
+  Cloned dDocent, created Lva_denovoSSL_20k_PSMC, Copied over fq.gz files, copied scripts & fasta file
 
 07/28/2022
 

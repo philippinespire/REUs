@@ -9,48 +9,47 @@
 
 07/26/2022 
 
-scaffolds.fa has been put in and has been renamed
-ran removesmalls
-7427 scaffolds
-Filtered assembly length: 231221148
-scaffolds changed to numerals
-cloned dDocent
-edited config5.ssl
+    Step 1.
+    
+        scaffolds.fa now exsists has been renamed
+        ran removesmalls: 7427 scaffolds, Filtered assembly length: 231221148
+        scaffolds changed to numerals
+    
+    Step 2.
+    
+        cloned dDocent
+        edited config5.ssl
 
 07/27/2022
 
-double-checking that config5.ssl was edited correctly
-Hte_denovoSSL_20k_PSMC is empty: cpoied in config.5.cssl  dDocentHPC.bash  dDocentHPC_ODU.sbatch
-cpying over fq gz failed, need to re-run renaming 
-still failed -> running gzip *.fq in folder
-.fq.fz files exist now
-copied over .fq.gz files
-cpoied over scripts
-copied over fasta file
-edited config5.ssl
-dDocentHPC_ODU edited
-Submitted batch job 819230- failed
-renaming fqgz's
-submitted 819336
+    Step 2.
+
+        confirmed config5.ssl was edited correctly
+        copied config.5.cssl  dDocentHPC.bash  dDocentHPC_ODU.sbatch to correct directory
+        cpying over fq gz failed, need to re-run renaming 
+        still failed -> running gzip *.fq in folder -> .fq.fz files exist now
+        copied over .fq.gz files, scripts, and fasta file
+        edited config5.ssl and dDocentHPC_ODU edited
+        mkBAM failed -> renaming fqgz's -> submitted mkBAM 819336
 
 07/28/022
 
-mkBAM finished, need to re-run with 30 instead of 80
-rm *.bam *.bai
-re-running mkBAM 819758... should take about 03:15:00
-mkBAM is done
-running fltrBAM job 823499
-copied config and dDocent files
-fltrBAM ended 
-running mergebam
-merge successful
-depth: 14.144, range 4.81333333333-28.88
-copied mpileup.sbatch
-7427 scaffolds
+    Step 2.
 
-sbatch --array=1-1000 mpileup.sbatch Allison hypoatherina_temminckii Hte 05 29 0
-
-All mpileups are running
+        mkBAM ran successfully, need to re-run with 30 instead of 80
+        re-running mkBAM 819758... should take about 03:15:00
+        mkBAM ran successfully
+        fltrBAM job 823499 ran successfully
+        mergeBAM ran successfully
+    
+    Step 3.   
+       
+        depth: 14.144, range 4.81333333333-28.88
+        copied mpileup.sbatch
+        
+    Step 4.
+    
+        submitted all mpileup.sbatch jobs for 7427 scaffolds
 
 07/29/2022
 

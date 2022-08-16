@@ -1,6 +1,4 @@
-# Shotgun Data Processing Log - SSL data
-
-Copy and paste this into a new species dir and fill in as steps are accomplished.
+# Shotgun Data Processing Log - SSL data <i> 
 
 Following the [pire_fq_gz_processing](https://github.com/philippinespire/pire_fq_gz_processing) and [pire_ssl_data_processing](https://github.com/philippinespire/pire_ssl_data_processing) roadmaps.
 
@@ -16,7 +14,7 @@ Used decode file from Sharon Magnuson.
 salloc
 bash
 
-cd /home/e1garcia/shotgun_PIRE/REUS/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE<b>/2022_REU/Allison/corythoichthys_haematopterus/</b>
 
 #run renameFQGZ.bash first to make sure new names make sense
 bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_ProbeDevelopmentLibraries_SequenceNameDecode.tsv

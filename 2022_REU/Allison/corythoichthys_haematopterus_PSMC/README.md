@@ -21,3 +21,28 @@
     copied fqgz to corect folder, copied in fasta, copied in scripts
     mkBAM job 824952 Failed - missing bash file
     re-ran mkBAM job 830273
+
+07/29/2022
+
+  Step 2.
+    
+    mkBAM ran successfully
+    fltrBAM ran successfully
+    mergebam ran successfully
+    
+  Step 3.
+  
+    Ran samtools depth: depth 70.2281 range: 23.4093666667 - 140.4562
+  
+  Step 4.
+    
+    gentime 2.60822892
+    mpileup.sbatch ran successfully
+    
+  Step 5.
+  
+    psmcfa ran successfully
+    
+  Step 6.
+  
+    Psmc job 883848 ran successfully

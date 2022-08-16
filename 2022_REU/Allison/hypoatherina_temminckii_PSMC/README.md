@@ -53,30 +53,38 @@
 
 07/29/2022
 
-
-Counting scaffolds with ls -1 *fq | wc -l 
-7427 files, correct number
-copied psmcfa.sbatch
-
-sbatch --array=1-1000 psmcfa.sbatch Allison hypoatherina_temminckii Hte 0 
-^Worked, running for rest
-
-psmcfa conversion successful
-running psmc, gentime: 4.23454215
-sbatch psmc.sbatch Allison hypoatherina_temminckii Hte 4.23454215
-
-psmc cuccessful
-bootstraping failed: "hypoatherina_temminckii_PSMC_PSMC"
+    Step 4.
+   
+        Counting scaffolds with ls -1 *fq | wc -l: 7427 files
+     
+    Step 5.
+    
+        copied psmcfa.sbatch
+        running psmcfa.sbatch for 7427 files
+        psmcfa ran successfully
+    
+    Step 6.    
+       
+        running psmc, gentime: 4.23454215
+        sbatch psmc.sbatch Allison hypoatherina_temminckii Hte 4.23454215
+        psmc ran scuccessfully
+    
+    Step 7.
+    
+        bootstraping failed: "hypoatherina_temminckii_PSMC_PSMC"
 
 07/30/2022
 
-Re-do of bootstraping: sbatch psmcboot.sbatch Allison hypoatherina_temminckii Hte
-Job 885382
+    Step 7.
+
+        Re-do of bootstraping: sbatch psmcboot.sbatch Allison hypoatherina_temminckii Hte
+        ran bootstrapping Job 885382
 
 08/01/22
 
-Psmcboot worked
-running psmcbootplot.sbatch
-sbatch psmcbootplot.sbatch Allison lethrinus_variegatus Lva 4.8756936 1000
-^Job 962894
-***Hte done in terminal***
+    Step 7.
+
+        Psmcboot ran successfully
+        running psmcbootplot.sbatch Job 962894
+        sbatch psmcbootplot.sbatch Allison lethrinus_variegatus Lva 4.8756936 1000
+        ***Hte done in terminal***

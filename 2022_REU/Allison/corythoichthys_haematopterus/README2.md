@@ -14,7 +14,7 @@ Used decode file from Sharon Magnuson.
 salloc
 bash
 
-cd /home/e1garcia/shotgun_PIRE**/2022_REU/Allison/corythoichthys_haematopterus/**
+cd /home/e1garcia/shotgun_PIRE ** /2022_REU/Allison/corythoichthys_haematopterus/ **
 
 #run renameFQGZ.bash first to make sure new names make sense
 bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_ProbeDevelopmentLibraries_SequenceNameDecode.tsv

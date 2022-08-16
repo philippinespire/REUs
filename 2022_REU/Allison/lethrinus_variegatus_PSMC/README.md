@@ -44,22 +44,29 @@
 
 07/30/2022
 
-Lva has 14506 scaffolds
-sbatch --array=1-1000 mpileup.sbatch Allison lethrinus_variegatus_PSMC Lva 27 163 0
-Failed: improper naming
-re-ran, worked
-slurm can only handle 10k at a time
-all fq files created
-sbatch --array=1-1000 psmcfa.sbatch Allison lethrinus_variegatus Lva 0
-psmc was successful
-running psmcboot  918081
+    Step 4.
+    
+        sbatch --array=1-1000 mpileup.sbatch Allison lethrinus_variegatus_PSMC Lva 27 163 0
+        ^ Failed: improper naming
+        mpileup re-ran successfully for 14506 scaffolds
+        all fq files created
+    
+    Step 5.
+    
+        psmcfa ran successfully
+        
+    Steps 6-7.
+    
+        psmc ran successfully
+        running psmcboot  918081
 
 08/01/2022
 
-Psmc Boot ran successfully
-sbatch psmcbootplot.sbatch Allison lethrinus_variegatus Lva 4.8756936 1000
-Running psmcbootplot 943421
-^successful, need to use lower y-lim
-**LVA done in Terminal**
+    Steps 7-8.
+    
+        Psmc Boot ran successfully
+        psmcbootplot.sbatch ran successfully
+        need to use lower y-lim
+        ***Lva done in Terminal***
 
 

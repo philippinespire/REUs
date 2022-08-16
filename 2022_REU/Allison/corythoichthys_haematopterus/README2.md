@@ -14,7 +14,7 @@ Used decode file from Sharon Magnuson.
 salloc
 bash
 
-cd /home/e1garcia/shotgun_PIRE/**2022_REU/Allison/corythoichthys_haematopterus**/
+cd /home/e1garcia/shotgun_PIRE/2022_REU/Allison/corythoichthys_haematopterus/
 
 #run renameFQGZ.bash first to make sure new names make sense
 bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_ProbeDevelopmentLibraries_SequenceNameDecode.tsv
@@ -28,22 +28,24 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/renameFQGZ.bash Sfa_Probe
 
 ## Step 1. Check quality of data with fastqc
 
-Ran [`Multi_FASTQC.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh). Specify out directory to write the output to.
+Ran [`Multi_FASTQC.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/Multi_FASTQC.sh). 
+Specify out directory to write the output to: /home/e1garcia/shotgun_PIRE/2022_REU/Allison/corythoichthys_haematopterus/
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq
+cd /home/e1garcia/shotgun_PIRE/REUs/home/e1garcia/shotgun_PIRE/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq
 
 #Multi_FastQC.sh "<indir>" "file extension"
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/shotgun_raw_fq" "fq.gz"
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh  "/home/e1garcia/shotgun_PIRE/REUs/home/e1garcia/shotgun_PIRE/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq" "fq.gz"
 ```
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+[Report]
+ (https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html) written out to `shotgun_raw_fq` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:
   * % duplication -
     * Avg 75.53% | Low 70.9% |High 79.7%
   * gc content -
-    * 43.33%
+    * Avg 43.33% | Low 42% | High 45%
   * quality -
     * High (Between about 33.76 to 36.59)
   * % adapter -
@@ -58,26 +60,29 @@ Potential issues:
 Ran [`runFASTP_1st_trim.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFASTP_1st_trim.sbatch).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 #sbatch runFASTP_1st_trim.sbatch <INDIR/full path to files> <OUTDIR/full path to desired outdir>
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_1st_trim.sbatch shotgun_raw_fq fq_fp1
 ```
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/fq_fp1/1st_fastp_report.html) written out to `fq_fp1` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
   * % duplication -  
-    * XX%
+    * 74.06% Avg | 71.0% Low | 76.3% High
   * gc content - 
-    * XX%
+    * 43.33% Avg | 42.6% Low | 44.0% High
   * passing filter - 
-    * XX%
+    * 97.5% Avg | 96.7% Low | 98.0% High
   * % adapter -  
-    * XX%
+    * 5.77% Avg | 5.5% Low | 6.0% High
   * number of reads - 
     * XXM
 
+ 
+ # YOU ARE HERE
+ 
 ---
 
 ## Step 3. Clumpify

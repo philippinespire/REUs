@@ -1,14 +1,11 @@
 # <i>Hypoatherina temminckii</i> "Hte" PSMC Readme
 
-
 07/25/2022
 
-  Step 0.
-
-hypoatherina_temminckii_PSMC
-copied scripts (/home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts)
-
-scaffolds.fasta is not present- need to find reference genome
+    Step 0.
+      
+      Copied scripts over, created necessary directories.
+      scaffolds.fasta is not present- need to find reference genome
 
 07/26/2022 
 

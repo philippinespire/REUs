@@ -1,7 +1,9 @@
-Hte PSMC Readme
----
+# <i>Hypoatherina temminckii</i> "Hte" PSMC Readme
+
 
 07/25/2022
+
+  Step 0.
 
 hypoatherina_temminckii_PSMC
 copied scripts (/home/e1garcia/shotgun_PIRE/REUs/2022_REU/PSMC/scripts)

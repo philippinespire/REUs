@@ -4,6 +4,7 @@ Notes:
 
 	/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison
 	rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
+	For PSMC, only the steps as they are listed in the PSMC instructions are shown to mark progress. For more detail see the species readmes.
 
 
 07/08/2022
@@ -17,7 +18,7 @@ Notes:
 	Notes working on Cha SSL:
 
 		<i>Corythoichthys haematopterus</i> raw fq.qz files
-		renamed prior to running species through pipeline.
+		renamed prior to running species through pipeline
 		renameFQGZ.bash run, renamed to Cha-CPnd, outputs:
 	
 		Cha-CPnd_001_Ex1-1A_L4_1.fq.gz  Cha-CPnd_001_Ex1-2G_L4_1.fq.gz
@@ -40,10 +41,10 @@ Notes:
 
 07/18/2022
 
-	Getting over jetlag. Checked on jobs set before leaving the Philippines. No jobs were still running on wahab or turing.
+	Getting over jetlag. Checked on jobs set before leaving the Philippines. No jobs were still running on wahab or turing
 	Notes working on Cha SSL:
 		Recorded data from quast output for all libs
-		Running BUSCO failed. Sent message to slack about it.
+		Running BUSCO failed. Sent message to slack about it
 
 07/19/2022
 	
@@ -66,6 +67,18 @@ Notes:
 		Submitted contigs for B (batch job 775394) and scaffolds for B (batch job 775404)
 		Submitted contigs for C (batch job 775407) and scaffolds for C (batch job 775408)
 		Need to re-run SPAdes for 1st library (A)
+		
+	Completed steps 1-2 of Goy PSMC
+	
+07/21/2022
+
+	Completed steps 2-4 of Goy PSMC
+	Step 4 of Goy PSMC failed
+	
+07/22/2022
+
+	Completed step 4 of Goy PSMC
+	
 
 07/25/2022
 

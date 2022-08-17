@@ -93,6 +93,9 @@ Notes:
 		Something went wrong with running SPADES for A, re-running
 		
 	Step 6 of Goy PSMC completed
+	
+	Steps 0-1 of Hmi PSMC completed
+	Worked on step 2 of Hmi PSMC
 
 07/26/2022
 	
@@ -104,6 +107,9 @@ Notes:
 
 	Completed steps 0-1 of Aur PSMC
 	Progress on step 2 of Aur PSMC
+	
+	Completed step 3 of Hmi PSMC
+	Step 4 of Hmi PSMC failed
 		
 
 07/27/2022
@@ -116,6 +122,8 @@ Notes:
 		
 	Re-did step 1 of Aur PSMC
 	Progress on re-doing step 2 of Aur PSMC
+	
+	Re-started Hmi PSMC, working on step 2
 	
 07/28/2022
 
@@ -132,9 +140,10 @@ Notes:
 	
 	Completed step 2 of Aur PSMC.
 	Step 3 of Aur PSMC failed.
-	Re-did steo 2 of Aur PSMC.
+	Re-did step 2 of Aur PSMC.
 	
-
+	Worked on step 2 of Hmi PSMC
+	
 07/29/2022
 
 	Completed steps 2-6 of Cha PSMC
@@ -145,13 +154,26 @@ Notes:
 	
 	Steps 6-8 of Goy PSMC completed (finished)
 	
+	Completed steps 2-5 of Hmi PSMC
+	
 07/30/2022
 	
 	Completed steps 7-8 of Cha PSMC (finished).
+	
+	Step 5 of Hmi PSMC failed
+	Re-ran mkBAM
 
 08/01/2022
 
-	Ran steps 2-8 of Aur PSMC (finished).
+	Ran steps 2-8 of Aur PSMC (finished)
+	
+	Re-ran steps 2-3 of Hmi PSMC
+	
+08/02/2022
+
+	Steps 4-8 of Hmi PSMC completed (finished)
+	
+	Organized articles for manuscript, re-did endnote and removed unused entries
 	
 08/12/2022
 

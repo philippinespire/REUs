@@ -1,10 +1,9 @@
-<b>Allison's Readme</b>
+# <b>Allison's Readme</b>
 ---
 
 Notes:
 
 /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison
-
 rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
 ---
 
@@ -160,18 +159,20 @@ rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allis
 	sbatch --array=1-658 mpileup.sbatch Allison corythoichthys_haematopterus Cha 23 140 0
 	sbatch --array=1-658 psmcfa.sbatch Allison corythoichthys_haematopterus Cha 0
 
-	psmcfa worked correctly
-
-	sbatch psmc.sbatch Allison corythoichthys_haematopterus Cha 2.60822892
-	psmc job  883848
-	psmc successful
-
 07/30/2022
 
-	gentime is 2.60822892
-	psmcbootplot job 885581
-	***CHA DONE IN TERMINAL***
+	<i>Corythoichthys haematopterus</i> "Cha" PSMC completed
+
+08/12/2022
+
+	Gathered results for presentation
+	Finialized presentation powerpoint
+	Gave presentation at 17:00 meeting
 	
+08/15/2022
+
+	Forwarded current draft of manuscript to Dr. Pinsky, Dr. Reid, and Kyra Fitz
+	Worked on readmes
 	
 
 

@@ -77,13 +77,22 @@ Notes:
 	
 07/22/2022
 
+	Worked on step 4 of Goy PSMC
+
+07/23/2022
+
 	Completed step 4 of Goy PSMC
 	
+07/24/022
+	
+	Step 5 of Goy PSMC completed
 
 07/25/2022
 
 	Notes working on Cha SSL:
 		Something went wrong with running SPADES for A, re-running
+		
+	Step 6 of Goy PSMC completed
 
 07/26/2022
 	
@@ -133,6 +142,8 @@ Notes:
 	Re-ran step 3 of Aur PSMC.
 	Step 4 of Aur PSMC failed.
 	Progress on re-doing step 2 of Aur PSMC.
+	
+	Steps 6-8 of Goy PSMC completed (finished)
 	
 07/30/2022
 	

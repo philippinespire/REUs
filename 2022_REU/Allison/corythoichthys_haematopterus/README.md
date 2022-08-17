@@ -78,7 +78,7 @@ Potential issues:
   * % adapter -  
     * 5.77% Avg | 5.5% Low | 6.0% High
   * number of reads - 
-    * 704 M Passed filter (704,274,690) | ___
+    * 704 M Passed filter (704,274,690) | 16,566,434 Low Quality | 63,728 Too Many N | 1,161,410 Too short
 ---
 
 ## Step 3. Clumpify

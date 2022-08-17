@@ -34,7 +34,6 @@ Notes:
 
 		Still have permission error for pushing
 		Got MultiQC to run
-		/home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh 		"/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq" "fq.gz"
 		Ran Fastqp
 		Multi_FastQC.sh successfuly run, html file copied to personal computer
         	/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html   
@@ -55,8 +54,6 @@ Notes:
 		
 	Worked on paper- found sources that contradict hypothesis, took notes on them
 	
-	
-
 07/20/2022
 
 	Notes working on Cha SSL:
@@ -68,10 +65,7 @@ Notes:
 		Added quast results to step 4 table in Cha readme
 		Submitted contigs for B (batch job 775394) and scaffolds for B (batch job 775404)
 		Submitted contigs for C (batch job 775407) and scaffolds for C (batch job 775408)
-		Need to re-run SPAdes for 1st library (A), code:
-			sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "afink007" "Cha" "1" "decontam" 
-"342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired" 
-
+		Need to re-run SPAdes for 1st library (A)
 
 07/25/2022
 

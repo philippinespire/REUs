@@ -399,72 +399,15 @@ What is the best assembely: Alllibs contam scaffolds
 ## Step 6. Assemble Contaminated Data From the Best Library
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus
 
 #runSPADEShimem_R1R2_noisolate.sbatch <your user ID> <3-letter species ID> <library: all_2libs | all_3libs | 1 | 2 | 3> <contam | decontam> <genome size in bp> <species dir>
 #do not use trailing / in paths
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "e1garcia" "Sfa" "2" "contam" "635000000" "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "Allison" "Cha" "2" "contam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "fq_fp1_clmp_fp2_fqscrn_repaired"
 ```
 
 --- 
 
 ## **C. Probe Design - Regions for Probe Development**
 
-From the species directory: made probe directory, renamed assembly, and copied scripts.
-
-```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
-
-mkdir probe_design
-cp /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/WGprobe_annotation.sb probe_design
-cp /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/WGprobe_bedcreation.sb probe_design
-cp SPAdes_SgC0072C_contam_R1R2_noIsolate/scaffolds.fasta probe_design #copy best assembly
- 
-# list the busco dirs
-ls -d busco_*
-# identify the busco dir of best assembly, copy the treatments (starting with the library)
-# Example,the busco dir for the best assembly for Sgr is `busco_scaffolds_results-SPAdes_SgC0072C_contam_R1R2_noIsolate`
-
- # I then provide the species 3-letter code, scaffolds, and copy and paste the parameters from the busco dir after "SPAdes_" 
-cd probe_design
-mv scaffolds.fasta Sgr_scaffolds_B_contam_R1R2_noIsolate.fasta
-```
-
-Execute the first script
-```sh
-#WGprobe_annotation.sb <assembly name> 
-sbatch WGprobe_annotation.sb "Sgr_scaffolds_SgC0072C_contam_R1R2_noIsolate.fasta"
-```
-
-Execute the second script
-```sh
-#WGprobe_annotation.sb <assembly base name> 
-sbatch WGprobe_bedcreation.sb "Sgr_scaffolds_SgC0072C_contam_R1R2_noIsolate"
-```
-
-The longest scaffold is XX
-
-The upper limit used in loop is XX
-
-A total of XX regions have been identified from XX scaffolds
-
-
-Moved out files to logs
-```sh
-mv *out ../logs
-```
-
-## Step 12. Fetching genomes for closest relatives
-
-```sh
-nano closest_relative_genomes_your_species.txt
-
-Closest genomes:
-1. Salarias fascistus - https://www.ncbi.nlm.nih.gov/genome/7248
-2. Parablennius parvicornis - https://www.ncbi.nlm.nih.gov/genome/69445
-3. Petroscirtes breviceps - https://www.ncbi.nlm.nih.gov/genome/7247
-4. Ecsenius bicolor - https://www.ncbi.nlm.nih.gov/genome/41373
-5. Gouania willdenowi - https://www.ncbi.nlm.nih.gov/genome/76090
-
-Used Betancour et al. 2017 (All Blenniiformes)
-```
+Probe design was not conducted for this species.

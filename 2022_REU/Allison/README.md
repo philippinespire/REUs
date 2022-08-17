@@ -96,6 +96,8 @@ Notes:
 	
 	Steps 0-1 of Hmi PSMC completed
 	Worked on step 2 of Hmi PSMC
+	
+	Completed step 0 of Hte PSMC
 
 07/26/2022
 	
@@ -110,6 +112,9 @@ Notes:
 	
 	Completed step 3 of Hmi PSMC
 	Step 4 of Hmi PSMC failed
+	
+	Completed step 1 of Hte PSMC
+	Worked on step 2 of Hte PSMC
 		
 
 07/27/2022
@@ -124,6 +129,8 @@ Notes:
 	Progress on re-doing step 2 of Aur PSMC
 	
 	Re-started Hmi PSMC, working on step 2
+	
+	Worked on step 2 of Hte PSMC
 	
 07/28/2022
 
@@ -144,6 +151,9 @@ Notes:
 	
 	Worked on step 2 of Hmi PSMC
 	
+	Completed steps 2-3 of Hte PSMC
+	Worked on step 4 of Hte PSMC
+	
 07/29/2022
 
 	Completed steps 2-6 of Cha PSMC
@@ -156,12 +166,17 @@ Notes:
 	
 	Completed steps 2-5 of Hmi PSMC
 	
+	Completed steps 4-6 of Hte PSMC
+	Step 7 of Hte PSMC failed
+	
 07/30/2022
 	
-	Completed steps 7-8 of Cha PSMC (finished).
+	Completed steps 7-8 of Cha PSMC (finished)
 	
 	Step 5 of Hmi PSMC failed
 	Re-ran mkBAM
+	
+	Completed step 7 of Hte PSMC (finished)
 
 08/01/2022
 

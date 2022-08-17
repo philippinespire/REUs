@@ -301,22 +301,22 @@ Executed [runSPADEShimem_R1R2_noisolate.sbatch](https://github.com/philippinespi
 ```sh
 #new window
 ssh username@turing.hpc.odu.edu
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 #runSPADEShimem_R1R2_noisolate.sbatch <your user ID> <3-letter species ID> <contam | decontam> <genome size in bp> <species dir>
 #do not use trailing / in paths
 
 #1st library
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "e1garcia" "Sfa" "1" "decontam" "635000000" "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/yourname" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "Allison" "Cha" "1" "decontam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired"
 
 #2nd library
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "e1garcia" "Sfa" "2" "decontam" "635000000" "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/yourname" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "Allison" "Cha" "2" "decontam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired"
 
 #3rd library
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "e1garcia" "Sfa" "3" "decontam" "635000000" "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/yourname" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "Allison" "Cha" "3" "decontam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired"
 
 #all libraries combined
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "e1garcia" "Sfa" "all_3libs" "decontam" "635000000" "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/yourname" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runSPADEShimem_R1R2_noisolate.sbatch "Allison" "Cha" "all_3libs" "decontam" "342000000" "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/" "fq_fp1_clmp_fp2_fqscrn_repaired"
 ```
  
 JOB IDs:
@@ -345,56 +345,56 @@ This SPAdes scripts automatically runs `QUAST` but have to run `BUSCO` separatel
 Executed [runBUCSO.sh](https://github.com/philippinespire/pire_ssl_data_processing/blob/main/scripts/runBUSCO.sh) on both the `contigs` and `scaffolds` files.
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 #runBUSCO.sh <species dir> <SPAdes dir> <contigs | scaffolds>
 #do not use trailing / in paths
 
 #1st library - contigs
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_Sfa-CBas-A_decontam_R1R2_noIsolate" "contigs"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_Cha-CBas-A_decontam_R1R2_noIsolate" "contigs"
 
 #2nd library -contigs
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_Sfa-CBas-B_decontam_R1R2_noIsolate" "contigs"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_Cha-CBas-B_decontam_R1R2_noIsolate" "contigs"
 
 #3rd library - contigs
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_Sfa-CBas-C_decontam_R1R2_noIsolate" "contigs"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_Cha-CBas-C_decontam_R1R2_noIsolate" "contigs"
 
 #all libraries - contigs
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_allLibs_decontam_R1R2_noIsolate" "contigs"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_allLibs_decontam_R1R2_noIsolate" "contigs"
 
 #1st library -scaffolds
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_Sfa-CBas-A_decontam_R1R2_noIsolate" "scaffolds"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_Chaa-CBas-A_decontam_R1R2_noIsolate" "scaffolds"
 
 #2nd library - scaffolds
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_Sfa-CBas-B_decontam_R1R2_noIsolate" "scaffolds"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_Cha-CBas-B_decontam_R1R2_noIsolate" "scaffolds"
 
 #3rd library - scaffolds
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_Sfa-CBas-C_decontam_R1R2_noIsolate" "scaffolds"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_Cha-CBas-C_decontam_R1R2_noIsolate" "scaffolds"
 
 #all libraries - scaffolds
-sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/2022_PIRE_omics_workshop/salarias_fasciatus" "SPAdes_allLibs_decontam_R1R2_noIsolate" "scaffolds"
+sbatch /home/e1garcia/shotgun_PIRE/pire_ssl_data_processing/scripts/runBUSCO.sh "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus" "SPAdes_allLibs_decontam_R1R2_noIsolate" "scaffolds"
 ```
 
 ## Step 4. Fill in QUAST and BUSCO Values
 
-### Summary of QUAST (using GenomeScope v.2 <enter genome length> estimate) and BUSCO Results
+### Summary of QUAST (using GenomeScope v.2 <enter genome length> estimate) and BUSCO Results (Tab Delimited)
 
-Species    |Assembly    |DataType    |SCAFIG    |covcutoff    |genome scope v.    |No. of contigs    |Largest contig    |Total lenght    |% Genome size completeness    |N50    |L50    |Ns per 100 kbp    |BUSCO single copy
-------  |------  |------ |------ |------ |------  |------ |------ |------ |------ |------  |------ |------ |------
-Sfa  |A  |decontam       |contgs       |off       |X       |  XX  | XX  | XX  | XX% | 8516  |  116066  |  45376391  | 46.86%
-Sfa  |A  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  |  XX% | 9451  | 198527  | 50028297  | 46.76%
-Sfa  |B  |decontam       |contgs       |off       |X       |  XX |  XX  |   XX  |  XX% |  12295  |  176474  |  56786073  | 45.54%
-Sfa  |B  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  |  XX% |  14138  |  269079  |  65369174  | 45.28%
-Sfa  |C  |decontam       |contgs       |off       |X       |  XX  |  XX  |  XX  | XX% | 6572  | 153476  |  36962939  |  46.19%
-Sfa  |C  |decontam       |scaffolds       |off       |X    |  XX  |  XX  |   XX  | XX% |  7408  |  182426  | 40835802 | 45.98%
-Sfa  |allLibs  |decontam       |contigs       |off       |X    |  XX | XX |  XX  |  XX% |  74819  | 282571  | 364837995  | 41.16%
-Sfa  |allLibs  |decontam       |scaffolds       |off       |X   | XX | XX |  XX  |  XX% | 76635  |  282571  | 378208088 | 41.15%
+Species    	Library    	DataType    	SCAFIG    	covcutoff    	genome scope v.    	No. of contigs    	Largest contig    	Total length 	% Genome size completeness    	N50    	L50    	Ns per 100 kbp    	BUSCO single copy	
+------  	------  	------ 	------ 	------ 	------  	------ 	------ 	------ 	------ 	------  	------ 	------ 	------ 	
+Cha	allLibs  	decontam     	contigs       	off       		74819	282571	364837995	41.16	4799	25780	0.00	798	
+Cha	allLibs  	decontam     	scaffolds       	off       		76635	282571	378208088	41.15	4860	26123	51.41	811	
+Cha	CPnd-A	decontam     	contgs       	off       		8516	116066	45376391	46.86	4852	2278	0.00	406	
+Cha	CPnd-A	decontam     	scaffolds       	off       		9451	198527	198527	46.76	4773	2534	104.89	421	
+Cha	CPnd-B	decontam     	contgs       	off       		12295	176474	56786073	45.54	4260	4145	0.00	479	
+Cha	CPnd-B	decontam     	scaffolds       	off       		14138	269079	65369174	45.28	4268	4762	150.71	491	
+Cha	CPnd-C	decontam     	contgs       	off       		6572	153476	36962939	46.19	5041	1498	0.00	369	
+Cha	CPnd-C	decontam     	scaffolds       	off       		7408	182426	40835802	45.98	4851	1756	84.64	389	
+														
 
+ 
 ## Step 5. Identify Best Assembly
 
-What is the best assembley? Note here. Include the assembly and the corresponding library.
-
-Note additional remarks if necessary
+What is the best assembely: Alllibs contam scaffolds
 
 ## Step 6. Assemble Contaminated Data From the Best Library
 

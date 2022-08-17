@@ -204,7 +204,7 @@ mv *out logs/
 Ran [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch).
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 #runREPAIR.sbatch <indir> <outdir> <threads>
 #do not use trailing / in paths
@@ -216,7 +216,7 @@ This went smoothly.
 Have to run Fastqc-Multiqc separately.
 
 ```
-cd https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 #Multi_FastQC.sh "<indir>" "file_extension"
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
@@ -239,15 +239,16 @@ Potential issues:
 Ran [`read_calculator_ssl.sh`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/read_calculator_ssl.sh).
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
+
 
 #sbatch read_calculator_ssl.sh <species home dir> 
 #do not use trailing / in paths
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir"
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus"
 ```
 
 Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readsRemaining_table.tsv) tables.
-
+#Go back
 Reads lost:
   * fastp1 dropped XX% of the reads
   * XX% of reads were duplicates and were dropped by clumpify
@@ -262,33 +263,34 @@ Reads remaining:
 
 ## Step 1. Genome Properties
 
-*Species name* does (or does not) have a genome available at either genomesize.com or NCBI Genome databases. 
+Corythoichthys haematopterus does does not have a genome available at either genomesize.com or NCBI Genome databases. 
  
-We will still estimate the genome size of *Species name* using Jellyfish to remain consistent with all the other species.
+We will still estimate the genome size of Corythoichthys haematopterus using Jellyfish to remain consistent with all the other species.
 
 Executed `runJellyfish.sbatch` using the decontaminated files.
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 #runJellyfish.sbatch <Species 3-letter ID> <indir>
-sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runJellyfish.sbatch "Sfa" "fq_fp1_clmp_fp2_fqscrn_repaired"
+sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runJellyfish.sbatch "Cha" "fq_fp1_clmp_fp2_fqscrn_repaired"
 ```
 
-The Jellyfish kmer-frequency [histogram file](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/Sfa_all_reads.histo) 
-was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [GenomeScope v2.0](http://qb.cshl.edu/genomescope/genomescope2.0/) to generate the [v1.report](**insert file**) and [v2.report](**insert file**). 
+The Jellyfish kmer-frequency [histogram file](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/fq_fp1_clmp_fp2_fqscrn_repaired/Sfa_all_reads.histo) 
+was uploaded into [GenomeScope v1.0](http://qb.cshl.edu/genomescope/) and [GenomeScope v2.0](http://qb.cshl.edu/genomescope/genomescope2.0/) to generate the [v1.report](http://genomescope.org/analysis.php?code=d2sRmgVsGOpAPLJF2t1y) and [v2.report](http://qb.cshl.edu/genomescope/genomescope2.0/analysis.php?code=D5gJlbN5zkc50f2WT7NO). 
 
 Genome stats for Sfa from Jellyfish/GenomeScope v1.0 & v2.0
 stat    |min    |max    
 ------  |------ |------
-Heterozygosity v1.0|XX%       |XX%       
-Heterozygosity v2.0|XX%       |XX%       
-Genome Haploid Length v1.0|XX bp    |XX bp 
-Genome Haploid Length v2.0|XX bp    |XX bp 
-Model Fit   v1.0|XX%       |XX%       |XX%
-Model Fit   v2.0|XX%       |XX%       |XX%
+Heterozygosity v1.0|NA       |NA      
+Heterozygosity v2.0|5.75072%       |8.10213%       
+Genome Haploid Length v1.0|NA   |NA
+Genome Haploid Length v2.0|331,154,892 bp    |341,940,767 bp 
+Model Fit   v1.0|NA       |NA       
+Model Fit   v2.0|45.5045%      |86.4415%        
 
-*Mention any red flags here, otherwise state "No red flags".* We will use the max value from V2 rounded up to ***insert value here*** bp.
+Red flags: Genomescope 1 unconverged. 
+We will use the max value from V2 rounded up to 342 M bp.
 
 ---
 

@@ -2,8 +2,8 @@
 
 Notes:
 
-/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison
-rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
+	/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison
+	rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
 
 
 07/08/2022

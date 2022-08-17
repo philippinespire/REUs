@@ -247,15 +247,15 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopteru
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/read_calculator_ssl.sh "https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus"
 ```
 
-Generated the [percent_read_loss](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/preprocess_read_change/readsRemaining_table.tsv) tables.
+Generated the [percent_read_loss](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/readLoss_table.tsv) and [percent_reads_remaining](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/readsRemaining_table.tsv) tables.
 #Go back
 Reads lost:
-  * fastp1 dropped XX% of the reads
-  * XX% of reads were duplicates and were dropped by clumpify
-  * fastp2 dropped XX% of the reads after deduplication
+  * fastp1 dropped [200.651% Low | 250.014% Avg | 330.649% High] of the reads
+  * [60.482 Low 453.84% Avg | 643.149% High] of reads were duplicates and were dropped by clumpify
+  * fastp2 dropped [199.075% Low | 210.591% Avg 219.419% High] of the reads after deduplication
 
 Reads remaining:
-  * Total reads remaining: XX% 
+  * Total reads remaining: |236.209% Low |258.3% Avg |253.864% High
 
 ---
 

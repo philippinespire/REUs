@@ -78,11 +78,7 @@ Potential issues:
   * % adapter -  
     * 5.77% Avg | 5.5% Low | 6.0% High
   * number of reads - 
-    * XXM
-
- 
- # YOU ARE HERE
- 
+    * 704 M Passed filter (704,274,690)
 ---
 
 ## Step 3. Clumpify
@@ -90,7 +86,7 @@ Potential issues:
 Ran [`runCLUMPIFY_r1r2_array.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runCLUMPIFY_r1r2_array.bash) in a 3 node array on Wahab.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/home/e1garcia/shotgun_PIRE/2022_REU/Allison/corythoichthys_haematopterus/
 
 bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.bash fq_fp1 fq_fp1_clmp /scratch/your_wahab_user_name 3
 ```
@@ -98,7 +94,7 @@ bash /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runCLUMPIFY_r1r2_array.ba
 Checked the output with [`checkClumpify_EG.R`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/checkClumpify_EG.R).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/home/e1garcia/shotgun_PIRE/2022_REU/Allison/corythoichthys_haematopterus/
 
 salloc
 enable_lmod
@@ -131,17 +127,17 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopteru
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runFASTP_2_ssl.sbatch fq_fp1_clmp fq_fp1_clmp_fp2
 ```
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2/2nd_fastp_report.html) written out to `fq_fp1_clmp_fp2` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/fq_fp1_clmp_fp2/2nd_fastp_report.html) written out to `fq_fp1_clmp_fp2` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
   * % duplication - 
-    * 29.57% Average
+    * 29.57% Avg | 26.2% Low | 31.1% High
   * gc content - 
-    * 42.83% Average
+    * 42.83% Avg | 42.2% Low | 43.4% High
   * passing filter - 
-    * 78.97% Average
+    * 78.97% Avg | 78.1% Low | 80.1% High
   * % adapter - 
-    * 00.60% Average
+    * 0.6% Avg | 0.6% Low | 0.6% High
   * number of reads
     * 201,878,690 total passed filter | 53,816,562 too short | 0 low quality | 0 too many N
 

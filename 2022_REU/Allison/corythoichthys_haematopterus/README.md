@@ -78,7 +78,7 @@ Potential issues:
   * % adapter -  
     * 5.77% Avg | 5.5% Low | 6.0% High
   * number of reads - 
-    * 704 M Passed filter (704,274,690)
+    * 704 M Passed filter (704,274,690) | ___
 ---
 
 ## Step 3. Clumpify
@@ -148,7 +148,7 @@ Potential issues:
 Ran [`runFQSCRN_6.bash`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runFQSCRN_6.bash).
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus
 
 #runFQSCRN_6.bash <indir> <outdir> <number of nodes to run simultaneously>
 #do not use trailing / in paths
@@ -183,7 +183,7 @@ cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopteru
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/runMULTIQC.sbatch fq_fp1_clmp_fp2_fqscrn fastqc_screen_report
 ```
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn/fastqc_screen_report.html) written out to `fq_fp1_clmp_fp2_fqscrn` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/fq_fp1_clmp_fp2_fqscrn/fastqc_screen_report.html) written out to `fq_fp1_clmp_fp2_fqscrn` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:
   * one hit, one genome, no ID ~XX% - 94.50% Average
@@ -192,7 +192,7 @@ Potential issues:
 Cleaned-up logs again.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/
 
 mv *out logs/
 ```
@@ -204,7 +204,7 @@ mv *out logs/
 Ran [`runREPAIR.sbatch`](https://github.com/philippinespire/pire_fq_gz_processing/blob/main/runREPAIR.sbatch).
 
 ```sh
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus
 
 #runREPAIR.sbatch <indir> <outdir> <threads>
 #do not use trailing / in paths
@@ -216,21 +216,21 @@ This went smoothly.
 Have to run Fastqc-Multiqc separately.
 
 ```
-cd /home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir
+cd https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus
 
 #Multi_FastQC.sh "<indir>" "file_extension"
 sbatch /home/e1garcia/shotgun_PIRE/pire_fq_gz_processing/Multi_FASTQC.sh "/home/e1garcia/shotgun_PIRE/REUs/your_dir/species_dir/fq_fp1_clmp_fp2_fqscrn_repaired" "fq.gz" 
 ```
 
-[Report](https://github.com/philippinespire/2022_PIRE_omics_workshop/blob/main/salarias_fasciatus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
+[Report](https://github.com/philippinespire/REUs/blob/master/2022_REU/Allison/corythoichthys_haematopterus/fq_fp1_clmp_fp2_fqscrn_repaired/fastqc_report.html) written out to `fq_fp1_clmp_fp2_fqscrn_repaired` directory. *To visualize, click "view raw" and then add "[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)" to the beginning of the URL.*
 
 Potential issues:  
   * % duplication - 
-    * XX%
+    * 23.61% Avg | 21.2% Low | 25.1% High
   * gc content - 
-    * XX%
+    * 41.6% Avg | 41% Low | 42% High
   * number of reads
-    * XX%
+    * 142 M Unique (141,673,534) | 44 M Duplicate (43,800,664)
 
 ---
 

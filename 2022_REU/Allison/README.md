@@ -80,6 +80,9 @@ Notes:
 		Used excel custom sort to find best library: AllLibs
 		Running contam for All Libs
 
+	Completed steps 0-1 of Aur PSMC
+	Progress on step 2 of Aur PSMC
+		
 
 07/27/2022
 	
@@ -88,7 +91,10 @@ Notes:
 		Checked in on Cha, job from yesterday is still running
 		Job finished (AllLibs contam)
 		Running Busco for allLibs contam
-
+		
+	Re-did step 1 of Aur PSMC
+	Progress on re-doing step 2 of Aur PSMC
+	
 07/28/2022
 
 	Notes working on Cha SSL:
@@ -99,16 +105,30 @@ Notes:
 		the BUSCO is the best we are going to get, even though it is low (23%)
 		copied scaffolds.fasta into main directory
 		
+	Completed steps 0-1 of Cha PSMC.
+	Progress on step 2 of Cha PSMC.
+	
+	Completed step 2 of Aur PSMC.
+	Step 3 of Aur PSMC failed.
+	Re-did steo 2 of Aur PSMC.
 	
 
 07/29/2022
 
+	Completed steps 2-6 of Cha PSMC
 	
-
+	Re-ran step 3 of Aur PSMC.
+	Step 4 of Aur PSMC failed.
+	Progress on re-doing step 2 of Aur PSMC.
+	
 07/30/2022
-
 	
+	Completed steps 7-8 of Cha PSMC (finished).
 
+08/01/2022
+
+	Ran steps 2-8 of Aur PSMC (finished).
+	
 08/12/2022
 
 	Gathered results for presentation
@@ -119,6 +139,10 @@ Notes:
 
 	Forwarded current draft of manuscript to Dr. Pinsky, Dr. Reid, and Kyra Fitz
 	Worked on readmes
+	
+08/17/2022
+
+	
 	
 
 

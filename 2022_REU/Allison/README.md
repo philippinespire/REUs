@@ -6,7 +6,6 @@ Notes:
 	rsync afink007@wahab.hpc.odu.edu:/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/corythoichthys_haematopterus/shotgun_raw_fq/fastqc_report.html .
 	For PSMC, only the steps as they are listed in the PSMC instructions are shown to mark progress. For more detail see the species readmes.
 
-
 07/08/2022
 
 	First introduction draft completed
@@ -54,7 +53,7 @@ Notes:
 		Got BUSCO to run for all individual libraries
 		
 	Worked on paper- found sources that contradict hypothesis, took notes on them
-	
+
 07/20/2022
 
 	Notes working on Cha SSL:
@@ -69,12 +68,12 @@ Notes:
 		Need to re-run SPAdes for 1st library (A)
 		
 	Completed steps 1-2 of Goy PSMC
-	
+
 07/21/2022
 
 	Completed steps 2-4 of Goy PSMC
 	Step 4 of Goy PSMC failed
-	
+
 07/22/2022
 
 	Worked on step 4 of Goy PSMC
@@ -98,6 +97,8 @@ Notes:
 	Worked on step 2 of Hmi PSMC
 	
 	Completed step 0 of Hte PSMC
+	
+	Attempted to start Lva PSMC, scaffolds.fasta not added yet
 
 07/26/2022
 	
@@ -132,6 +133,9 @@ Notes:
 	
 	Worked on step 2 of Hte PSMC
 	
+	Completed steps 0-1 of Lva PSMC
+	Worked on step 2 of Lva PSMC
+	
 07/28/2022
 
 	Notes working on Cha SSL:
@@ -154,6 +158,8 @@ Notes:
 	Completed steps 2-3 of Hte PSMC
 	Worked on step 4 of Hte PSMC
 	
+	Step 2 of Lva PSMC failed, re-submitted job
+	
 07/29/2022
 
 	Completed steps 2-6 of Cha PSMC
@@ -169,6 +175,8 @@ Notes:
 	Completed steps 4-6 of Hte PSMC
 	Step 7 of Hte PSMC failed
 	
+	Completed steps 2-3 of Lva PSMC
+	
 07/30/2022
 	
 	Completed steps 7-8 of Cha PSMC (finished)
@@ -177,12 +185,16 @@ Notes:
 	Re-ran mkBAM
 	
 	Completed step 7 of Hte PSMC (finished)
+	
+	Completed steps 4-7 of Lva PSMC
 
 08/01/2022
 
 	Ran steps 2-8 of Aur PSMC (finished)
 	
 	Re-ran steps 2-3 of Hmi PSMC
+	
+	Completed steaps 7-8 of Lva PSMC (finished)
 	
 08/02/2022
 
@@ -203,8 +215,5 @@ Notes:
 	
 08/17/2022
 
-	
-	
-
-
-
+	All readmes have been updated
+	Recieved feedback on manuscript from Dr. Reid

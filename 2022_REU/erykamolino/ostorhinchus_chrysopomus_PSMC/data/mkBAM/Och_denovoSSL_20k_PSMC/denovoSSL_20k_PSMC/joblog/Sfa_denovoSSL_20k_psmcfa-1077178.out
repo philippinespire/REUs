@@ -1,0 +1,21 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077208.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077209.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077210.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077211.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077212.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077213.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077214.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077215.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077216.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077217.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077218.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077219.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077220.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077220.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077221.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077221.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077222.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077223.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077224.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077224.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077225.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077225.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077226.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077227.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077227.out' are the same file

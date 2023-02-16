@@ -1,0 +1,16 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot move 'denovoSSL_20k_mpileup-1070507.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1070507.out': No such file or directory
+mv: cannot move 'denovoSSL_20k_mpileup-1070509.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1070509.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1070510.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1070510.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1070511.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070512.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070513.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070514.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070515.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070516.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070517.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1070518.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1070519.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1070519.out' are the same file

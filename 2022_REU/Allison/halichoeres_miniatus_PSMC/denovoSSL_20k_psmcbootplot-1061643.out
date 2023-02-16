@@ -1,0 +1,7 @@
+
+/var/spool/slurmd/job1061643/slurm_script: line 19: cd: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Hmi/_PSMC/data/mkBAM/_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/: No such file or directory
+cat: denovoSSL20kall.psmc: No such file or directory
+cat: 'denovoSSL20kround-*.psmc': No such file or directory
+Use of uninitialized value in division (/) at /opt/psmc/bin/psmc_plot.pl line 119.
+Use of uninitialized value in division (/) at /opt/psmc/bin/psmc_plot.pl line 119.
+Illegal division by zero at /opt/psmc/bin/psmc_plot.pl line 119.

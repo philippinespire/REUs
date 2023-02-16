@@ -1,0 +1,16 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 3 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-1069637.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069638.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069639.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069640.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069641.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069642.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069643.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069644.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069645.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069646.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1069647.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1069648.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1069648.out' are the same file

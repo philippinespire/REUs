@@ -1,0 +1,4 @@
+error: cannot update the ref 'refs/remotes/origin/master': unable to append to '.git/logs/refs/remotes/origin/master': Permission denied
+From https://github.com/philippinespire/REUs
+ ! e353f56d6..20c3ed295  master     -> origin/master  (unable to update local ref)
+slurmstepd: error: *** JOB 1088463 ON e2-w6420b-08 CANCELLED AT 2022-08-11T22:32:53 ***

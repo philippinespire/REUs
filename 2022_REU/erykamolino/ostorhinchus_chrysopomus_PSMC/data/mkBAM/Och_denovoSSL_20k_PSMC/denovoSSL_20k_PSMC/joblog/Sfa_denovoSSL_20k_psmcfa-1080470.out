@@ -1,0 +1,13 @@
+
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080502.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080503.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080504.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080505.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080506.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080507.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080508.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080509.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080510.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1080511.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1080512.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1080512.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1080513.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1080513.out' are the same file

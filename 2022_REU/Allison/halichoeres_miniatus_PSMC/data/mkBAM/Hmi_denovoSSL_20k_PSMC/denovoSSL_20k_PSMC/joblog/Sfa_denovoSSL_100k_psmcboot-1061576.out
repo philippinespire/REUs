@@ -1,0 +1,2 @@
+
+/var/spool/slurmd/job1061576/slurm_script: line 23: 30611 Segmentation fault      crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o ${3}denovoSSL20kround-$RD.psmc ${3}denovoSSL20kall.psmcfa

@@ -1,0 +1,6 @@
+
+/var/spool/slurmd/job1061543/slurm_script: line 23:  6213 Segmentation fault      crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o ${3}denovoSSL20kround-$RD.psmc ${3}denovoSSL20kall.psmcfa
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061543.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061543.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061545.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061545.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061572.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061572.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061574.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061574.out' are the same file

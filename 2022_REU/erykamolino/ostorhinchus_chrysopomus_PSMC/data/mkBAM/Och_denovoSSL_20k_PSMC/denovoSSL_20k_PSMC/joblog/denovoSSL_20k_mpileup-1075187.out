@@ -1,0 +1,23 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 3 samples in 1 input files
+mv: cannot stat 'denovoSSL_20k_mpileup-1075209.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075210.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075211.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075212.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075213.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075214.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075215.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075216.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075217.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075218.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075219.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075220.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1075221.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1075221.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1075223.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075224.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075225.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075228.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1075229.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1075230.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1075230.out' are the same file

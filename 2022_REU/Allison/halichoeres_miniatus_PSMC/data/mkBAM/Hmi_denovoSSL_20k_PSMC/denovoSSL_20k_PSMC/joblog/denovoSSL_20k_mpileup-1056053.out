@@ -1,0 +1,18 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 2 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+mv: cannot stat 'denovoSSL_20k_mpileup-1056090.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056091.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056092.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056093.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056094.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056095.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056096.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056097.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056098.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056099.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056100.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056101.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1056102.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1056103.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1056103.out' are the same file

@@ -1,0 +1,10 @@
+
+/var/spool/slurmd/job1061569/slurm_script: line 23: 29747 Segmentation fault      crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o ${3}denovoSSL20kround-$RD.psmc ${3}denovoSSL20kall.psmcfa
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061567.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061568.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061569.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061570.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061571.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061572.out': No such file or directory
+mv: cannot stat '../Sfa_denovoSSL_100k_psmcboot-1061573.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061574.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061574.out' are the same file

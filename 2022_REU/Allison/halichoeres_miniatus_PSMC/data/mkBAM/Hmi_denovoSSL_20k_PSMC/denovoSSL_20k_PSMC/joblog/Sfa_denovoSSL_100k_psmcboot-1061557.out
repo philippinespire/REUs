@@ -1,0 +1,41 @@
+
+/var/spool/slurmd/job1061557/slurm_script: line 23: 10600 Segmentation fault      crun psmc -N25 -t15 -r5 -b -p "4+25*2+4+6" -o ${3}denovoSSL20kround-$RD.psmc ${3}denovoSSL20kall.psmcfa
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061524.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061524.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061525.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061525.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061526.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061526.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061527.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061527.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061528.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061528.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061529.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061529.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061530.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061530.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061532.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061532.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061533.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061533.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061534.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061534.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061535.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061535.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061536.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061536.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061538.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061538.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061539.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061539.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061540.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061540.out': No such file or directory
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061541.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061541.out': No such file or directory
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061543.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061543.out': No such file or directory
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061544.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061544.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061546.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061546.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061547.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061547.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061549.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061549.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061550.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061550.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061552.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061552.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061553.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061553.out': No such file or directory
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061554.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061554.out': No such file or directory
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061555.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061555.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061557.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061557.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061558.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061558.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061559.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061559.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061560.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061560.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061562.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061562.out' are the same file
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061563.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061563.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061564.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061564.out': No such file or directory
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061565.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061565.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061567.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061567.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061568.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061568.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061570.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061570.out' are the same file
+mv: cannot move '../Sfa_denovoSSL_100k_psmcboot-1061571.out' to 'joblog/Sfa_denovoSSL_100k_psmcboot-1061571.out': No such file or directory
+mv: '../Sfa_denovoSSL_100k_psmcboot-1061573.out' and 'joblog/Sfa_denovoSSL_100k_psmcboot-1061573.out' are the same file

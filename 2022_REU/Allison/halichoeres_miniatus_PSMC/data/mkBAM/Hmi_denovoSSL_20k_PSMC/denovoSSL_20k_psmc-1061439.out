@@ -1,0 +1,26 @@
+
+/var/spool/slurmd/job1061439/slurm_script: line 18: cd: /home/e1garcia/shotgun_PIRE/REUs/2022_REU/AllisonHmi_denovoSSL_20k/Hmi_PSMC/data/mkBAM/3.63182283_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC: No such file or directory
+cat: '3.63182283_denovoSSL_20k*.psmcfa': No such file or directory
+
+Usage:   psmc_plot.pl [options] <out.prefix> <in.psmc>
+
+Options: -u FLOAT   absolute mutation rate per nucleotide [2.5e-08]
+         -s INT     skip used in data preparation [100]
+         -X FLOAT   maximum generations, 0 for auto [0]
+         -x FLOAT   minimum generations, 0 for auto [10000]
+         -Y FLOAT   maximum popsize, 0 for auto [0]
+         -m INT     minimum number of iteration [5]
+         -n INT     take n-th iteration (suppress GOF) [20]
+         -M titles  multiline mode [null]
+         -f STR     font for title, labels and tics [Helvetica,16]
+         -g INT     number of years per generation [3.63182283denovoSSL20k]
+         -w INT     line width [4]
+         -P STR     position of the keys [right top]
+         -T STR     figure title [null]
+         -N FLOAT   false negative rate [0]
+         -S         no scaling
+         -L         show the last bin
+         -p         convert to PDF (with epstopdf)
+         -R         do not remove temporary files
+         -G         plot grid
+

@@ -1,0 +1,43 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[E::hts_open_format] Failed to open file "/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/Hmi_denovoSSL_20k_merged.bam" : No such file or directory
+[mpileup] failed to open /home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/Hmi_denovoSSL_20k_merged.bam: No such file or directory
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Failed to read from standard input: unknown file type
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+Use of uninitialized value $l in numeric lt (<) at /opt/intel64/bin/vcfutils.pl line 566.
+mv: cannot stat 'denovoSSL_20k_mpileup-1050950.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050951.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050952.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050953.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050954.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050955.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050956.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050957.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050958.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050959.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050960.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050961.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050962.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050963.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050964.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050965.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050966.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050967.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050968.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050969.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050970.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050971.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1050972.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1050972.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1050973.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050974.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1050975.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1050975.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1050976.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1050976.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1050977.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050978.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1050979.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1050980.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1050980.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1050981.out': No such file or directory
+mv: 'denovoSSL_20k_mpileup-1050982.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1050982.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1050983.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/Allison/halichoeres_miniatus_PSMC/data/mkBAM/Hmi_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1050983.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1050984.out': No such file or directory

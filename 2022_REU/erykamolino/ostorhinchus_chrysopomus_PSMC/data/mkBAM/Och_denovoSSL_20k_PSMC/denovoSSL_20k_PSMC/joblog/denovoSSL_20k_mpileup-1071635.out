@@ -1,0 +1,16 @@
+
+[warning] samtools mpileup option `u` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 3 samples in 1 input files
+mv: 'denovoSSL_20k_mpileup-1071664.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1071664.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1071665.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1071665.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1071666.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1071666.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1071667.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1071667.out' are the same file
+mv: 'denovoSSL_20k_mpileup-1071668.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/denovoSSL_20k_mpileup-1071668.out' are the same file
+mv: cannot stat 'denovoSSL_20k_mpileup-1071670.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1071671.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1071672.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1071673.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1071676.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1071677.out': No such file or directory
+mv: cannot stat 'denovoSSL_20k_mpileup-1071678.out': No such file or directory

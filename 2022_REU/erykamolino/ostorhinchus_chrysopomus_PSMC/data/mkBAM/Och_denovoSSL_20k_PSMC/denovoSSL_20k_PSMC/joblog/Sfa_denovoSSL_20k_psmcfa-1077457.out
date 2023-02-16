@@ -1,0 +1,13 @@
+
+mv: cannot move 'Sfa_denovoSSL_20k_psmcfa-1077495.out' to '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077495.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077496.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077496.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077497.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077497.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077498.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077498.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077499.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077500.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077500.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077501.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077501.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077502.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077502.out' are the same file
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077503.out': No such file or directory
+mv: cannot stat 'Sfa_denovoSSL_20k_psmcfa-1077504.out': No such file or directory
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077505.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077505.out' are the same file
+mv: 'Sfa_denovoSSL_20k_psmcfa-1077506.out' and '/home/e1garcia/shotgun_PIRE/REUs/2022_REU/erykamolino/ostorhinchus_chrysopomus_PSMC/data/mkBAM/Och_denovoSSL_20k_PSMC/denovoSSL_20k_PSMC/joblog/Sfa_denovoSSL_20k_psmcfa-1077506.out' are the same file

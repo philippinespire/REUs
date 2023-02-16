@@ -1,0 +1,4 @@
+
+Use of uninitialized value in division (/) at /opt/psmc/bin/psmc_plot.pl line 119, <> line 1939.
+Use of uninitialized value in division (/) at /opt/psmc/bin/psmc_plot.pl line 119, <> line 1939.
+Illegal division by zero at /opt/psmc/bin/psmc_plot.pl line 119, <> line 1939.
